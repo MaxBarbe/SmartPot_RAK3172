@@ -48,3 +48,8 @@ Ce routage est une version preliminaire, pas une validation electrique ou RF. Le
 Le placement du BQ25570 reste a optimiser par blocs fonctionnels : notamment CREF1, CBYP1, CIN2 et LBUCK1 sont eloignes de U3. Rapprocher le decouplage et reduire les boucles de commutation avant fabrication. Un DRC sans erreur ne controle ni ces boucles, ni le bruit du signal VREF_SAMP, ni la performance de l'antenne. Les avertissements ERC restants (dont EN et VBAT_OK) restent a revoir avec le professeur.
 
 Les sauvegardes demandées restent locales dans ../../sauvegardes/ et sont exclues du push ; les sources KiCad et les bibliotheques necessaires sont versionnees.
+
+## Correction des boitiers RF : 0603 obligatoire
+C6, C7 et L1 utilisent tous des empreintes 0603 (1608 metrique), conformement a la demande. Les emplacements 0402 ont ete remplaces dans le schema et sur le PCB. C6 reste non monte, C7 reste a 1 pF et L1 a 12 nH ; ces valeurs d'adaptation restent provisoires. R4 conserve son empreinte 0603 et reste non monte.
+
+Le placement et le routage RF ont ete repris pour les empreintes plus grandes ; controle final : 0 violation DRC, 0 connexion manquante, 0 probleme de parite schema/PCB. Le changement de boitier modifie les parasites RF : valider l'adaptation avec des composants RF 0603 appropries sur le prototype, avec l'empilage reel du fabricant.
