@@ -61,7 +61,7 @@
 		(layer "F.CrtYd")
 		(uuid "1be084d9-1dad-4db0-8e94-645b8146d7e4")
 	)
-	
+
 	(pad "1" smd oval
 		(at 0 -10.56513 270)
 		(size 1.708658 0.999998)
