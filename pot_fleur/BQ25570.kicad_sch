@@ -1768,6 +1768,66 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "on veut juste les empreintes ici \ncar on va regler la tension capa, cycle hyteris\n"
+		(exclude_from_sim no)
+		(at 241.808 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c76a78a-f11d-4dc6-9bc2-781d1bbbf160")
+	)
+	(text "Premiere zone : \nSupercapa (on veut juste l empreinte)"
+		(exclude_from_sim no)
+		(at 166.37 19.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a4c9f00-9303-4088-96b7-05d92b84549a")
+	)
+	(text "super condo 10F "
+		(exclude_from_sim no)
+		(at 167.64 24.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d08a4e9-f478-4371-a3e1-33ed440f61c2")
+	)
+	(text "Deuxieme zone : \nSupercapa (on veut juste l empreinte)\n"
+		(exclude_from_sim no)
+		(at 96.52 94.996 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d52a8a15-d895-481e-b35c-f3983598eded")
+	)
+	(text "EN : \nPour le controler (utilisateur)"
+		(exclude_from_sim no)
+		(at 120.904 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd31f30a-0fc9-437a-9895-4b1bb09f9a8a")
+	)
+	(text "Pin mesure courant\n"
+		(exclude_from_sim no)
+		(at 40.64 77.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1907a7d-837e-46e9-97ba-b7b300d91949")
+	)
 	(junction
 		(at 184.15 95.25)
 		(diameter 0)
@@ -1971,6 +2031,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff57984b-979e-40f8-ae42-d8c4c6c60d72")
+	)
+	(no_connect
+		(at 148.59 72.39)
+		(uuid "5bb4f3dd-43c1-4f00-b8c3-43b7d75d5c01")
+	)
+	(no_connect
+		(at 147.32 81.28)
+		(uuid "627f7ad8-668a-4875-b3fd-af945577680a")
+	)
+	(no_connect
+		(at 119.38 76.2)
+		(uuid "782ddc82-3856-4464-90e8-6603564e274b")
 	)
 	(wire
 		(pts
@@ -3395,7 +3467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LPS4018-223MRC:IND_LPS4018-223MRC"
+		(property "Footprint" "LBOOST:IND_LPS4018-223MRC"
 			(at 133.35 63.5 0)
 			(hide yes)
 			(show_name no)

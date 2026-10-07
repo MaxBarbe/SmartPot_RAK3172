@@ -2053,16 +2053,6 @@
 		)
 		(uuid "865422e1-2017-4f61-a22f-dd7b5e46a846")
 	)
-	(text "EC-5                         RAK3172\n\nSOIL_OUT ──────────────────► PB2 / PIN_A2\n                              pin module 26\n\nSOIL_EN  ──────────────────► PA0\n                              pin module 29"
-		(exclude_from_sim no)
-		(at 137.922 141.986 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9150ca42-0556-4cc5-830e-057cd946aab0")
-	)
 	(text "BOOT\n"
 		(exclude_from_sim no)
 		(at 238.76 53.34 0)
@@ -2165,17 +2155,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 60.96) (xy 116.84 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00eb4357-26b8-4c5d-8012-665c97b9b921")
-	)
-	(wire
-		(pts
-			(xy 168.91 91.44) (xy 157.48 91.44)
+			(xy 157.48 91.44) (xy 184.15 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2235,6 +2215,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 60.96) (xy 168.91 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ac7b34-9790-4e95-9321-281356e8a17e")
+	)
+	(wire
+		(pts
 			(xy 191.77 53.34) (xy 198.12 53.34)
 		)
 		(stroke
@@ -2245,7 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 88.9) (xy 157.48 88.9)
+			(xy 157.48 88.9) (xy 184.15 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2575,16 +2565,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 60.96) (xy 177.8 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d546833e-9088-45c3-95d0-723107587a5e")
-	)
-	(wire
-		(pts
 			(xy 259.08 116.84) (xy 251.46 116.84)
 		)
 		(stroke
@@ -2622,6 +2602,16 @@
 			(type default)
 		)
 		(uuid "ef167f92-e64a-436c-92cc-d6a7ef11a279")
+	)
+	(wire
+		(pts
+			(xy 107.95 60.96) (xy 116.84 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e778fb-2d82-402b-8e8d-f9ca600bbf5d")
 	)
 	(wire
 		(pts
@@ -2712,30 +2702,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "SOIL_OUT"
-		(shape input)
-		(at 91.44 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "11c4a22f-7300-41d1-8731-f5f0a1dcb228")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.6857 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -3027,6 +2993,30 @@
 			)
 		)
 	)
+	(global_label "SOIL_SDA"
+		(shape bidirectional)
+		(at 184.15 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83f18a38-abe6-4891-9bf1-ff1ab0cf1c61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.9551 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "PA8"
 		(shape bidirectional)
 		(at 261.62 143.51 0)
@@ -3195,6 +3185,30 @@
 			)
 		)
 	)
+	(global_label "SOIL_SCL"
+		(shape bidirectional)
+		(at 184.15 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c87a29e3-44a9-47ae-bb99-bae4d60d0578")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.8946 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "PWR"
 		(shape input)
 		(at 137.16 39.37 90)
@@ -3315,30 +3329,6 @@
 			)
 		)
 	)
-	(global_label "SOIL_EN"
-		(shape input)
-		(at 177.8 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eda21238-d9c3-4d0b-9932-d21b38ed2696")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.4052 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "PA1"
 		(shape bidirectional)
 		(at 168.91 63.5 0)
@@ -3421,7 +3411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.992 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -3503,7 +3493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 202.692 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -3585,7 +3575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 247.3452 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3743,7 +3733,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 252.73 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3908,7 +3898,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 165.1 55.118 90)
 			(hide yes)
 			(show_name no)
@@ -4398,7 +4388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 246.38 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4639,7 +4629,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 243.84 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4890,7 +4880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 247.65 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -4976,7 +4966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 198.12 66.548 90)
 			(hide yes)
 			(show_name no)
@@ -5136,7 +5126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 245.872 64.77 90)
 			(hide yes)
 			(show_name no)
