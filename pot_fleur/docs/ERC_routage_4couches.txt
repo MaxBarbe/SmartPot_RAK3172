@@ -1,0 +1,38 @@
+ERC report (2026-10-07T15:09:12, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(146.05 mm, 81.28 mm): Label Global 'VBAT_OK'
+[lib_symbol_mismatch]: Le symbole 'BQ25570' ne correspond pas à la copie en librairie 'Battery_Management'
+    ; warning
+    @(163.83 mm, 76.20 mm): Symbole U3 [BQ25570]
+
+***** Sheet /Microcontroleur/
+[multiple_net_names]: SDA et SOIL_SDA sont attachés aux mêmes éléments.  SDA a été choisi comme label  en netliste
+    ; warning
+    @(168.91 mm, 88.90 mm): Label Global 'SDA'
+    @(184.15 mm, 88.90 mm): Label Global 'SOIL_SDA'
+[multiple_net_names]: SCL et SOIL_SCL sont attachés aux mêmes éléments.  SCL a été choisi comme label  en netliste
+    ; warning
+    @(168.91 mm, 91.44 mm): Label Global 'SCL'
+    @(184.15 mm, 91.44 mm): Label Global 'SOIL_SCL'
+
+***** Sheet /capteur/
+
+***** Sheet /BQ25570/
+[no_connect_dangling]: Unconnected "no connection" flag
+    ; warning
+    @(119.38 mm, 76.20 mm): Non Connexion
+[no_connect_dangling]: Unconnected "no connection" flag
+    ; warning
+    @(147.32 mm, 81.28 mm): Non Connexion
+
+ ** ERC messages: 6  Errors 0  Warnings 6
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

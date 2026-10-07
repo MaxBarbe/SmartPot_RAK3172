@@ -3783,7 +3783,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.1M"
+		(property "Value" "1.02M"
 			(at 219.71 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5274,7 +5274,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.22M"
+		(property "Value" "4.12M"
 			(at 219.71 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)

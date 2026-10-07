@@ -1952,7 +1952,334 @@
 			)
 			(embedded_fonts no)
 		)
+	(symbol "Device:L"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 1.905 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "L_0_1"
+			(arc
+				(start 0 2.54)
+				(mid 0.6323 1.905)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 -0.635)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -1.905)
+				(end 0 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "L_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
+(symbol "Switch:SW_SPST"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SW"
+			(at 0 3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "switch lever"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SW_SPST_0_0"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.254) (xy 1.524 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_SPST_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
 	(rectangle
 		(start 234.95 102.87)
 		(end 274.32 127)
@@ -3378,7 +3705,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:C")
 		(at 191.77 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -3386,10 +3713,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "02ea0205-743e-4d6f-a99a-4d91591b8953")
-		(property "Reference" "R5"
+		(property "Reference" "C6"
 			(at 194.31 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3400,7 +3727,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "DNP"
 			(at 194.31 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3411,7 +3738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 189.992 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -3453,14 +3780,14 @@
 		(instances
 			(project "pot_fleur"
 				(path "/523f6adf-746e-4f97-9f6d-33bb6d5a221f/b9354401-9acc-46da-89c3-050c4bff531e"
-					(reference "R5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:L")
 		(at 204.47 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -3471,7 +3798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b14a4a4-b041-49eb-b068-0a21c4ce4198")
-		(property "Reference" "R7"
+		(property "Reference" "L1"
 			(at 207.01 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3482,7 +3809,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "12nH"
 			(at 207.01 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3493,7 +3820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 202.692 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -3535,7 +3862,7 @@
 		(instances
 			(project "pot_fleur"
 				(path "/523f6adf-746e-4f97-9f6d-33bb6d5a221f/b9354401-9acc-46da-89c3-050c4bff531e"
-					(reference "R7")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -3702,7 +4029,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPST_x2")
+		(lib_id "Switch:SW_SPST")
 		(at 252.73 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -3723,7 +4050,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPST_x2"
+		(property "Value" "B3U-1000P"
 			(at 252.73 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3733,7 +4060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 252.73 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3875,7 +4202,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4fa3e7be-7407-4d02-b344-07581acbf9f8")
 		(property "Reference" "R4"
@@ -3952,9 +4279,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54808beb-dfc7-4107-bc47-2d40d3679ede")
@@ -3969,7 +4296,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "PCB_868MHz_TI_DN038"
 			(at 207.01 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3979,18 +4306,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 207.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "SmartPot_RF:TI_DN038_868MHz_Helical"
 			(at 207.01 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4001,7 +4317,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "https://www.ti.com/lit/an/swra416/swra416.pdf"
+			(at 207.01 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Printed helical radiator; pin 2 is ground reference, not radiator short"
 			(at 207.01 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4388,7 +4715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 246.38 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4629,7 +4956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 243.84 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4684,7 +5011,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPST_x2")
+		(lib_id "Switch:SW_SPST")
 		(at 251.46 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -4705,7 +5032,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPST_x2"
+		(property "Value" "B3U-1000P"
 			(at 251.46 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4715,7 +5042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 251.46 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4778,7 +5105,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b7025e01-4b2a-44f4-864c-9ab4fb26963b")
 		(property "Reference" "J3"
@@ -4801,7 +5128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 173.99 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4880,7 +5207,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 247.65 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -4935,7 +5262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:C")
 		(at 198.12 64.77 90)
 		(unit 1)
 		(body_style 1)
@@ -4946,7 +5273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfdb1fd4-6810-4ee3-9854-58b921447701")
-		(property "Reference" "R6"
+		(property "Reference" "C7"
 			(at 198.12 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4956,7 +5283,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "1pF"
 			(at 198.12 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4966,7 +5293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 198.12 66.548 90)
 			(hide yes)
 			(show_name no)
@@ -5008,7 +5335,7 @@
 		(instances
 			(project "pot_fleur"
 				(path "/523f6adf-746e-4f97-9f6d-33bb6d5a221f/b9354401-9acc-46da-89c3-050c4bff531e"
-					(reference "R6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5252,4 +5579,8 @@
 			)
 		)
 	)
+
+ (label "RF_FEED" (at 157.48 53.34 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "1abc41be-318f-49ed-9f7e-455c11c730fd"))
+
+ (label "RF_FEED" (at 191.77 64.77 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "fa5a08b3-e7ab-4dc9-b20d-aa5acf065be4"))
 )

@@ -1,3 +1,7 @@
 pot_fleur/.history/
 .DS_Store
 *.lck
+
+/sauvegardes/
+
+*.kicad_prl
