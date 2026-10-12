@@ -4,13 +4,13 @@ Ouvrir [pot_fleur.kicad_pro](pot_fleur.kicad_pro). Le schéma racine [pot_fleur.
 
 ## PCB actuel
 
-Carte préliminaire de 30 × 60 mm sur quatre couches, 48 empreintes présentes et 11 non montées, broches sur les côtés. C22 est volontairement non monté. C6/C7/L1 sont en 0603 ; ce boîtier est une contrainte du projet.
+Carte préliminaire de 30 × 60 mm sur quatre couches, 48 empreintes présentes et 12 non montées, broches sur les côtés. C22 est volontairement non monté. R6/C6/L1 sont en 0603 ; ce boîtier est une contrainte du projet.
 
-**Le PCB contient encore l'ancienne antenne TI DN038, pas l'antenne CST finale du 12 octobre.** La conception CST choisie est [TP1_M2_Smart_2-3.cst](../CST/TP1_M2_Smart_2-3.cst). Il faut intégrer sa géométrie et son alimentation avant de considérer cette carte comme la nouvelle version RF.
+**L’antenne CST finale remplace maintenant l’ancienne antenne TI sur A1.** La géométrie a été légèrement ajustée pour conserver le PCB 30 × 60 mm, et un raccord RF physique a été ajouté. Voir [la fiche d’intégration](docs/INTEGRATION_ANTENNE_CST.md) et [l’aperçu](docs/APERCU_antenne_CST.pdf). Une resimulation est nécessaire ; les captures CST originales ne valident pas encore cette adaptation.
 
 - [Rapport DRC du PCB actuel](docs/DRC_routage_4couches.txt) : 0 violation, 0 connexion manquante, 0 problème de parité.
 - [Rapport ERC](docs/ERC_routage_4couches.txt) : 0 erreur et 6 avertissements.
-- [Aperçu du routage actuel](docs/APERCU_routage_4couches.pdf).
+- [Aperçu du routage avec antenne CST](docs/APERCU_antenne_CST.pdf).
 - [Historique de l'antenne TI et réserves de conception](docs/ANTENNE_868MHz.md).
 
 Les valeurs ROK1=4,12 MΩ, ROK2=7,87 MΩ et ROK3=1,02 MΩ donnent les seuils nominaux étudiés d'environ 3,52 / 3,82 V ; le réseau de surtension reste ROV1=7,15 MΩ et ROV2=8,66 MΩ. Ces valeurs ne remplacent pas une vérification des tolérances et du fonctionnement réel.

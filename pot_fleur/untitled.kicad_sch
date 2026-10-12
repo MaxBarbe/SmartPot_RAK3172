@@ -3795,7 +3795,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0b14a4a4-b041-49eb-b068-0a21c4ce4198")
 		(property "Reference" "L1"
@@ -3809,7 +3809,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12nH"
+		(property "Value" "DNP"
 			(at 207.01 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4296,7 +4296,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PCB_868MHz_TI_DN038"
+		(property "Value" "PCB_868MHz_CST_IFA"
 			(at 207.01 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4306,18 +4306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SmartPot_RF:TI_DN038_868MHz_Helical"
-			(at 207.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/an/swra416/swra416.pdf"
+		(property "Footprint" "SmartPot_RF:CST_IFA_868MHz_SmartPot"
 			(at 207.01 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4328,7 +4317,18 @@
 				)
 			)
 		)
-		(property "Description" "Printed helical radiator; pin 2 is ground reference, not radiator short"
+		(property "Datasheet" "https://github.com/MaxBarbe/SmartPot_RAK3172/blob/main/CST/TP1_M2_Smart_2-3.cst"
+			(at 207.01 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CST IFA radiator; intentional short to GND through net tie; physical feed added, resimulation required"
 			(at 207.01 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5262,7 +5262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:R")
 		(at 198.12 64.77 90)
 		(unit 1)
 		(body_style 1)
@@ -5273,7 +5273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfdb1fd4-6810-4ee3-9854-58b921447701")
-		(property "Reference" "C7"
+		(property "Reference" "R6"
 			(at 198.12 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5283,7 +5283,7 @@
 				)
 			)
 		)
-		(property "Value" "1pF"
+		(property "Value" "0"
 			(at 198.12 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5293,7 +5293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 198.12 66.548 90)
 			(hide yes)
 			(show_name no)
@@ -5335,7 +5335,7 @@
 		(instances
 			(project "pot_fleur"
 				(path "/523f6adf-746e-4f97-9f6d-33bb6d5a221f/b9354401-9acc-46da-89c3-050c4bff531e"
-					(reference "C7")
+					(reference "R6")
 					(unit 1)
 				)
 			)

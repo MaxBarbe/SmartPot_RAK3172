@@ -2,20 +2,20 @@
 
 | Élément | État vérifiable | Suite |
 |---|---|---|
-| Dépôt | Présentation SmartPot, ressources personnelles et pédagogiques séparées | Conserver la provenance |
-| Schéma | RAK3172, SHT40, BQ25570 ; dernier ERC : 0 erreur, 6 avertissements | Revoir les avertissements et le fonctionnement |
-| PCB | Routage quatre couches avec antenne TI ; dernier DRC : 0 violation, 0 connexion manquante | Intégrer l'antenne CST et optimiser les blocs d'alimentation |
-| Boîtiers RF | C6/C7/L1 en 0603 | Conserver ce format et revoir les valeurs |
-| Antenne | Projet CST final -3 confirmé et captures S11/farfield fournies | Représenter l'alimentation réelle et les quatre couches |
-| Mécanique | 3MF du pot et deux captures ; STL dérivé pour visualisation | Vérifier impression, encombrement et influence RF |
+| Dépôt | Présentation SmartPot, fichiers personnels et références pédagogiques séparés | Conserver la provenance |
+| Schéma | RAK3172, SHT40, BQ25570, antenne CST ; ERC : 0 erreur, 6 avertissements | Revoir les avertissements et le fonctionnement |
+| PCB | 30 × 60 mm, quatre couches, antenne CST adaptée ; DRC : 0 violation, 0 connexion manquante | Resimuler le raccord RF et optimiser les blocs d’alimentation |
+| Boîtiers RF | R6/C6/L1 en 0603 ; R6=0 Ω, C6/L1 non montés au départ | Caractériser et ajuster sur prototype |
+| Antenne | Six rectangles CST transposés sur A1 ; branche de masse IFA conservée | Valider l’alimentation physique et les quatre couches dans CST |
+| Mécanique | 3MF du pot, deux captures, STL dérivé | Vérifier impression, encombrement et influence RF |
 | Fabrication | Non validée | Empilage fabricant, revue électrique/RF, prototype |
 
-## Prochaine correction du PCB
+## Remplacement de l’antenne
 
-La géométrie CST finale est de type IFA : une branche du radiateur est reliée à GND et l'alimentation est distincte. Le PCB actuel utilise une autre antenne TI, un autre plan de masse et un réseau d'adaptation issu de cette référence. Le remplacement ne consiste donc pas à changer uniquement le dessin A1.
+Le PCB utilise désormais une adaptation de [TP1_M2_Smart_2-3.cst](../CST/TP1_M2_Smart_2-3.cst). Le choix confirmé est de conserver 30 × 60 mm : la largeur de cuivre a été réduite de 29,1 à 29,0 mm pour les marges, et la longue source lumped CST a été remplacée par un raccord physique. La branche de court-circuit vers GND est conservée comme net tie. Voir [la fiche d’intégration](../pot_fleur/docs/INTEGRATION_ANTENNE_CST.md).
 
-La décision de dimension (29,1 × 59,1 mm dans CST contre 30 × 60 mm dans KiCad), la représentation du long port discret par une alimentation fabriquée et l'empilage réel doivent être résolus avec la revue RF. La capture S11 de la version finale ne prouve pas que la carte KiCad actuelle est adaptée à 868 MHz.
+Les captures de simulation du projet CST original ne valident pas encore cette adaptation. Les [exports pour resimulation](../CST/integration_kicad/README.md) décrivent le cuivre intégré. La simulation doit inclure l’empilage réel, le raccord physique, les composants 0603 et le pot.
 
-Les variantes CST et l'historique Git ont été conservés. Les sauvegardes locales et les réglages d'interface KiCad ne sont pas des livrables de fabrication.
+Le [rapport DRC actuel](../pot_fleur/docs/DRC_antenne_CST.txt) indique 0 violation, 0 connexion manquante et 0 problème de parité. Le [rapport de réorganisation](DRC_verification_reorganisation.txt) est historique : il concernait l’ancienne antenne TI avant remplacement. Les variantes CST, l’ancienne empreinte TI et l’historique Git restent disponibles.
 
-Vérification après réorganisation : [rapport DRC du 12 octobre](DRC_verification_reorganisation.txt), 0 violation, 0 connexion manquante et 0 problème de parité. Ce rapport concerne le PCB existant avec l’antenne TI, dont le fichier n’a pas été modifié pendant la refonte.
+La revue du placement de CREF1, CBYP1, CIN2 et LBUCK1 autour du BQ25570 reste nécessaire avant fabrication, indépendamment du remplacement de l’antenne. Les sauvegardes locales et réglages d’interface KiCad ne sont pas des livrables de fabrication.

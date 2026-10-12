@@ -55,3 +55,7 @@ Ces chiffres proviennent des captures fournies avec la version finale ; la simul
 4. Vérifier ERC/DRC après intégration et mesurer l'adaptation sur prototype.
 
 `explorations/` contient les anciennes propositions de macros et de coordonnées. Elles sont historiques et ne constituent pas l'antenne finale choisie.
+
+## Transfert dans KiCad effectué
+
+La géométrie finale est maintenant transposée sur A1, avec une largeur réduite de 29,1 à 29,0 mm, le PCB 30 × 60 mm conservé et un raccord RF physique ajouté à la place de la longue source lumped. Le court-circuit IFA vers GND est conservé. Les [exports de la carte adaptée](integration_kicad/README.md) et la [fiche d’intégration](../pot_fleur/docs/INTEGRATION_ANTENNE_CST.md) décrivent les différences à resimuler. Les captures de cette page restent celles du modèle original.

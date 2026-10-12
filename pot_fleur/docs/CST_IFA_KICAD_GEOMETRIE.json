@@ -1,0 +1,87 @@
+{
+  "source": "TP1_M2_Smart_2-3.cst",
+  "source_sha256": "62d951cbf7c42414cd3b4f45bddcbe6670929b0cbbe9755429061930c2d4789f",
+  "map_x": "65 + X_CST*(29/29.1)",
+  "map_y": "80.05 - Y_CST",
+  "origin_board_mm": [
+    52.044673539518904,
+    61.05
+  ],
+  "radiator_rectangles": [
+    {
+      "name": "ANT1",
+      "pad": 1,
+      "x_min_mm": 50.5,
+      "x_max_mm": 51.54639175257732,
+      "y_min_mm": 50.5,
+      "y_max_mm": 60.5
+    },
+    {
+      "name": "ANT2",
+      "pad": 1,
+      "x_min_mm": 50.5,
+      "x_max_mm": 79.5,
+      "y_min_mm": 50.5,
+      "y_max_mm": 51.5
+    },
+    {
+      "name": "ANT3",
+      "pad": 1,
+      "x_min_mm": 78.40378006872852,
+      "x_max_mm": 79.5,
+      "y_min_mm": 50.5,
+      "y_max_mm": 58.05
+    },
+    {
+      "name": "ANT4",
+      "pad": 1,
+      "x_min_mm": 55.48281786941581,
+      "x_max_mm": 79.5,
+      "y_min_mm": 57.0,
+      "y_max_mm": 58.05
+    },
+    {
+      "name": "ANT5",
+      "pad": 1,
+      "x_min_mm": 55.48281786941581,
+      "x_max_mm": 56.57903780068729,
+      "y_min_mm": 53.5,
+      "y_max_mm": 58.05
+    },
+    {
+      "name": "ANT6",
+      "pad": 1,
+      "x_min_mm": 55.48281786941581,
+      "x_max_mm": 69.53436426116838,
+      "y_min_mm": 53.5,
+      "y_max_mm": 54.55
+    },
+    {
+      "name": "physical_feed",
+      "pad": 1,
+      "x_min_mm": 51.9446735395189,
+      "x_max_mm": 52.144673539518905,
+      "y_min_mm": 51.4,
+      "y_max_mm": 61.3
+    },
+    {
+      "name": "feed_terminal",
+      "pad": 1,
+      "x_min_mm": 51.8446735395189,
+      "x_max_mm": 52.24467353951891,
+      "y_min_mm": 60.8,
+      "y_max_mm": 61.3
+    },
+    {
+      "name": "IFA_GND_anchor",
+      "pad": 2,
+      "x_min_mm": 50.5,
+      "x_max_mm": 51.54639175257732,
+      "y_min_mm": 60.3,
+      "y_max_mm": 61.8
+    }
+  ],
+  "feed_added": true,
+  "short_to_ground_net_tie": true,
+  "resimulation_required": true
+}

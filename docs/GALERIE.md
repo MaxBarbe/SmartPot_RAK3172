@@ -23,3 +23,9 @@
 ![Farfield](../CST/farfield-868.PNG)
 
 Les vues mécaniques et les simulations ont été fournies par Maxime. Voir [la fiche CST](../CST/README.md) pour l'interprétation des résultats et leurs limites.
+
+## Antenne CST intégrée dans le PCB KiCad
+
+![PCB après remplacement de l’antenne TI](../pot_fleur/docs/APERCU_antenne_CST.png)
+
+Géométrie adaptée et raccord physique ajouté : [détails et resimulation](../pot_fleur/docs/INTEGRATION_ANTENNE_CST.md).
