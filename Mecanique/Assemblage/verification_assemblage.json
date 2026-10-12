@@ -1,0 +1,41 @@
+{
+  "placement": "Sous le pot, composants vers extérieur",
+  "board_mm": [
+    30,
+    60,
+    0.8
+  ],
+  "mount_face_source_mm": {
+    "x": 14.770767,
+    "y": [
+      -15,
+      15
+    ],
+    "z": [
+      32.881866,
+      92.881864
+    ]
+  },
+  "board_back_plane_source_x_mm": 9.565766,
+  "standoff_mm": 5.205001,
+  "minimum_backside_lead_gap_to_mount_face_mm": 1.0,
+  "front_components_extend_below_existing_pot_feet_mm": 16.0,
+  "mounts_added": false,
+  "mesh_bodies": 12647,
+  "bounds_glb_mm": {
+    "min": [
+      -79.99999821186066,
+      -9.229232225139617,
+      -80.11813461780548
+    ],
+    "max": [
+      79.99999821186066,
+      109.99999940395355,
+      80.27967065572739
+    ]
+  },
+  "limitations": [
+    "Assemblage de maillages : géométrie du pot inchangée, fixations non conçues.",
+    "Les connecteurs dépassent les pieds existants : support ou socle à prévoir."
+  ]
+}
