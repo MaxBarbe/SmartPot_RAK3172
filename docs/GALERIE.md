@@ -38,4 +38,10 @@ Géométrie adaptée et raccord physique ajouté : [détails et resimulation](..
 
 ![PCB de dessus en 3D](../Mecanique/PCB/SmartPot_3D_dessus.png)
 
-[Fichier STEP à importer dans le pot](../Mecanique/PCB/SmartPot_assemble.step). Le placement du PCB dans le pot n’est pas encore appliqué.
+[Fichier STEP à importer dans le pot](../Mecanique/PCB/SmartPot_assemble.step). Le placement a été corrigé par Maxime dans Shapr3D ; voir la capture ci-dessous.
+
+## Pot + PCB — assemblage corrigé dans Shapr3D
+
+![Carte centrée sous le pot après correction par Maxime](../Mecanique/Assemblage/SmartPot_assemblage_corrige_dessous.png)
+
+Capture native Shapr3D du 12 octobre 2026. Vue de dessous, composants vers l’extérieur. Cette capture atteste du placement visible ; les dégagements et les fixations ne sont pas validés par cette vue seule.

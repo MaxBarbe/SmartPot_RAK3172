@@ -6,7 +6,7 @@ Projet personnel de **Maxime — [MaxBarbe](https://github.com/MaxBarbe)**, dév
 
 <table>
 <tr>
-<td align="center" width="50%"><a href="Mecanique/README.md"><img src="Mecanique/Pot_fleur/pot-fleur-vue2.png" alt="Pot SmartPot modélisé en 3D" width="420"></a><br><strong>Pot de fleur — conception 3D</strong></td>
+<td align="center" width="50%"><a href="Mecanique/README.md"><img src="Mecanique/Assemblage/SmartPot_assemblage_corrige_dessous.png" alt="Pot SmartPot avec carte KiCad centrée dessous après correction dans Shapr3D" width="420"></a><br><strong>Pot + PCB — assemblage corrigé</strong></td>
 <td align="center" width="50%"><a href="Mecanique/PCB/README.md"><img src="Mecanique/PCB/SmartPot_3D_perspective.png" alt="Rendu natif KiCad de la carte SmartPot avec ses composants" width="420"></a><br><strong>KiCad — carte assemblée en 3D</strong></td>
 </tr>
 <tr>
@@ -39,11 +39,13 @@ Projet personnel de **Maxime — [MaxBarbe](https://github.com/MaxBarbe)**, dév
 
 Les annonces concernant l'accéléromètre, le BME280 ou les LED de la carte EDU RAK ne décrivent pas automatiquement la carte SmartPot. Les documents de cette carte sont conservés uniquement comme références pédagogiques.
 
-## Carte 3D à intégrer dans le pot
+## Carte 3D et intégration dans le pot
 
 Le [STEP de la carte assemblée](Mecanique/PCB/SmartPot_assemble.step) est disponible pour import dans Shapr3D. Il contient le PCB 30 × 60 × 0,8 mm, les 35 composants physiques montés et le cuivre extérieur. Les composants DNP sont exclus. L'enveloppe avec broches et bornier atteint environ 23 mm de hauteur totale ; utiliser l'assemblage complet pour vérifier les dégagements.
 
-Le pot et la carte sont présentés séparément : leur placement mécanique commun reste à réaliser dans le modèle du pot. Nous ajouterons les vues de l'ensemble après cette intégration. [Détails des exports et vues de dessus](Mecanique/PCB/README.md).
+Maxime a corrigé le placement dans Shapr3D : la carte est centrée sous le pot, composants vers l’extérieur. La capture ci-dessous montre ce projet corrigé. Les fichiers d’assemblage GLB/3MF précédemment générés restent une proposition antérieure et ne reproduisent pas les dernières corrections Shapr3D. [Détails des exports de la carte](Mecanique/PCB/README.md).
+
+![Assemblage corrigé dans Shapr3D, vue de dessous](Mecanique/Assemblage/SmartPot_assemblage_corrige_dessous.png)
 
 ## Antenne : résultats fournis
 

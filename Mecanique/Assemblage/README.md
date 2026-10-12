@@ -1,5 +1,13 @@
 # Pot et carte KiCad assemblés
 
+## Correction réalisée par Maxime dans Shapr3D
+
+![Assemblage corrigé, vue de dessous](SmartPot_assemblage_corrige_dessous.png)
+
+Capture native du projet « Pot_fleur » le 12 octobre 2026, après les corrections de Maxime. La carte apparaît centrée sous le pot, composants vers l’extérieur. Les exports GLB/3MF et le rapport ci-dessous correspondent à la proposition précédente : ils n’ont pas été réexportés depuis le projet Shapr3D corrigé et leurs cotes ne doivent pas être attribuées à la correction.
+
+## Proposition d’assemblage précédente
+
 - `SmartPot_pot_et_PCB.3mf` : assemblage à importer comme nouveau projet dans Shapr3D. Deux objets de maillage séparés : pot original et carte complète.
 - `SmartPot_pot_et_PCB.glb` : même assemblage avec les couleurs du PCB et des composants, pour la visualisation.
 - `verification_assemblage.json` : position et encombrement calculés.
