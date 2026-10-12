@@ -1,0 +1,106 @@
+' Antenne en meandre en haut du PCB. Execute once on a COPY of TP1_M2_Smart.cst.
+' Geometry proposal only; not simulated, not a validated 868 MHz design.
+Sub Main()
+ Dim s As String
+ StoreParameter "zz_board_x", "30"
+ StoreParameter "zz_board_y", "60"
+ StoreParameter "zz_board_h", "0.8"
+ StoreParameter "zz_copper", "0.035"
+ StoreParameter "zz_ground_top", "13.65"
+ StoreParameter "zz_gap", "0.5"
+ StoreParameter "zz_halfspan", "13.5"
+ StoreParameter "zz_width", "0.8"
+ StoreParameter "zz_first_y", "17"
+ StoreParameter "zz_pitch", "7"
+ s = ""
+ s = s & "WCS.ActivateWCS ""global""" & vbCrLf
+ s = s & "On Error Resume Next" & vbCrLf
+ s = s & "Port.Delete ""1""" & vbCrLf
+ s = s & "Solid.Delete ""component1:ANT1""" & vbCrLf
+ s = s & "Solid.Delete ""component1:ANT2""" & vbCrLf
+ s = s & "Solid.Delete ""component1:ANT3""" & vbCrLf
+ s = s & "Solid.Delete ""component1:ANT4""" & vbCrLf
+ s = s & "Solid.Delete ""component1:ANT5""" & vbCrLf
+ s = s & "Solid.Delete ""component1:VAC_ALIM""" & vbCrLf
+ s = s & "Solid.Delete ""component1:GND""" & vbCrLf
+ s = s & "Solid.Delete ""component1:PCB""" & vbCrLf
+ s = s & "Solid.Delete ""component1:ANT_ZZ""" & vbCrLf
+ s = s & "On Error GoTo 0" & vbCrLf
+ s = s & "With Brick" & vbCrLf
+ s = s & " .Reset" & vbCrLf
+ s = s & " .Name ""PCB""" & vbCrLf
+ s = s & " .Component ""component1""" & vbCrLf
+ s = s & " .Material ""Epoxy resin""" & vbCrLf
+ s = s & " .Xrange ""-zz_board_x/2"", ""zz_board_x/2""" & vbCrLf
+ s = s & " .Yrange ""-zz_board_y/2"", ""zz_board_y/2""" & vbCrLf
+ s = s & " .Zrange ""-zz_board_h"", ""0""" & vbCrLf
+ s = s & " .Create" & vbCrLf
+ s = s & "End With" & vbCrLf
+ s = s & "With Brick" & vbCrLf
+ s = s & " .Reset" & vbCrLf
+ s = s & " .Name ""GND""" & vbCrLf
+ s = s & " .Component ""component1""" & vbCrLf
+ s = s & " .Material ""Copper (pure)""" & vbCrLf
+ s = s & " .Xrange ""-zz_board_x/2"", ""zz_board_x/2""" & vbCrLf
+ s = s & " .Yrange ""-zz_board_y/2"", ""zz_ground_top""" & vbCrLf
+ s = s & " .Zrange ""0"", ""zz_copper""" & vbCrLf
+ s = s & " .Create" & vbCrLf
+ s = s & "End With" & vbCrLf
+ s = s & "With Brick" & vbCrLf
+ s = s & " .Reset" & vbCrLf
+ s = s & " .Name ""ANT_ZZ""" & vbCrLf
+ s = s & " .Component ""component1""" & vbCrLf
+ s = s & " .Material ""Copper (pure)""" & vbCrLf
+ s = s & " .Xrange ""-zz_halfspan-zz_width/2"", ""-zz_halfspan+zz_width/2""" & vbCrLf
+ s = s & " .Yrange ""zz_ground_top+zz_gap"", ""zz_first_y+zz_width/2""" & vbCrLf
+ s = s & " .Zrange ""0"", ""zz_copper""" & vbCrLf
+ s = s & " .Create" & vbCrLf
+ s = s & "End With" & vbCrLf
+ s = s & "With Brick" & vbCrLf
+ s = s & " .Reset" & vbCrLf
+ s = s & " .Name ""ZZ_H1""" & vbCrLf
+ s = s & " .Component ""component1""" & vbCrLf
+ s = s & " .Material ""Copper (pure)""" & vbCrLf
+ s = s & " .Xrange ""-zz_halfspan-zz_width/2"", ""zz_halfspan+zz_width/2""" & vbCrLf
+ s = s & " .Yrange ""zz_first_y+0*zz_pitch-zz_width/2"", ""zz_first_y+0*zz_pitch+zz_width/2""" & vbCrLf
+ s = s & " .Zrange ""0"", ""zz_copper""" & vbCrLf
+ s = s & " .Create" & vbCrLf
+ s = s & "End With" & vbCrLf
+ s = s & "Solid.Add ""component1:ANT_ZZ"", ""component1:ZZ_H1""" & vbCrLf
+ s = s & "With Brick" & vbCrLf
+ s = s & " .Reset" & vbCrLf
+ s = s & " .Name ""ZZ_V1""" & vbCrLf
+ s = s & " .Component ""component1""" & vbCrLf
+ s = s & " .Material ""Copper (pure)""" & vbCrLf
+ s = s & " .Xrange ""zz_halfspan-zz_width/2"", ""zz_halfspan+zz_width/2""" & vbCrLf
+ s = s & " .Yrange ""zz_first_y+0*zz_pitch-zz_width/2"", ""zz_first_y+1*zz_pitch+zz_width/2""" & vbCrLf
+ s = s & " .Zrange ""0"", ""zz_copper""" & vbCrLf
+ s = s & " .Create" & vbCrLf
+ s = s & "End With" & vbCrLf
+ s = s & "Solid.Add ""component1:ANT_ZZ"", ""component1:ZZ_V1""" & vbCrLf
+ s = s & "With Brick" & vbCrLf
+ s = s & " .Reset" & vbCrLf
+ s = s & " .Name ""ZZ_H2""" & vbCrLf
+ s = s & " .Component ""component1""" & vbCrLf
+ s = s & " .Material ""Copper (pure)""" & vbCrLf
+ s = s & " .Xrange ""-zz_halfspan-zz_width/2"", ""zz_halfspan+zz_width/2""" & vbCrLf
+ s = s & " .Yrange ""zz_first_y+1*zz_pitch-zz_width/2"", ""zz_first_y+1*zz_pitch+zz_width/2""" & vbCrLf
+ s = s & " .Zrange ""0"", ""zz_copper""" & vbCrLf
+ s = s & " .Create" & vbCrLf
+ s = s & "End With" & vbCrLf
+ s = s & "Solid.Add ""component1:ANT_ZZ"", ""component1:ZZ_H2""" & vbCrLf
+ s = s & "With DiscretePort" & vbCrLf
+ s = s & " .Reset" & vbCrLf
+ s = s & " .PortNumber ""1""" & vbCrLf
+ s = s & " .Type ""SParameter""" & vbCrLf
+ s = s & " .Impedance ""50.0""" & vbCrLf
+ s = s & " .SetP1 ""False"", ""-zz_halfspan"", ""zz_ground_top"", ""zz_copper""" & vbCrLf
+ s = s & " .SetP2 ""False"", ""-zz_halfspan"", ""zz_ground_top+zz_gap"", ""zz_copper""" & vbCrLf
+ s = s & " .LocalCoordinates ""False""" & vbCrLf
+ s = s & " .InvertDirection ""False""" & vbCrLf
+ s = s & " .Monitor ""True""" & vbCrLf
+ s = s & " .Create" & vbCrLf
+ s = s & "End With" & vbCrLf
+ s = s & "Solver.FrequencyRange ""0.5"", ""1.2""" & vbCrLf
+ AddToHistory "PCB 30x60 - antenne zigzag en haut", s
+End Sub

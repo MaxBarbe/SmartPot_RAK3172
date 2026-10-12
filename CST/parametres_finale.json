@@ -1,0 +1,70 @@
+{
+  "parameters": [
+    {
+      "expr": "29.1",
+      "name": "x_PCB",
+      "value": "29.1"
+    },
+    {
+      "expr": "59.1",
+      "name": "y_PCB",
+      "value": "59.1"
+    },
+    {
+      "expr": "0.8",
+      "name": "z_PCB",
+      "value": "0.8"
+    },
+    {
+      "expr": "10",
+      "name": "Y_ANT",
+      "value": "10"
+    },
+    {
+      "expr": "0.035",
+      "name": "MET_TH",
+      "value": "0.035"
+    },
+    {
+      "expr": "13.5",
+      "name": "x_ANT1",
+      "value": "13.5"
+    },
+    {
+      "expr": "1",
+      "name": "y_ANT2",
+      "value": "1"
+    },
+    {
+      "expr": "28",
+      "name": "x_ANT2",
+      "value": "28"
+    },
+    {
+      "expr": "22",
+      "name": "y_ANT3",
+      "value": "22"
+    },
+    {
+      "expr": "5",
+      "name": "x_ANT4",
+      "value": "5"
+    },
+    {
+      "expr": "22",
+      "name": "ymin_ANT4",
+      "value": "22"
+    },
+    {
+      "expr": "6.5",
+      "name": "ymax_ANT4",
+      "value": "6.5"
+    },
+    {
+      "expr": "22",
+      "name": "y_ANT5",
+      "value": "22"
+    }
+  ],
+  "version": 1
+}

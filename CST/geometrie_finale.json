@@ -1,0 +1,322 @@
+{
+  "source": "TP1_M2_Smart_2-3.cst",
+  "source_sha256": "62d951cbf7c42414cd3b4f45bddcbe6670929b0cbbe9755429061930c2d4789f",
+  "units": "mm",
+  "parameters": [
+    {
+      "expr": "29.1",
+      "name": "x_PCB",
+      "value": "29.1"
+    },
+    {
+      "expr": "59.1",
+      "name": "y_PCB",
+      "value": "59.1"
+    },
+    {
+      "expr": "0.8",
+      "name": "z_PCB",
+      "value": "0.8"
+    },
+    {
+      "expr": "10",
+      "name": "Y_ANT",
+      "value": "10"
+    },
+    {
+      "expr": "0.035",
+      "name": "MET_TH",
+      "value": "0.035"
+    },
+    {
+      "expr": "13.5",
+      "name": "x_ANT1",
+      "value": "13.5"
+    },
+    {
+      "expr": "1",
+      "name": "y_ANT2",
+      "value": "1"
+    },
+    {
+      "expr": "28",
+      "name": "x_ANT2",
+      "value": "28"
+    },
+    {
+      "expr": "22",
+      "name": "y_ANT3",
+      "value": "22"
+    },
+    {
+      "expr": "5",
+      "name": "x_ANT4",
+      "value": "5"
+    },
+    {
+      "expr": "22",
+      "name": "ymin_ANT4",
+      "value": "22"
+    },
+    {
+      "expr": "6.5",
+      "name": "ymax_ANT4",
+      "value": "6.5"
+    },
+    {
+      "expr": "22",
+      "name": "y_ANT5",
+      "value": "22"
+    }
+  ],
+  "bricks_from_active_history": {
+    "PCB": {
+      "material": "Epoxy resin",
+      "ranges": {
+        "X": {
+          "expressions": [
+            "-x_PCB/2",
+            "x_PCB/2"
+          ],
+          "min_mm": -14.55,
+          "max_mm": 14.55
+        },
+        "Y": {
+          "expressions": [
+            "-y_PCB/2",
+            "y_PCB/2"
+          ],
+          "min_mm": -29.55,
+          "max_mm": 29.55
+        },
+        "Z": {
+          "expressions": [
+            "-z_PCB",
+            "0"
+          ],
+          "min_mm": -0.8,
+          "max_mm": 0.0
+        }
+      }
+    },
+    "GND": {
+      "material": "Copper (pure)",
+      "ranges": {
+        "X": {
+          "expressions": [
+            "-x_PCB/2",
+            "x_PCB/2"
+          ],
+          "min_mm": -14.55,
+          "max_mm": 14.55
+        },
+        "Y": {
+          "expressions": [
+            "-y_PCB/2",
+            "y_PCB/2-Y_ANT"
+          ],
+          "min_mm": -29.55,
+          "max_mm": 19.55
+        },
+        "Z": {
+          "expressions": [
+            "0",
+            "MET_TH"
+          ],
+          "min_mm": 0.0,
+          "max_mm": 0.035
+        }
+      }
+    },
+    "ANT1": {
+      "material": "Copper (pure)",
+      "ranges": {
+        "X": {
+          "expressions": [
+            "-x_PCB/2",
+            "-x_ANT1"
+          ],
+          "min_mm": -14.55,
+          "max_mm": -13.5
+        },
+        "Y": {
+          "expressions": [
+            "y_PCB/2-Y_ANT",
+            "y_PCB/2"
+          ],
+          "min_mm": 19.55,
+          "max_mm": 29.55
+        },
+        "Z": {
+          "expressions": [
+            "0",
+            "MET_TH"
+          ],
+          "min_mm": 0.0,
+          "max_mm": 0.035
+        }
+      }
+    },
+    "ANT2": {
+      "material": "Copper (pure)",
+      "ranges": {
+        "X": {
+          "expressions": [
+            "-x_PCB/2",
+            "x_PCB/2"
+          ],
+          "min_mm": -14.55,
+          "max_mm": 14.55
+        },
+        "Y": {
+          "expressions": [
+            "y_PCB/2",
+            "y_PCB/2-y_ANT2"
+          ],
+          "min_mm": 28.55,
+          "max_mm": 29.55
+        },
+        "Z": {
+          "expressions": [
+            "0",
+            "MET_TH"
+          ],
+          "min_mm": 0.0,
+          "max_mm": 0.035
+        }
+      }
+    },
+    "ANT3": {
+      "material": "Copper (pure)",
+      "ranges": {
+        "X": {
+          "expressions": [
+            "-x_PCB/2+x_ANT2",
+            "x_PCB/2"
+          ],
+          "min_mm": 13.45,
+          "max_mm": 14.55
+        },
+        "Y": {
+          "expressions": [
+            "y_ANT3",
+            "y_PCB/2"
+          ],
+          "min_mm": 22.0,
+          "max_mm": 29.55
+        },
+        "Z": {
+          "expressions": [
+            "0",
+            "MET_TH"
+          ],
+          "min_mm": 0.0,
+          "max_mm": 0.035
+        }
+      }
+    },
+    "ANT4": {
+      "material": "Copper (pure)",
+      "ranges": {
+        "X": {
+          "expressions": [
+            "-x_PCB/2+x_ANT4",
+            "x_PCB/2"
+          ],
+          "min_mm": -9.55,
+          "max_mm": 14.55
+        },
+        "Y": {
+          "expressions": [
+            "ymin_ANT4",
+            "y_PCB/2-ymax_ANT4"
+          ],
+          "min_mm": 22.0,
+          "max_mm": 23.05
+        },
+        "Z": {
+          "expressions": [
+            "0",
+            "MET_TH"
+          ],
+          "min_mm": 0.0,
+          "max_mm": 0.035
+        }
+      }
+    },
+    "ANT5": {
+      "material": "Copper (pure)",
+      "ranges": {
+        "X": {
+          "expressions": [
+            "-x_PCB/2+5",
+            "x_PCB/2-23"
+          ],
+          "min_mm": -9.55,
+          "max_mm": -8.45
+        },
+        "Y": {
+          "expressions": [
+            "y_ANT5",
+            "y_PCB/2-3"
+          ],
+          "min_mm": 22.0,
+          "max_mm": 26.55
+        },
+        "Z": {
+          "expressions": [
+            "0",
+            "MET_TH"
+          ],
+          "min_mm": 0.0,
+          "max_mm": 0.035
+        }
+      }
+    },
+    "ANT6": {
+      "material": "Copper (pure)",
+      "ranges": {
+        "X": {
+          "expressions": [
+            "-x_PCB/2+5",
+            "x_PCB/2-10"
+          ],
+          "min_mm": -9.55,
+          "max_mm": 4.55
+        },
+        "Y": {
+          "expressions": [
+            "25.5",
+            "26.55"
+          ],
+          "min_mm": 25.5,
+          "max_mm": 26.55
+        },
+        "Z": {
+          "expressions": [
+            "0",
+            "MET_TH"
+          ],
+          "min_mm": 0.0,
+          "max_mm": 0.035
+        }
+      }
+    }
+  },
+  "discrete_port_last_active": {
+    "SetP1": [
+      -13.0,
+      28.55,
+      0.035
+    ],
+    "SetP2": [
+      -13.0,
+      19.0,
+      0.0
+    ],
+    "impedance_ohm": 50,
+    "global_coordinates": true,
+    "inverted_direction": true
+  },
+  "note": "Extraction en lecture seule des rectangles et parametres de l historique. Ne remplace pas l inspection de la geometrie finale CST (import SAT intermediaire present) ni une simulation relancee."
+}

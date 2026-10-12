@@ -1,0 +1,5 @@
+objet,x_min_mm,x_max_mm,y_min_mm,y_max_mm,z_min_mm,z_max_mm
+ANT1_depart,-13.9,-13.1,13.7,16.95,0,0.035
+ANT2_horizontal_bas,-13.9,13.9,16.15,16.95,0,0.035
+ANT3_retour_droit,13.1,13.9,16.15,23.95,0,0.035
+ANT4_horizontal_haut,-13.9,13.9,23.15,23.95,0,0.035

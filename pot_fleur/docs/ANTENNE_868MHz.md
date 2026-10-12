@@ -1,3 +1,5 @@
+> **Document historique de l'ancienne antenne TI du PCB KiCad.** L'antenne finale choisie le 12 octobre 2026 est le projet [CST TP1_M2_Smart_2-3](../../CST/README.md). Elle n'est pas encore intégrée à ce PCB. Les contrôles ci-dessous concernent l'ancienne version.
+
 # Antenne PCB 868 MHz - base de conception
 
 Source : TI DN038 / SWRA416 et Gerber SWRR082, copies conservees dans ce dossier.
