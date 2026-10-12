@@ -1,0 +1,7 @@
+# Preserve CAD interchange files byte-for-byte and avoid meaningless text merges.
+*.step binary
+*.stp binary
+*.glb binary
+*.3mf binary
+*.stl binary
+*.cst binary

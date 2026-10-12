@@ -12,3 +12,7 @@ Modèle fourni par Maxime, conçu dans Shapr3D. Les fichiers sont conservés dan
 ![Vue latérale du pot](Pot_fleur/pot-fleur-vue2.png)
 
 Le fichier natif `.shapr` n'est pas fourni ; les formats 3MF et STL sont des maillages, pas l'historique de conception paramétrique. La géométrie est publiée comme conception mécanique du pot. L'impression, l'étanchéité, le logement de la carte et les effets du matériau sur l'antenne restent à vérifier avant fabrication.
+
+## PCB à importer dans le pot
+
+Le [STEP de la carte assemblée](PCB/SmartPot_assemble.step), la [carte nue](PCB/SmartPot_carte_nue.step) et les [vues 3D KiCad](PCB/README.md) sont disponibles. Importer le STEP assemblé dans le projet du pot pour vérifier les dégagements avant de préparer la visualisation de l’ensemble.

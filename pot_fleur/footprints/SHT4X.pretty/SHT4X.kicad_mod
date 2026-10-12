@@ -24,4 +24,6 @@
   (fp_line (start -1.2 1.0) (end 1.2 1.0) (layer F.CrtYd) (width 0.05))
   (fp_line (start 1.2 1.0) (end 1.2 -1.0) (layer F.CrtYd) (width 0.05))
   (fp_line (start 1.2 -1.0) (end -1.2 -1.0) (layer F.CrtYd) (width 0.05))
+
+ (model "${KIPRJMOD}/3dmodels/SHT40-AD1B-R2.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz -90 0 0)))
 )

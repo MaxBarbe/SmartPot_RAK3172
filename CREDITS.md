@@ -16,3 +16,7 @@ Le dépôt a été initialement dupliqué à partir de [DorianDIANA/EDU_RAK_2026
 - Bibliothèques KiCad et fichiers fournisseurs : conserver leurs attributions et conditions propres.
 
 Aucun fichier LICENSE n’était présent dans la base locale. Les fichiers du professeur et des fabricants conservent leur provenance ; aucune nouvelle licence générale ne leur est attribuée.
+
+## Modèles mécaniques de la carte
+
+Le modèle RAK3172 provient du [téléchargement officiel RAKwireless](https://downloads.rakwireless.com/3D_File/WisDuo/3D_RAK3172.stp). Le BQ25570 utilise le modèle de boîtier Texas RGR fourni avec KiCad. Les modèles SHT40 et LPS4018 sont ceux déjà présents dans le projet. Les STEP/GLB assemblés et les images PCB sont exportés de KiCad ; ils ne représentent pas encore un assemblage du PCB dans le pot.

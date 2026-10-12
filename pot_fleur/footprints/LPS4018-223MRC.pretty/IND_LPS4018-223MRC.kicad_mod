@@ -112,4 +112,6 @@
   (fp_line (start -2.45 2.2) (end -2.45 -2.2) (layer F.CrtYd) (width 0.05))
   (fp_circle (center -2.75 0.0) (end -2.65 0.0) (layer F.SilkS) (width 0.2))
   (fp_circle (center -2.75 0.0) (end -2.65 0.0) (layer F.Fab) (width 0.2))
+
+ (model "${KIPRJMOD}/3dmodels/LPS4018-223MRC.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz -90 0 0)))
 )

@@ -532,6 +532,12 @@
 			(uuid "cb74b006-0bc4-4311-9764-d6d5e5c5a154")
 		)
 		(embedded_fonts no)
+
+		(model "${KIPRJMOD}/3dmodels/LPS4018-223MRC.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz -90 0 0))
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -1213,10 +1219,8 @@
 			(uuid "370b040f-9914-41b6-b81d-b99d6f2a69f8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/RF_Module.3dshapes/RAK3172.step"
-			(offset
-				(xyz 0 0 0)
-			)
+		(model "${KIPRJMOD}/3dmodels/RAK3172.stp"
+			(offset (xyz -7.5 -7.75 1.01400356))
 			(scale
 				(xyz 1 1 1)
 			)
@@ -2299,6 +2303,12 @@
 			(uuid "47362806-9eb0-4783-9422-602285d68834")
 		)
 		(embedded_fonts no)
+
+		(model "${KIPRJMOD}/3dmodels/SHT40-AD1B-R2.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz -90 0 0))
+		)
 	)
 	(footprint "SmartPot_RF:CST_IFA_868MHz_SmartPot"
 		(layer "F.Cu")
@@ -6052,7 +6062,7 @@
 			(uuid "f00f321e-f8ca-4917-b2bf-298c1d8367ec")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_VQFN-RGR-20-1EP_3.5x3.5mm_Pitch0.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)

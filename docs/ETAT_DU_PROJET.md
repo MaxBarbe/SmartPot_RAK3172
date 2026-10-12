@@ -7,7 +7,7 @@
 | PCB | 30 × 60 mm, quatre couches, antenne CST adaptée ; DRC : 0 violation, 0 connexion manquante | Resimuler le raccord RF et optimiser les blocs d’alimentation |
 | Boîtiers RF | R6/C6/L1 en 0603 ; R6=0 Ω, C6/L1 non montés au départ | Caractériser et ajuster sur prototype |
 | Antenne | Six rectangles CST transposés sur A1 ; branche de masse IFA conservée | Valider l’alimentation physique et les quatre couches dans CST |
-| Mécanique | 3MF du pot, deux captures, STL dérivé | Vérifier impression, encombrement et influence RF |
+| Mécanique | 3MF du pot, STL dérivé et STEP de la carte assemblée | Vérifier impression, encombrement et influence RF |
 | Fabrication | Non validée | Empilage fabricant, revue électrique/RF, prototype |
 
 ## Remplacement de l’antenne
@@ -19,3 +19,7 @@ Les captures de simulation du projet CST original ne valident pas encore cette a
 Le [rapport DRC actuel](../pot_fleur/docs/DRC_antenne_CST.txt) indique 0 violation, 0 connexion manquante et 0 problème de parité. Le [rapport de réorganisation](DRC_verification_reorganisation.txt) est historique : il concernait l’ancienne antenne TI avant remplacement. Les variantes CST, l’ancienne empreinte TI et l’historique Git restent disponibles.
 
 La revue du placement de CREF1, CBYP1, CIN2 et LBUCK1 autour du BQ25570 reste nécessaire avant fabrication, indépendamment du remplacement de l’antenne. Les sauvegardes locales et réglages d’interface KiCad ne sont pas des livrables de fabrication.
+
+## Exports mécaniques disponibles
+
+Le [STEP assemblé](../Mecanique/PCB/SmartPot_assemble.step), le [STEP nu](../Mecanique/PCB/SmartPot_carte_nue.step), le GLB et les rendus KiCad sont publiés. Les 35 composants physiques montés sont présents ; l’antenne est représentée par le cuivre du PCB. Le placement et la visualisation du PCB dans le pot restent à réaliser après l’import mécanique. Voir [la fiche 3D](../Mecanique/PCB/README.md).

@@ -29,3 +29,13 @@ Les vues mécaniques et les simulations ont été fournies par Maxime. Voir [la 
 ![PCB après remplacement de l’antenne TI](../pot_fleur/docs/APERCU_antenne_CST.png)
 
 Géométrie adaptée et raccord physique ajouté : [détails et resimulation](../pot_fleur/docs/INTEGRATION_ANTENNE_CST.md).
+
+## PCB — rendu KiCad en perspective
+
+![PCB assemblé en 3D](../Mecanique/PCB/SmartPot_3D_perspective.png)
+
+## PCB — rendu KiCad de dessus
+
+![PCB de dessus en 3D](../Mecanique/PCB/SmartPot_3D_dessus.png)
+
+[Fichier STEP à importer dans le pot](../Mecanique/PCB/SmartPot_assemble.step). Le placement du PCB dans le pot n’est pas encore appliqué.

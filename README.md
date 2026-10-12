@@ -6,8 +6,12 @@ Projet personnel de **Maxime — [MaxBarbe](https://github.com/MaxBarbe)**, dév
 
 <table>
 <tr>
-<td align="center" width="50%"><img src="Mecanique/Pot_fleur/pot-fleur-vue2.png" alt="Vue latérale du pot SmartPot modélisé en 3D" width="420"><br>Conception 3D du pot</td>
-<td align="center" width="50%"><img src="CST/ant-868.PNG" alt="Antenne imprimée repliée conçue dans CST" width="420"><br>Antenne étudiée autour de 868 MHz</td>
+<td align="center" width="50%"><a href="Mecanique/README.md"><img src="Mecanique/Pot_fleur/pot-fleur-vue2.png" alt="Pot SmartPot modélisé en 3D" width="420"></a><br><strong>Pot de fleur — conception 3D</strong></td>
+<td align="center" width="50%"><a href="Mecanique/PCB/README.md"><img src="Mecanique/PCB/SmartPot_3D_perspective.png" alt="Rendu natif KiCad de la carte SmartPot avec ses composants" width="420"></a><br><strong>KiCad — carte assemblée en 3D</strong></td>
+</tr>
+<tr>
+<td align="center" width="50%"><a href="pot_fleur/pot_fleur.kicad_pcb"><img src="pot_fleur/docs/APERCU_antenne_CST.png" alt="Routage et cuivre supérieur du PCB SmartPot avec antenne CST" width="240"></a><br><strong>KiCad — routage du PCB</strong></td>
+<td align="center" width="50%"><a href="CST/README.md"><img src="CST/ant-868.PNG" alt="Antenne imprimée finale conçue dans CST" width="420"></a><br><strong>CST — antenne à 868 MHz</strong><br>Captures S11 et champ lointain ci-dessous</td>
 </tr>
 </table>
 
@@ -19,6 +23,9 @@ Projet personnel de **Maxime — [MaxBarbe](https://github.com/MaxBarbe)**, dév
 | Schéma complet | [pot_fleur.kicad_sch](pot_fleur/pot_fleur.kicad_sch) | Feuilles RAK3172, SHT40 et BQ25570 |
 | PCB quatre couches | [pot_fleur.kicad_pcb](pot_fleur/pot_fleur.kicad_pcb) | [Aperçu avec antenne CST](pot_fleur/docs/APERCU_antenne_CST.pdf) |
 | Antenne finale CST | [TP1_M2_Smart_2-3.cst](CST/TP1_M2_Smart_2-3.cst) | [Paramètres et résultats](CST/README.md) |
+| Carte 3D pour Shapr3D | [SmartPot_assemble.step](Mecanique/PCB/SmartPot_assemble.step) | [Import et enveloppe mécanique](Mecanique/PCB/README.md) |
+| Carte nue 3D | [SmartPot_carte_nue.step](Mecanique/PCB/SmartPot_carte_nue.step) | Substrat seul pour préparer le logement |
+| Modèle 3D portable | [SmartPot_assemble.glb](Mecanique/PCB/SmartPot_assemble.glb) | Carte colorée pour une future visualisation |
 | Pot 3D | [Pot_fleur.3mf](Mecanique/Pot_fleur/Pot_fleur.3mf) | [Conception mécanique](Mecanique/README.md) |
 | Pot — aperçu maillage | [Pot_fleur.stl](Mecanique/Pot_fleur/Pot_fleur.stl) | Export dérivé du 3MF pour visualisation |
 
@@ -32,11 +39,21 @@ Projet personnel de **Maxime — [MaxBarbe](https://github.com/MaxBarbe)**, dév
 
 Les annonces concernant l'accéléromètre, le BME280 ou les LED de la carte EDU RAK ne décrivent pas automatiquement la carte SmartPot. Les documents de cette carte sont conservés uniquement comme références pédagogiques.
 
+## Carte 3D à intégrer dans le pot
+
+Le [STEP de la carte assemblée](Mecanique/PCB/SmartPot_assemble.step) est disponible pour import dans Shapr3D. Il contient le PCB 30 × 60 × 0,8 mm, les 35 composants physiques montés et le cuivre extérieur. Les composants DNP sont exclus. L'enveloppe avec broches et bornier atteint environ 23 mm de hauteur totale ; utiliser l'assemblage complet pour vérifier les dégagements.
+
+Le pot et la carte sont présentés séparément : leur placement mécanique commun reste à réaliser dans le modèle du pot. Nous ajouterons les vues de l'ensemble après cette intégration. [Détails des exports et vues de dessus](Mecanique/PCB/README.md).
+
 ## Antenne : résultats fournis
 
 ![Courbe S11 simulée de l'antenne](CST/S11-868.PNG)
 
 La capture indique un minimum de **S11 ≈ −17,9 dB à 869 MHz**. La capture de champ lointain à **868 MHz** indique une directivité de **1,805 dBi**, un rendement de rayonnement d'environ **87,9 %** et un rendement total d'environ **85,0 %**. Il s'agit de résultats de simulation fournis, et non de mesures sur un prototype. La directivité n'est pas le gain réalisé.
+
+![Diagramme de rayonnement simulé à 868 MHz](CST/farfield-868.PNG)
+
+[Voir aussi la carte dans CST](CST/carte-868.PNG).
 
 Le modèle CST utilise un substrat de **29,1 × 59,1 × 0,8 mm** et une zone supérieure de **10 mm**. Ses dimensions et ses masses diffèrent du PCB KiCad actuel : les résultats ne constituent pas encore une validation de la carte quatre couches. Voir [la fiche de simulation](CST/README.md).
 
@@ -53,8 +70,9 @@ SmartPot_RAK3172/
 │   └── docs/                   # Rapports ERC/DRC et aperçu du PCB
 ├── CST/                        # Antenne finale, variantes et captures
 │   └── explorations/           # Anciennes propositions, non retenues comme référence
-├── Mecanique/                  # Pot 3D, export STL et captures
-│   └── Pot_fleur/
+├── Mecanique/                  # Pot et carte 3D
+│   ├── Pot_fleur/              # 3MF, STL et captures du pot
+│   └── PCB/                    # STEP, GLB et rendus KiCad
 ├── docs/                       # État du projet et galerie
 └── references/EDU_RAK_2026/     # Ressources de la plateforme pédagogique d'origine
 ```
@@ -64,7 +82,7 @@ SmartPot_RAK3172/
 1. Cloner ce dépôt : `git clone https://github.com/MaxBarbe/SmartPot_RAK3172.git`.
 2. Dans KiCad, ouvrir `pot_fleur/pot_fleur.kicad_pro` ; les bibliothèques locales utilisent `${KIPRJMOD}`.
 3. Dans CST, ouvrir `CST/TP1_M2_Smart_2-3.cst`. Les variantes `-1` et `-2` sont conservées pour suivre les essais.
-4. Pour la mécanique, ouvrir le fichier 3MF dans un logiciel compatible, ou le STL pour visualiser le maillage. Le fichier natif Shapr3D n'est pas fourni dans ce dépôt.
+4. Pour la mécanique, ouvrir le pot 3MF, ou son projet natif Shapr3D si tu le conserves localement, puis importer `Mecanique/PCB/SmartPot_assemble.step`. Le fichier natif du pot n’est pas fourni dans ce dépôt. Les instructions sont dans [la fiche 3D](Mecanique/PCB/README.md).
 
 ## État et prochaines validations
 
