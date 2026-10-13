@@ -15,6 +15,8 @@ Projet personnel de **Maxime — [MaxBarbe](https://github.com/MaxBarbe)**, dév
 </tr>
 </table>
 
+**Mise à jour du 13 octobre :** deux perçages de fixation non métallisés Ø 3 mm ajoutés aux emplacements de Maxime. Le contrôle actuel signale un chevauchement de la zone de tête de vis H1 avec le bornier J10 ; ce point reste à résoudre avant fabrication. [Coordonnées et rapport](pot_fleur/docs/TROUS_FIXATION.md).
+
 ## Accès aux fichiers du projet
 
 | Domaine | Fichier principal | Documentation |

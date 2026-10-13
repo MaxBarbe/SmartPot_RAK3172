@@ -32,3 +32,7 @@ Les 35 composants physiques montés ont un modèle présent dans l'export. A1 es
 [Audit des références et enveloppes 3D](verification_3D.json). Les modèles de U1/U3/U4/LBOOST1 ont été contrôlés pour être au-dessus du PCB et centrés sur leurs empreintes. Les corrections ne déplacent aucun pad ni aucune piste. [Contrôle KiCad après ajout des modèles](../../pot_fleur/docs/DRC_modeles_3D.txt) : 0 violation, 0 connexion manquante, 0 problème de parité schéma/PCB.
 
 Les rendus servent à la présentation et à la vérification d'encombrement. La fabrication et les performances RF de la version adaptée restent à valider avec l'empilage réel et le pot.
+
+## Perçages du 13 octobre 2026
+
+Les STEP assemblé et nu, le GLB de la carte et la vue de dessus intègrent maintenant les deux trous non métallisés Ø 3 mm. [Positions et réserve sur la tête de vis près de J10](../../pot_fleur/docs/TROUS_FIXATION.md).

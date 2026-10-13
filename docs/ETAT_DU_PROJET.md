@@ -1,4 +1,6 @@
-# État du projet SmartPot — 12 octobre 2026
+# État du projet SmartPot — 13 octobre 2026
+
+Mise à jour : deux perçages Ø 3 mm ajoutés aux positions demandées. Le DRC actuel compte 1 erreur de chevauchement des zones d’occupation H1/J10, 0 connexion manquante et 0 problème de parité. Les chiffres DRC du 12 octobre ci-dessous sont historiques. Voir [les perçages](../pot_fleur/docs/TROUS_FIXATION.md).
 
 | Élément | État vérifiable | Suite |
 |---|---|---|
