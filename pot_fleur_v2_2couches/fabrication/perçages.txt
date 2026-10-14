@@ -1,0 +1,26 @@
+Drill report for pot_fleur.kicad_pcb
+Created on 2026-10-14T10:48:17
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'pot_fleur-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.200mm  0.0079"  (32 holes))
+    T2  0.300mm  0.0118"  (210 holes))
+    T3  1.000mm  0.0394"  (22 holes))
+    T4  1.300mm  0.0512"  (2 holes))
+
+    Total plated holes count 266
+
+
+Drill file 'pot_fleur-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.000mm  0.1181"  (2 holes))
+
+    Total unplated holes count 2

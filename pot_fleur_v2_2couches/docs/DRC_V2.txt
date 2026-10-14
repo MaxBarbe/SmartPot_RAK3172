@@ -1,12 +1,8 @@
 ** Drc report for pot_fleur.kicad_pcb **
-** Created on 2026-10-14T10:35:59 **
+** Created on 2026-10-14T10:47:43 **
 ** Report includes: Errors, Warnings **
 
-** Found 1 DRC violations **
-[courtyards_overlap]: Courtyards overlap
-    Rule: configuration des contraintes des zones d'occupation; error
-    @(61.5000 mm, 107.0000 mm): Empreinte H1
-    @(67.0000 mm, 102.5000 mm): Empreinte J10
+** Found 0 DRC violations **
 
 ** Found 0 unconnected pads **
 

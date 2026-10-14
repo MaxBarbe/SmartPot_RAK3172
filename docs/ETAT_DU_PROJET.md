@@ -14,7 +14,7 @@ Mise à jour : deux perçages Ø 3 mm ajoutés aux positions demandées. Le DRC 
 
 ## V2 à deux couches
 
-La [V2 séparée](../pot_fleur_v2_2couches/README.md) conserve tous les composants, connecteurs latéraux et perçages. Le capteur U4 est déplacé au-dessus du module radio. Le routage et les zones de masse n’utilisent que F.Cu/B.Cu : **0 connexion manquante, 0 problème de parité, 1 erreur DRC H1/J10**, ERC **0 erreur / 6 avertissements**. Les pistes minimales de 0,15 mm, les vias compacts de 0,40/0,20 mm et les vias dans certaines pastilles CMS doivent être confirmés avec le fabricant. La RF et les boucles d’alimentation restent à valider ; les simulations CST publiées ne valident pas l’empilage deux couches. Le STEP V2 et ses vues sont disponibles dans son dossier.
+La [V2 séparée](../pot_fleur_v2_2couches/README.md) conserve tous les composants, connecteurs latéraux et perçages. Le capteur U4 est déplacé au-dessus du module radio. Le routage et les zones de masse n’utilisent que F.Cu/B.Cu : **0 connexion manquante, 0 problème de parité, 0 violation DRC**, ERC **0 erreur / 6 avertissements**. Les pistes minimales de 0,15 mm, les vias compacts de 0,40/0,20 mm et les vias dans certaines pastilles CMS doivent être confirmés avec le fabricant. La RF et les boucles d’alimentation restent à valider ; les simulations CST publiées ne valident pas l’empilage deux couches. J10 conserve ses deux pastilles pour soudure directe des fils ; le boîtier du bornier est retiré, ce qui résout le chevauchement H1/J10 dans cette V2. Le STEP V2, la vue 3D et les masques/Gerbers sont disponibles dans son dossier.
 
 ## Remplacement de l’antenne
 

@@ -6805,9 +6805,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "ed3141df-fff4-4cab-8c05-0a23abbe3b7b")
 		(property "Reference" "J10"
@@ -6831,7 +6831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "SmartPot_RF:Wire_Solder_2x_P5.08mm_D1.3mm"
 			(at 33.02 66.04 0)
 			(hide yes)
 			(show_name no)

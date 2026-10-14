@@ -17,7 +17,7 @@ Projet personnel de **Maxime — [MaxBarbe](https://github.com/MaxBarbe)**, dév
 
 **Mise à jour du 13 octobre :** deux perçages de fixation non métallisés Ø 3 mm ajoutés aux emplacements de Maxime. Le contrôle actuel signale un chevauchement de la zone de tête de vis H1 avec le bornier J10 ; ce point reste à résoudre avant fabrication. [Coordonnées et rapport](pot_fleur/docs/TROUS_FIXATION.md).
 
-**V2 du 14 octobre — deux couches :** routage complet sur F.Cu/B.Cu, 0 connexion manquante et 0 problème de parité. Le DRC conserve uniquement le conflit mécanique H1/J10 ; l’ERC compte 0 erreur et 6 avertissements. [Ouvrir la V2 et lire ses contraintes de fabrication/RF](pot_fleur_v2_2couches/README.md).
+**V2 du 14 octobre — deux couches :** routage complet sur F.Cu/B.Cu, 0 connexion manquante et 0 problème de parité. Le DRC indique 0 violation après adaptation de J10 pour fils soudés directement ; l’ERC compte 0 erreur et 6 avertissements. [Ouvrir la V2 et lire ses contraintes de fabrication/RF](pot_fleur_v2_2couches/README.md).
 
 ![V2 à deux couches — vue KiCad 3D](pot_fleur_v2_2couches/docs/PCB_V2_3D.png)
 
@@ -96,7 +96,7 @@ SmartPot_RAK3172/
 
 ## État et prochaines validations
 
-Les contrôles actuels des versions quatre couches et V2 deux couches indiquent **1 erreur DRC mécanique H1/J10, 0 connexion manquante et 0 problème de parité schéma/PCB**. Le rapport sans violation du 12 octobre est antérieur à l’ajout des trous de fixation. L'ERC conserve **6 avertissements et 0 erreur**. Ces contrôles ne valident ni les boucles d’alimentation ni l’adaptation RF. Voir [la fiche d’intégration](pot_fleur/docs/INTEGRATION_ANTENNE_CST.md).
+La version quatre couches conserve **1 erreur DRC mécanique H1/J10**. La **V2 deux couches indique 0 violation DRC**, avec J10 adapté pour des fils soudés directement. Les deux versions indiquent **0 connexion manquante et 0 problème de parité schéma/PCB**. Le rapport sans violation du 12 octobre est antérieur à l’ajout des trous de fixation. L'ERC conserve **6 avertissements et 0 erreur**. Ces contrôles ne valident ni les boucles d’alimentation ni l’adaptation RF. Voir [la fiche d’intégration](pot_fleur/docs/INTEGRATION_ANTENNE_CST.md).
 
 La géométrie CST finale, son raccord RF physique et sa connexion de masse sont maintenant intégrés dans KiCad. La prochaine étape est de resimuler cette adaptation, puis de revoir le placement autour du BQ25570. L'empilage du fabricant et l'environnement du pot devront être pris en compte avant fabrication. Le protocole LoRaWAN complet et le fonctionnement du système ne sont pas encore démontrés dans les fichiers fournis.
 
