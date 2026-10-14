@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SHT40") (type "KiCad") (uri "${KIPRJMOD}/footprints/SHT4X.pretty") (options "") (descr "Empreinte locale SHT40"))
+  (lib (name "LBOOST") (type "KiCad") (uri "${KIPRJMOD}/footprints/LPS4018-223MRC.pretty") (options "") (descr "Empreinte locale LPS4018-223MRC"))
+  (lib (name "SmartPot_RF") (type "KiCad") (uri "${KIPRJMOD}/footprints/SmartPot_RF.pretty") (options "") (descr "Antenne PCB 868 MHz TI DN038"))
+)

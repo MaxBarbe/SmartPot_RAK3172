@@ -45,3 +45,9 @@ Géométrie adaptée et raccord physique ajouté : [détails et resimulation](..
 ![Carte centrée sous le pot après correction par Maxime](../Mecanique/Assemblage/SmartPot_assemblage_corrige_dessous.png)
 
 Capture native Shapr3D du 12 octobre 2026. Vue de dessous, composants vers l’extérieur. Cette capture atteste du placement visible ; les dégagements et les fixations ne sont pas validés par cette vue seule.
+
+## Variante V2 — deux couches
+
+![Carte V2 assemblée](../pot_fleur_v2_2couches/docs/PCB_V2_3D.png)
+
+[Routage F.Cu/B.Cu](../pot_fleur_v2_2couches/docs/Routage_V2.svg) · [Projet, contrôles et contraintes](../pot_fleur_v2_2couches/README.md)
