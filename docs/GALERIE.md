@@ -51,3 +51,9 @@ Capture native Shapr3D du 12 octobre 2026. Vue de dessous, composants vers l’e
 ![Carte V2 assemblée](../pot_fleur_v2_2couches/docs/PCB_V2_3D.png)
 
 [Routage F.Cu/B.Cu](../pot_fleur_v2_2couches/docs/Routage_V2.svg) · [Projet, contrôles et contraintes](../pot_fleur_v2_2couches/README.md)
+
+## V3 provisoire — corrections du retour de Dorian
+
+![V3 et antenne sans vernis](../pot_fleur_v3_provisoire_4couches/docs/PCB_V3_3D.png)
+
+[Projet et hypothèses RF](../pot_fleur_v3_provisoire_4couches/README.md) · [Plan GND In2](../pot_fleur_v3_provisoire_4couches/docs/Plan_GND_In2.svg)

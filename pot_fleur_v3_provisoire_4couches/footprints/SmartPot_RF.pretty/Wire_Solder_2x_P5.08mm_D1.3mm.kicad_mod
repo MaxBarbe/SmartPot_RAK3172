@@ -1,0 +1,99 @@
+(footprint "Wire_Solder_2x_P5.08mm_D1.3mm"
+(version 20241229)
+(generator "pcbnew")
+(layer "F.Cu")
+(property "Reference" "J10"
+			(at 2.54 -2.2 0)
+			(layer "F.Fab")
+			(uuid "e57cbc26-6228-472a-b3fa-f0b1bab002f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+(property "Value" "P-MFC"
+			(at 2.54 6.42 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d2088b3-3c54-49b5-b61a-3109f7228eaf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10a258d6-0eee-4c88-b226-7116253b0a26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1add5443-a770-42d9-b803-2fb348caecb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(property "KiLib_Generator" "terminal_block/Phoenix"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ed243d0c-5325-4a9a-ae8d-ae4e31dc423d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+(property "LCSC" "C2683165"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cd2ada64-73d3-4c4b-bdba-74be03db8b42")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.096154)
+			
+			
+		)
+(pad "2" thru_hole circle
+			(at 5.08 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			
+			(zone_connect 2)
+			
+		)
+(descr "Two plated through holes for direct wire soldering; positive energy input and GND; no terminal block")
+(attr through_hole exclude_from_pos_files exclude_from_bom)
+(fp_rect (start -1.55 -1.55) (end 6.63 1.55) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd"))
+(fp_text user "+" (at 0 -1.9) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12))))
+(fp_text user "GND" (at 5.08 -1.9) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12))))
+)

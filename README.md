@@ -2,7 +2,9 @@
 
 Projet personnel de **Maxime — [MaxBarbe](https://github.com/MaxBarbe)**, développé dans le cadre du Master M2. SmartPot réunit une carte électronique autour du RAK3172, une alimentation BQ25570, une antenne imprimée étudiée dans CST et un pot modélisé en 3D.
 
-**État au 14 octobre 2026 :** antenne finale fournie dans CST, conception mécanique disponible, PCB quatre couches et variante V2 à deux couches routés en version préliminaire. L’antenne CST remplace maintenant l’ancienne antenne TI dans KiCad, avec une légère adaptation au PCB 30 × 60 mm et un raccord RF physique ; cette nouvelle version doit être resimulée. Le projet n'est pas encore validé pour fabrication.
+**État au 25 octobre 2026 :** antenne finale fournie dans CST, conception mécanique disponible, PCB quatre couches et variante V2 à deux couches routés en version préliminaire. L’antenne CST remplace maintenant l’ancienne antenne TI dans KiCad, avec une légère adaptation au PCB 30 × 60 mm et un raccord RF physique ; cette nouvelle version doit être resimulée. Le projet n'est pas encore validé pour fabrication.
+
+**V3 provisoire — retour de Dorian du 22 octobre :** une copie quatre couches intègre le plan GND In2 manquant, 130 vias GND supplémentaires, des pistes simplifiées, la chaîne RF réorganisée et l’antenne sans vernis. **0 violation DRC, 0 connexion manquante**, ERC 0 erreur / 6 avertissements. La largeur RF utilise un empilage provisoire à faire confirmer. [Projet V3, vues et hypothèses](pot_fleur_v3_provisoire_4couches/README.md). Les versions précédentes n’intègrent pas ces corrections.
 
 <table>
 <tr>
@@ -29,6 +31,7 @@ Projet personnel de **Maxime — [MaxBarbe](https://github.com/MaxBarbe)**, dév
 | Schéma complet | [pot_fleur.kicad_sch](pot_fleur/pot_fleur.kicad_sch) | Feuilles RAK3172, SHT40 et BQ25570 |
 | PCB quatre couches | [pot_fleur.kicad_pcb](pot_fleur/pot_fleur.kicad_pcb) | [Aperçu avec antenne CST](pot_fleur/docs/APERCU_antenne_CST.pdf) |
 | PCB V2 deux couches | [pot_fleur.kicad_pro](pot_fleur_v2_2couches/pot_fleur.kicad_pro) | [Routage, contrôles et STEP V2](pot_fleur_v2_2couches/README.md) |
+| V3 provisoire quatre couches | [pot_fleur.kicad_pro](pot_fleur_v3_provisoire_4couches/pot_fleur.kicad_pro) | [Corrections, contrôles et 3D](pot_fleur_v3_provisoire_4couches/README.md) |
 | Antenne finale CST | [TP1_M2_Smart_2-3.cst](CST/TP1_M2_Smart_2-3.cst) | [Paramètres et résultats](CST/README.md) |
 | Carte 3D pour Shapr3D | [SmartPot_assemble.step](Mecanique/PCB/SmartPot_assemble.step) | [Import et enveloppe mécanique](Mecanique/PCB/README.md) |
 | Carte nue 3D | [SmartPot_carte_nue.step](Mecanique/PCB/SmartPot_carte_nue.step) | Substrat seul pour préparer le logement |
@@ -78,6 +81,7 @@ SmartPot_RAK3172/
 │   ├── 3dmodels/               # Modèles 3D des composants
 │   └── docs/                   # Rapports ERC/DRC et aperçu du PCB
 ├── pot_fleur_v2_2couches/      # Variante KiCad 2 couches, contrôles et STEP
+├── pot_fleur_v3_provisoire_4couches/ # Corrections du retour de Dorian, hypothèses RF
 ├── CST/                        # Antenne finale, variantes et captures
 │   └── explorations/           # Anciennes propositions, non retenues comme référence
 ├── Mecanique/                  # Pot et carte 3D

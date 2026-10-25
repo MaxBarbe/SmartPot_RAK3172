@@ -1,4 +1,11 @@
-# État du projet SmartPot — 14 octobre 2026
+# État du projet SmartPot — 25 octobre 2026
+
+## V3 provisoire après retour de Dorian
+
+La [copie V3 quatre couches](../pot_fleur_v3_provisoire_4couches/README.md), créée le 25 octobre, applique les corrections du mail du 22 octobre : ajout du GND In2, 130 vias GND, perçages de vias à 0,3 mm minimum, simplification de 18 trajets, réseau RF réorganisé et vernis retiré du radiateur. DRC **0 violation / 0 connexion manquante / 0 problème de parité**, ERC **0 erreur / 6 avertissements**. La largeur de 0,229278 mm vient du calculateur KiCad sur un empilage explicitement provisoire. Des précisions ont été demandées à Dorian ; cette copie attend sa revue et la validation fabricant/RF.
+
+Les états des versions précédentes ci-dessous sont conservés comme historique ; ils ne décrivent pas la V3.
+
 
 Mise à jour : deux perçages Ø 3 mm ajoutés aux positions demandées. Le DRC actuel compte 1 erreur de chevauchement des zones d’occupation H1/J10, 0 connexion manquante et 0 problème de parité. Les chiffres DRC du 12 octobre ci-dessous sont historiques. Voir [les perçages](../pot_fleur/docs/TROUS_FIXATION.md).
 
