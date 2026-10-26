@@ -39,4 +39,4 @@ Le [STEP assemblé](../Mecanique/PCB/SmartPot_assemble.step), le [STEP nu](../Me
 
 ## Redressement des pistes du 26 octobre
 
-La V3 a été reprise sur 27 trajets principaux pour éliminer les petits zigzags ; 63 fragments internes aux pastilles ont aussi été retirés. Total de segments : 674 → 447. Les composants, les largeurs RF, les vias et le schéma sont conservés. DRC final : 0 violation / 0 connexion manquante / 0 problème de parité. [Avant/après](../pot_fleur_v3_provisoire_4couches/docs/Comparaison_pistes_droites.png).
+La V3 a été reprise sur 27 trajets principaux pour éliminer les petits zigzags ; 63 fragments internes aux pastilles ont aussi été retirés. Total après nettoyage complémentaire du raccord GND obsolète de J3 : 674 → 442. Les composants, les largeurs RF, les vias et le schéma sont conservés. DRC final : 0 violation / 0 connexion manquante / 0 problème de parité. [Avant/après](../pot_fleur_v3_provisoire_4couches/docs/Comparaison_pistes_droites.png).
