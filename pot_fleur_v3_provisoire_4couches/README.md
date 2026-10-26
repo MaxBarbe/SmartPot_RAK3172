@@ -10,7 +10,7 @@ Ouvrir [pot_fleur.kicad_pro](pot_fleur.kicad_pro) dans KiCad. Les versions `../p
 
 ## Routage redressé — 26 octobre 2026
 
-Les portions restantes en petits zigzags ont été reprises avec une préférence pour les sections horizontales, verticales et les coudes à 45°. **27 trajets principaux** ont été redessinés : 267 segments remplacés par 103 ; **63 fragments entièrement contenus dans des pastilles** ont été supprimés. Cinq segments GND obsolètes de l’ancien emplacement de J3 ont ensuite été retirés. Le PCB passe de 674 à **442 segments**, sans déplacement des composants ni modification des largeurs de pistes ou des vias. Les petits raccords imposés par les sorties de pastilles et les passages serrés sont conservés lorsqu’ils sont nécessaires.
+Les portions restantes en petits zigzags ont été reprises avec une préférence pour les sections horizontales, verticales et les coudes à 45°. **27 trajets principaux** ont été redessinés : 267 segments remplacés par 103 ; **63 fragments entièrement contenus dans des pastilles** ont été supprimés. Cinq segments GND obsolètes de l’ancien emplacement de J3 ont ensuite été retirés. Le PCB passe de 674 à **415 segments**, sans déplacement des composants ni modification des largeurs de pistes ou des vias. Les petits raccords imposés par les sorties de pastilles et les passages serrés sont conservés lorsqu’ils sont nécessaires.
 
 Les trois réseaux RF calculés ne sont pas modifiés. Le schéma, les 204 vias, les plans de masse et la zone d’antenne sont conservés. Contrôle du 26 octobre : **0 violation DRC, 0 connexion manquante, 0 problème de parité** ; aucune exclusion ajoutée. Vue 3D, routage et STEP actualisés.
 
@@ -67,3 +67,9 @@ Un mail de réponse à Dorian a été envoyé le 25 octobre pour préciser : l�
 ### Ancien raccord GND de J3 supprimé
 
 Le 26 octobre, les cinq segments de masse conservés à l’ancien emplacement de la prise U.FL ont été retirés. Leurs extrémités étaient reliées au plan GND, ce qui expliquait l’absence d’erreur DRC, mais ce détour n’était plus utile après le déplacement de J3. Les plans GND et les connexions des composants sont conservés ; DRC et parité restent à zéro défaut.
+
+### Contrôle complet du 26 octobre 2026
+
+Les 442 segments présents ont été examinés par leurs deux extrémités sur les quatre couches. Trois segments GND en impasse ont été supprimés, dont celui au-dessus de R3 visible sur la capture, ainsi que 24 fragments entièrement contenus dans le cuivre de vias. Le contrôle a été répété après suppression : **415 segments, aucune extrémité libre hors pastille, via ou piste du même net**. Les zones seules ne sont pas comptées comme une terminaison dans ce contrôle. Aucun doublon exact détecté. Les pistes RF sont identiques à celles de la sauvegarde avant cette intervention.
+
+Le [relevé piste par piste](docs/Audit_pistes_20261026.csv) donne les coordonnées et contacts de chaque segment restant. DRC KiCad avec parité : 0 violation, 0 connexion manquante, 0 défaut de parité. Ce contrôle du routage ne remplace pas la validation RF de l’empilage provisoire.
