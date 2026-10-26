@@ -8,6 +8,16 @@ Ouvrir [pot_fleur.kicad_pro](pot_fleur.kicad_pro) dans KiCad. Les versions `../p
 
 [Routage](docs/Routage_V3.svg) · [Plan de masse interne In2](docs/Plan_GND_In2.svg) · [Ouvertures du vernis dessus](docs/Masque_V3_dessus.svg) · [STEP](3D/SmartPot_V3_provisoire.step)
 
+## Routage redressé — 26 octobre 2026
+
+Les portions restantes en petits zigzags ont été reprises avec une préférence pour les sections horizontales, verticales et les coudes à 45°. **27 trajets principaux** ont été redessinés : 267 segments remplacés par 103 ; **63 fragments entièrement contenus dans des pastilles** ont été supprimés. Le PCB passe de 674 à **447 segments**, sans déplacement des composants ni modification des largeurs de pistes ou des vias. Les petits raccords imposés par les sorties de pastilles et les passages serrés sont conservés lorsqu’ils sont nécessaires.
+
+Les trois réseaux RF calculés ne sont pas modifiés. Le schéma, les 204 vias, les plans de masse et la zone d’antenne sont conservés. Contrôle du 26 octobre : **0 violation DRC, 0 connexion manquante, 0 problème de parité** ; aucune exclusion ajoutée. Vue 3D, routage et STEP actualisés.
+
+![Comparaison des pistes avant et après](docs/Comparaison_pistes_droites.png)
+
+La comparaison est une vue géométrique des pistes et des pastilles extraite du PCB ; les plans de cuivre sont masqués dans cette illustration pour lire les trajets.
+
 ## Modifications appliquées
 
 | Demande | Réalisation dans cette copie |

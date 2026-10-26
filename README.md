@@ -2,9 +2,11 @@
 
 Projet personnel de **Maxime — [MaxBarbe](https://github.com/MaxBarbe)**, développé dans le cadre du Master M2. SmartPot réunit une carte électronique autour du RAK3172, une alimentation BQ25570, une antenne imprimée étudiée dans CST et un pot modélisé en 3D.
 
-**État au 25 octobre 2026 :** antenne finale fournie dans CST, conception mécanique disponible, PCB quatre couches et variante V2 à deux couches routés en version préliminaire. L’antenne CST remplace maintenant l’ancienne antenne TI dans KiCad, avec une légère adaptation au PCB 30 × 60 mm et un raccord RF physique ; cette nouvelle version doit être resimulée. Le projet n'est pas encore validé pour fabrication.
+**État au 26 octobre 2026 :** antenne finale fournie dans CST, conception mécanique disponible, PCB quatre couches et variante V2 à deux couches routés en version préliminaire. L’antenne CST remplace maintenant l’ancienne antenne TI dans KiCad, avec une légère adaptation au PCB 30 × 60 mm et un raccord RF physique ; cette nouvelle version doit être resimulée. Le projet n'est pas encore validé pour fabrication.
 
 **V3 provisoire — retour de Dorian du 22 octobre :** une copie quatre couches intègre le plan GND In2 manquant, 130 vias GND supplémentaires, des pistes simplifiées, la chaîne RF réorganisée et l’antenne sans vernis. **0 violation DRC, 0 connexion manquante**, ERC 0 erreur / 6 avertissements. La largeur RF utilise un empilage provisoire à faire confirmer. [Projet V3, vues et hypothèses](pot_fleur_v3_provisoire_4couches/README.md). Les versions précédentes n’intègrent pas ces corrections.
+
+**Routage V3 redressé le 26 octobre :** suppression des petits zigzags, préférence aux sections droites et aux coudes à 45°, 227 segments inutiles supprimés. Contrôle : 0 violation DRC, 0 connexion manquante. [Comparaison avant/après](pot_fleur_v3_provisoire_4couches/docs/Comparaison_pistes_droites.png).
 
 <table>
 <tr>

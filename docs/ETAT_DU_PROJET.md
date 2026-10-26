@@ -1,4 +1,4 @@
-# État du projet SmartPot — 25 octobre 2026
+# État du projet SmartPot — 26 octobre 2026
 
 ## V3 provisoire après retour de Dorian
 
@@ -36,3 +36,7 @@ La revue du placement de CREF1, CBYP1, CIN2 et LBUCK1 autour du BQ25570 reste n�
 ## Exports mécaniques disponibles
 
 Le [STEP assemblé](../Mecanique/PCB/SmartPot_assemble.step), le [STEP nu](../Mecanique/PCB/SmartPot_carte_nue.step), le GLB et les rendus KiCad sont publiés. Les 35 composants physiques montés sont présents ; l’antenne est représentée par le cuivre du PCB. Le placement a été corrigé par Maxime dans Shapr3D ; la capture publiée montre cet assemblage corrigé. Le STEP V2 reste à importer dans ce projet mécanique pour remplacer la carte précédente. Voir [la fiche 3D](../Mecanique/PCB/README.md).
+
+## Redressement des pistes du 26 octobre
+
+La V3 a été reprise sur 27 trajets principaux pour éliminer les petits zigzags ; 63 fragments internes aux pastilles ont aussi été retirés. Total de segments : 674 → 447. Les composants, les largeurs RF, les vias et le schéma sont conservés. DRC final : 0 violation / 0 connexion manquante / 0 problème de parité. [Avant/après](../pot_fleur_v3_provisoire_4couches/docs/Comparaison_pistes_droites.png).
