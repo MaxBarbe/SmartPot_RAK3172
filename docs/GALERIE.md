@@ -1,5 +1,12 @@
 # Galerie SmartPot
 
+**27 octobre 2026 — version actuelle : V4 routée, RF provisoire.** [Projet et contrôles](../pot_fleur_v4_nouvelle_antenne/README.md) : 0 violation DRC, 0 connexion manquante, 0 défaut de parité. Le S11 de la V4 avec son raccord physique n’a pas été calculé. Les essais CST X0 (−11,02 dB à 868 MHz) et X +0,40 mm (−3,75 dB à 868 MHz) concernent des modèles à port lumped distincts.
+
+![V4 — vue 3D](../pot_fleur_v4_nouvelle_antenne/docs/V4_3D.png)
+
+Les sections ci-dessous conservent l’historique des versions précédentes.
+
+
 ## Pot — vue intérieure
 
 ![Vue intérieure](../Mecanique/Pot_fleur/pot-fleur-vue.png)

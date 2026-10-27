@@ -1,0 +1,26 @@
+{
+  "source_local_commit": "16d3d1a",
+  "source_antenne_documentation_blob": "ac7ca6c2ba9f60c7c3fc452646da3ff86fcac230",
+  "footprints": 50,
+  "removed_segments": 415,
+  "removed_vias": 204,
+  "removed_pour_zones": 4,
+  "remaining_tracks": 0,
+  "old_feed_pads_removed": [
+    [
+      52.044673,
+      56.35
+    ],
+    [
+      52.044673,
+      61.05
+    ]
+  ],
+  "new_feed_kicad_mm": {
+    "xmin": 52.45,
+    "xmax": 53.45,
+    "ymin": 51.4,
+    "ymax": 58.4
+  },
+  "rf_validation": false
+}

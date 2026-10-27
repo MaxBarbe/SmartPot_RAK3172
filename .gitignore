@@ -28,3 +28,6 @@ pot_fleur/.history/
 /CST/ANTENNE_868_3QUARTS/**/Temp/
 /CST/ANTENNE_868_3QUARTS/**/*.mo~
 
+
+# Local KiCad editor history repositories stay on this computer.
+.history/

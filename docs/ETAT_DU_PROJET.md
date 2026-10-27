@@ -1,5 +1,12 @@
 # État du projet SmartPot — 26 octobre 2026
 
+**27 octobre 2026 — version actuelle : V4 routée, RF provisoire.** [Projet et contrôles](../pot_fleur_v4_nouvelle_antenne/README.md) : 0 violation DRC, 0 connexion manquante, 0 défaut de parité. Le S11 de la V4 avec son raccord physique n’a pas été calculé. Les essais CST X0 (−11,02 dB à 868 MHz) et X +0,40 mm (−3,75 dB à 868 MHz) concernent des modèles à port lumped distincts.
+
+![V4 — vue 3D](../pot_fleur_v4_nouvelle_antenne/docs/V4_3D.png)
+
+Les sections ci-dessous conservent l’historique des versions précédentes.
+
+
 ## V3 provisoire après retour de Dorian
 
 La [copie V3 quatre couches](../pot_fleur_v3_provisoire_4couches/README.md), créée le 25 octobre, applique les corrections du mail du 22 octobre : ajout du GND In2, 130 vias GND, perçages de vias à 0,3 mm minimum, simplification de 18 trajets, réseau RF réorganisé et vernis retiré du radiateur. DRC **0 violation / 0 connexion manquante / 0 problème de parité**, ERC **0 erreur / 6 avertissements**. La largeur de 0,229278 mm vient du calculateur KiCad sur un empilage explicitement provisoire. Des précisions ont été demandées à Dorian ; cette copie attend sa revue et la validation fabricant/RF.
