@@ -1,0 +1,60 @@
+{
+  "archive": "C:\\Users\\maxim\\Desktop\\test\\SmartPot_RAK3172\\CST\\SmartPot_V3_CST_ODB.zip",
+  "sha256": "058da21323c9252999793997061988388d12fa4cb44b9573eb1fe389fc41e352",
+  "layers": [
+    {
+      "layer": "f.cu",
+      "source_features": 571,
+      "connected_regions": 102,
+      "holes": 334,
+      "vertices": 23919,
+      "area_mm2": 1238.3356460893838
+    },
+    {
+      "layer": "in1.cu",
+      "source_features": 330,
+      "connected_regions": 67,
+      "holes": 250,
+      "vertices": 17220,
+      "area_mm2": 1123.1835446074115
+    },
+    {
+      "layer": "in2.cu",
+      "source_features": 303,
+      "connected_regions": 71,
+      "holes": 266,
+      "vertices": 17179,
+      "area_mm2": 1160.259760937369
+    },
+    {
+      "layer": "b.cu",
+      "source_features": 270,
+      "connected_regions": 79,
+      "holes": 289,
+      "vertices": 17671,
+      "area_mm2": 1250.5861774768368
+    }
+  ],
+  "plated_holes": 228,
+  "nonplated_holes": 2,
+  "plating_wall_assumption_mm": 0.025,
+  "polygonisation_max_target_mm": 0.003,
+  "simplification_tolerance_mm": 0.001,
+  "discarded_numerical_sliver_area_threshold_mm2": 1E-08,
+  "jobs": 2283,
+  "limitations": [
+    "Bare PCB copper model; component bodies and electrical internal models omitted",
+    "R4 and R6 ideal bridges; C6 L1 J3 absent",
+    "FR4 er4.3 tanD0.02 provisional; soldermask omitted",
+    "Circular pad/track boundaries polygonised",
+    "CST licence and mesh limits remain applicable"
+  ],
+  "status": "geometry_complete_solver_blocked_by_learning_licence",
+  "solver_block": {
+    "licensed_mesh_cells": 100000,
+    "licensed_CAD_faces": 500,
+    "S11_available": false,
+    "actual_CAD_faces": 41143,
+    "attempted_mesh_cells": 127942
+  }
+}

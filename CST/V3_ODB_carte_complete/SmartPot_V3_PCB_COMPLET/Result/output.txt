@@ -1,0 +1,14 @@
+_______________________________________________________________________________________________________________________
+    Message output from C:\Users\maxim\Desktop\test\SmartPot_RAK3172\CST\V3_ODB_carte_complete\SmartPot_V3_PCB_COMPLET
+    Build: 2026.4 Release from 2026-04-14 (change 1669599)
+_______________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________
+ERROR:
+This software is licensed for up to 500 CAD faces. The current model consists of 41143 faces. Please simplify the model accordingly.
+This software is licensed for up to 100000 mesh cells only. The current mesh size exceeds this limit. Please reduce the mesh size accordingly.
+_______________________________________________________________________________________________________________________
+ERROR:
+1 error occurred.
+_______________________________________________________________________________________________________________________
+Waiting for frontend license...

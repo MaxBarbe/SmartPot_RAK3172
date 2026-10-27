@@ -1,0 +1,13 @@
+{
+   "Author": "maxim",
+   "Comment": "",
+   "Last Problem Type": "High Frequency",
+   "Last Solver Type": "HF Time Domain",
+   "Last Solver Type Abb": "t",
+   "Mesh Cells": "92,684",
+   "Mesh Type": "Hexahedral",
+   "Modeler Unique ID": "5:smartpot_v3_odb_reduit.cst?6a7a3dd6fb1f3395ec50dffdd45d6c43?30379:numberofparameters=0:port=1>mode=1>zre=0>zim=0",
+   "ProjectVersion": "'# MWS Version: Version 2026.4 - Apr 14 2026 - ACIS 35.0.0 - Learning Edition",
+   "Results": "Time Domain: S-Parameter",
+   "Version": "3"
+}

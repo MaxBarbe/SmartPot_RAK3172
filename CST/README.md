@@ -59,3 +59,7 @@ Ces chiffres proviennent des captures fournies avec la version finale ; la simul
 ## Transfert dans KiCad effectué
 
 La géométrie finale est maintenant transposée sur A1, avec une largeur réduite de 29,1 à 29,0 mm, le PCB 30 × 60 mm conservé et un raccord RF physique ajouté à la place de la longue source lumped. Le court-circuit IFA vers GND est conservé. Les [exports de la carte adaptée](integration_kicad/README.md) et la [fiche d’intégration](../pot_fleur/docs/INTEGRATION_ANTENNE_CST.md) décrivent les différences à resimuler. Les captures de cette page restent celles du modèle original.
+
+## Reprise des travaux V3 du 26–27 octobre 2026
+
+Voir [REPRISE_CST_V3.md](../REPRISE_CST_V3.md) pour le PCB complet reconstruit, le refus du solveur Learning Edition, les essais réduits et les instructions de reprise sur un autre ordinateur.

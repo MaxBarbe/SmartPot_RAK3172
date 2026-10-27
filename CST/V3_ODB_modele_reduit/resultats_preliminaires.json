@@ -1,0 +1,24 @@
+{
+  "status": "solver_finished_successfully_preliminary_reduced_model",
+  "solver": "CST 2026 Learning Edition, HF Time Domain",
+  "source_archive_sha256": "058DA21323C9252999793997061988388D12FA4CB44B9573EB1FE389FC41E352",
+  "frequency_GHz": [
+    0.7,
+    1.0
+  ],
+  "sample_count": 1001,
+  "mesh1_cells": 93060,
+  "mesh2_cells": 92684,
+  "mesh1_S11_868_dB": -0.29577854,
+  "mesh2_S11_868_dB": -0.063147316,
+  "minimum_S11_dB": -0.12001264,
+  "minimum_frequency_GHz": 1.0,
+  "maximum_mesh_difference_dB": 0.283282483,
+  "samples_below_minus10dB": 0,
+  "convergence": "Not established: two constrained coarse meshes do not constitute a convergence study",
+  "warnings": [
+    "First mesh: one mesh edge partially filled with PEC",
+    "Second mesh: check solver Model.log for warnings",
+    "Ground geometry is simplified; not the complete V3 PCB"
+  ]
+}

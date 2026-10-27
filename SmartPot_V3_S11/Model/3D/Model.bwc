@@ -1,0 +1,17 @@
+2800 0 2 0           
+20 CST MICROWAVE STUDIO 14 ACIS 28.0.2 NT 24 Mon Oct 26 12:23:54 2026 
+1 9.9999999999999995e-07 1e-10 
+T @77 Z524W8P6T56PQDNBKCMJN5FR33VCQ85VZCT3PE5CQ8R3P474UB4VM8P8BBGCFE6BF8NKRC5UJ8S4G 
+vertex $2 -1 -1 $-1 $-1 $3 #
+vertex $4 -1 -1 $-1 $-1 $5 #
+named_attribute-st-attrib $-1 -1 $6 $-1 $0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @43 nSmartPot_V3_CST_ODB(PCB1)/Nets/GND:02_F.CU #
+point $-1 -1 -1 $-1 51.944673011479658 -60.799999983102531 0.81000000000000005 #
+named_attribute-st-attrib $-1 -1 $7 $-1 $1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @43 nSmartPot_V3_CST_ODB(PCB1)/Nets/GND:02_F.CU #
+point $-1 -1 -1 $-1 51.944673011479658 -51.499999999979885 0.81000000000000005 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $8 $2 $0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @17 backwd_pickNumber 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $9 $4 $1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @17 backwd_pickNumber 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $10 $6 $0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @18 backwd_blockNumber 3 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $11 $7 $1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @18 backwd_blockNumber 4 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $8 $0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @9 backwd_id 69 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $9 $1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @9 backwd_id 68 #
+End-of-ACIS-data 

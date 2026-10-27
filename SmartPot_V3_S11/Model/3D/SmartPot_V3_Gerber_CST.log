@@ -1,0 +1,8 @@
+*** STARTING PCB CONVERSION ***
+
+Importing C:\Users\Etudiant_EEA_2026\Downloads\SmartPot_V3_Gerber_CST.zip... [Mon Oct 26 11:20:25 2026]
+============================================================
+Reading ODB++ database ...
+
+ERROR: No design is defined (missing matrix) in the ODB++ archive.
+*** ENDING PCB CONVERSION with FAILURE***

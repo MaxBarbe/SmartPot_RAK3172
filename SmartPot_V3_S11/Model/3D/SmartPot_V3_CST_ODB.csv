@@ -1,0 +1,51 @@
+refdes;partname;type;Availability;Check_prices;Datasheet;Description;KiLib_Generator;LCSC;MF;MP;Package;Price;Purchase-URL;SnapEDA_Link;Value
+A1;SmartPot_RF_CST_IFA_868MHz_SmartPot; ;  ;  ; https://github.com/MaxBarbe/SmartPot_RAK3172/blob/main/CST/TP1_M2_Smart_2-3.cst; CST IFA radiator  intentional short to GND through net tie  physical feed added, resimulation required;  ;  ;  ;  ;  ;  ;  ;  ; PCB_868MHz_CST_IFA
+C22;Capacitor_SMD_C_0603_1608Metric;C;  ;  ; ; Unpolarized capacitor; SMD_2terminal_chip_molded; ;  ;  ;  ;  ;  ;  ; 100uF
+C3;Capacitor_SMD_C_0603_1608Metric;C;  ;  ; ; Unpolarized capacitor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; 100nF
+C4;Capacitor_SMD_C_0603_1608Metric;C;  ;  ; ; Unpolarized capacitor; SMD_2terminal_chip_molded; C1591;  ;  ;  ;  ;  ;  ; 100nF
+C5;Capacitor_SMD_C_0603_1608Metric;C;  ;  ; ; Unpolarized capacitor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; 100nF
+C6;Capacitor_SMD_C_0603_1608Metric;C;  ;  ; ; Resistor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; DNP
+CBYP1;Capacitor_SMD_C_0603_1608Metric;C;  ;  ; ; Unpolarized capacitor; SMD_2terminal_chip_molded; C1591;  ;  ;  ;  ;  ;  ; 100nF
+CIN1;Capacitor_SMD_C_0603_1608Metric;C;  ;  ; ; Unpolarized capacitor; SMD_2terminal_chip_molded; C1591;  ;  ;  ;  ;  ;  ; 100nF
+CIN2;Capacitor_SMD_C_0603_1608Metric;C;  ;  ; ; Unpolarized capacitor; SMD_2terminal_chip_molded; C107368 ;  ;  ;  ;  ;  ;  ; 4.7uF
+COUT1;Capacitor_SMD_C_0603_1608Metric;C;  ;  ; ; Unpolarized capacitor; SMD_2terminal_chip_molded; C2762594;  ;  ;  ;  ;  ;  ; 22uF
+CREF1;Capacitor_SMD_C_0603_1608Metric;C;  ;  ; ; Unpolarized capacitor; SMD_2terminal_chip_molded; C1591;  ;  ;  ;  ;  ;  ; 10nF
+CSTOR1;Capacitor_SMD_C_0603_1608Metric;C;  ;  ; ; Unpolarized capacitor; SMD_2terminal_chip_molded; C2762594;  ;  ;  ;  ;  ;  ; 22uF
+H1;_MountingHole_3mm; ;  ;  ; ; ; mounting_hardware/mounting_hole;  ;  ;  ;  ;  ;  ;  ; MountingHole_3mm
+H2;_MountingHole_3mm; ;  ;  ; ; ; mounting_hardware/mounting_hole;  ;  ;  ;  ;  ;  ;  ; MountingHole_3mm
+J1;Connector_PinHeader_2.54mm_PinHeader_1x04_P2.54mm_Vertical; ;  ;  ; ; Generic connector, single row, 01x04, script generated; connector/pin_header_socket;  ;  ;  ;  ;  ;  ;  ; Conn_01x04_Pin
+J10;SmartPot_RF_Wire_Solder_2x_P5.08mm_D1.3mm; ;  ;  ; ; Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/); terminal_block/Phoenix; C2683165;  ;  ;  ;  ;  ;  ; P-MFC
+J19;Connector_PinSocket_2.54mm_PinSocket_1x02_P2.54mm_Vertical; ;  ;  ; ; Generic connector, single row, 01x02, script generated; connector/pin_header_socket; C5372032;  ;  ;  ;  ;  ;  ; Conn_01x02_Socket
+J2;Connector_PinHeader_2.54mm_PinHeader_1x04_P2.54mm_Vertical; ;  ;  ; ; Generic connector, single row, 01x04, script generated; connector/pin_header_socket;  ;  ;  ;  ;  ;  ;  ; Conn_01x04_Pin
+J3;Connector_Coaxial_U.FL_Hirose_U.FL-R-SMT-1_Vertical; ;  ;  ; ; small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...);  ;  ;  ;  ;  ;  ;  ;  ; Conn_Coaxial_Small
+J4;Connector_PinHeader_2.54mm_PinHeader_1x04_P2.54mm_Vertical; ;  ;  ; ; Generic connector, single row, 01x04, script generated; connector/pin_header_socket;  ;  ;  ;  ;  ;  ;  ; Conn_01x04_Pin
+J5;Connector_PinHeader_2.54mm_PinHeader_1x02_P2.54mm_Vertical; ;  ;  ; ; Generic connector, single row, 01x02, script generated; connector/pin_header_socket; C3332353;  ;  ;  ;  ;  ;  ; Conn_01x02_Pin
+J6;Connector_PinHeader_2.54mm_PinHeader_1x02_P2.54mm_Vertical; ;  ;  ; ; Generic connector, single row, 01x02, script generated; connector/pin_header_socket; C3332353;  ;  ;  ;  ;  ;  ; Conn_01x02_Pin
+J7;Connector_PinHeader_2.54mm_PinHeader_1x04_P2.54mm_Vertical; ;  ;  ; ; Generic connector, single row, 01x04, script generated; connector/pin_header_socket;  ;  ;  ;  ;  ;  ;  ; Conn_01x04_Pin
+L1;Inductor_SMD_L_0603_1608Metric;L;  ;  ; ; Resistor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; DNP
+LBOOST1;LBOOST_IND_LPS4018-223MRC;L;  ;  ; ; Inductor;  ; C5441602;  ;  ;  ;  ;  ;  ; 22uH
+LBUCK1;Inductor_SMD_L_1008_2520Metric;L;  ;  ; ; Inductor; SMD_2terminal_chip_molded; C237599 ;  ;  ;  ;  ;  ;  ; 10uH
+R3;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; 100k
+R4;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; 0
+R6;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; 0
+R8;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; 4,7k
+R9;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; 4,7k
+ROK1;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded; C3009313;  ;  ;  ;  ;  ;  ; 4.12M
+ROK1B1;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; R
+ROK2;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded; C482913;  ;  ;  ;  ;  ;  ; 7.87M
+ROK2B1;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; R
+ROK3;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded; C2930138;  ;  ;  ;  ;  ;  ; 1.02M
+ROK3B1;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; R
+ROUT1;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded; C2079741;  ;  ;  ;  ;  ;  ; 4.64M
+ROUT1B1;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; R
+ROUT2;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded; C166757;  ;  ;  ;  ;  ;  ; 8.25M
+ROUT2B1;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; R
+ROV1;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded; C422907;  ;  ;  ;  ;  ;  ; 7.15M
+ROV1B1;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; R
+ROV2;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded; C4087386;  ;  ;  ;  ;  ;  ; 8.66M
+ROV2B1;Resistor_SMD_R_0603_1608Metric;R;  ;  ; ; Resistor; SMD_2terminal_chip_molded;  ;  ;  ;  ;  ;  ;  ; R
+SW1;Button_Switch_SMD_SW_SPST_B3U-1000P; ;  ;  ; ; Single Pole Single Throw (SPST) switch, separate symbol;  ;  ;  ;  ;  ;  ;  ;  ; B3U-1000P
+SW2;Button_Switch_SMD_SW_SPST_B3U-1000P; ;  ;  ; ; Single Pole Single Throw (SPST) switch, separate symbol;  ;  ;  ;  ;  ;  ;  ;  ; B3U-1000P
+U1;RF_Module_RAK3172; ;  ;  ; https://docs.rakwireless.com/Product-Categories/WisDuo/RAK3172-Module/Datasheet/; LoRa Module, STM32WLE5, RU864/IN865/EU868, RAKwireless;  ;  ;  ;  ;  ;  ;  ;  ; RAK3172-xx-8-SM-xI
+U3;Package_DFN_QFN_QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm; ;  ;  ; http://www.ti.com/lit/ds/symlink/bq25570.pdf; Nano Power Boost Charger and Buck Converter for Energy Harvester Powered Applications, QFN-20; package/no_lead; C506250;  ;  ;  ;  ;  ;  ; BQ25570
+U4;SHT40_SHT4X; ; In Stock; https://www.snapeda.com/parts/SHT40-AD1B-R2/Sensirion/view-part/?ref=eda; ; Digital Relative Humidity Temperature Sensor, Â±1.8 / max 3.5 %RH, Â±0.2 Â°C, Ultra-Low-Power;  ;  ; Sensirion; SHT40-AD1B-R2; DFN-4 Sensirion; None; https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5161667&manufacturer=Sensirion&part_name=SHT40-AD1B-R2&search_term=None; https://www.snapeda.com/parts/SHT40-AD1B-R2/Sensirion/view-part/?ref=snap; SHT40-AD1B-R2

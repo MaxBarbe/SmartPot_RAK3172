@@ -1,0 +1,36 @@
+{
+    "messages": [
+        {
+            "message": "This software is licensed for up to 100000 mesh cells only. The current mesh size exceeds this limit. Please reduce the mesh size accordingly.",
+            "severity": "error"
+        },
+        {
+            "message": "1 error occurred.",
+            "severity": "error"
+        },
+        {
+            "message": "1 mesh edge is partially filled with PEC.\n <a href=\"2117;2413.htm\">More...</a>",
+            "severity": "warning"
+        },
+        {
+            "message": "The current settings will probably lead to a very long simulation time.\n\nYou may improve the simulation speed by:\n\n1. checking the frequency range and units settings\n2. reducing the maximum solver duration\n3. checking the mesh to avoid very small mesh steps",
+            "severity": "warning"
+        },
+        {
+            "message": "2 warnings occurred.",
+            "severity": "warning"
+        },
+        {
+            "message": "The current settings will probably lead to a very long simulation time.\n\nYou may improve the simulation speed by:\n\n1. checking the frequency range and units settings\n2. reducing the maximum solver duration\n3. checking the mesh to avoid very small mesh steps",
+            "severity": "warning"
+        },
+        {
+            "message": "1 warning occurred.",
+            "severity": "warning"
+        }
+    ],
+    "version": {
+        "build": "2026.4 Release from 2026-04-14 (change 1669599)",
+        "project name": "C:\\Users\\maxim\\Desktop\\test\\SmartPot_RAK3172\\CST\\V3_ODB_modele_reduit\\SmartPot_V3_ODB_REDUIT"
+    }
+}

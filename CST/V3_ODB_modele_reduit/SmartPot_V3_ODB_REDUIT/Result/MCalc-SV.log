@@ -1,0 +1,12 @@
+ParaControl_AMD64-1xN @ Maxime:  ================================================================
+                                 Events - Cropping Matrices
+                                 ----------------------------------------------------------------
+                                 {3492} >2026-10-26 21:29:40.00541< Event :  Started SV-cropping
+                                 {3492} >2026-10-26 21:29:40.00550< Event :  Finished SV-cropping
+                                 ================================================================
+ParaControl_AMD64-1xN @ Maxime:  ==============================================================================================
+                                 6548.00 ms |          | SV-crop-all | Outside MCalcResultIdentification | 27.84 MB | 0.0000 MB
+                                 6550.00 ms |  --> 3rd | SV-crop-all |                        All meshes | 28.87 MB | 1.0281 MB
+                                 6557.00 ms | --> peak | SV-crop-all |                        All meshes | 28.88 MB | 0.0164 MB
+                                 6557.00 ms |  --> 2nd | SV-crop-all | Outside MCalcResultIdentification | 28.88 MB | 0.0000 MB
+                                 ==============================================================================================

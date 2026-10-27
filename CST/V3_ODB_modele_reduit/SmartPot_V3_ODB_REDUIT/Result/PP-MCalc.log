@@ -1,0 +1,88 @@
+============================================================================================
+--------------------------------------------------------------------------------------------
+ 
+============================================================================================
+== CST Matrix Calculation Priority Log ==
+============================================================================================
+Priorities are sorted in ascending order beginning with the lowest priority
+Priority scheme based on: material properties [priority defaults]
+All shapes have a 2D or 3D geometric representation
+ 
+Group | Shape-ID | Shape-name                      | Material       |    Material-attributes
+    1 |       39 | Substrat:FR4_bas                | FR4_PROVISOIRE |      kappa-eps.normal.
+    1 |       40 | Substrat:FR4_coeur              | FR4_PROVISOIRE |      kappa-eps.normal.
+    1 |       41 | Substrat:FR4_haut               | FR4_PROVISOIRE |      kappa-eps.normal.
+    1 |       42 | Substrat:FR4_keepout_in1        | FR4_PROVISOIRE |      kappa-eps.normal.
+    1 |       43 | Substrat:FR4_keepout_in2        | FR4_PROVISOIRE |      kappa-eps.normal.
+    2 |        1 | Masse_simplifiee:GND_B          | Cuivre         | pec.surface-impedance.
+    2 |        2 | Masse_simplifiee:GND_F          | Cuivre         | pec.surface-impedance.
+    2 |        3 | Masse_simplifiee:GND_In1        | Cuivre         | pec.surface-impedance.
+    2 |        4 | Masse_simplifiee:GND_In2        | Cuivre         | pec.surface-impedance.
+    2 |        5 | Masse_simplifiee:liaison_51_108 | Cuivre         | pec.surface-impedance.
+    2 |        6 | Masse_simplifiee:liaison_51_65  | Cuivre         | pec.surface-impedance.
+    2 |        7 | Masse_simplifiee:liaison_79_108 | Cuivre         | pec.surface-impedance.
+    2 |        8 | Masse_simplifiee:liaison_79_65  | Cuivre         | pec.surface-impedance.
+    2 |        9 | Ponts_ideaux:R4_0ohm            | Cuivre         | pec.surface-impedance.
+    2 |       10 | Ponts_ideaux:R6_0ohm            | Cuivre         | pec.surface-impedance.
+    2 |       11 | RF:A1_court_circuit             | Cuivre         | pec.surface-impedance.
+    2 |       12 | RF:odb_29                       | Cuivre         | pec.surface-impedance.
+    2 |       13 | RF:odb_291                      | Cuivre         | pec.surface-impedance.
+    2 |       14 | RF:odb_292                      | Cuivre         | pec.surface-impedance.
+    2 |       15 | RF:odb_293                      | Cuivre         | pec.surface-impedance.
+    2 |       16 | RF:odb_294                      | Cuivre         | pec.surface-impedance.
+    2 |       17 | RF:odb_295                      | Cuivre         | pec.surface-impedance.
+    2 |       18 | RF:odb_296                      | Cuivre         | pec.surface-impedance.
+    2 |       19 | RF:odb_297                      | Cuivre         | pec.surface-impedance.
+    2 |       20 | RF:odb_298                      | Cuivre         | pec.surface-impedance.
+    2 |       21 | RF:odb_299                      | Cuivre         | pec.surface-impedance.
+    2 |       22 | RF:odb_30                       | Cuivre         | pec.surface-impedance.
+    2 |       23 | RF:odb_300                      | Cuivre         | pec.surface-impedance.
+    2 |       24 | RF:odb_301                      | Cuivre         | pec.surface-impedance.
+    2 |       25 | RF:odb_302                      | Cuivre         | pec.surface-impedance.
+    2 |       26 | RF:odb_303                      | Cuivre         | pec.surface-impedance.
+    2 |       27 | RF:odb_304                      | Cuivre         | pec.surface-impedance.
+    2 |       28 | RF:odb_31                       | Cuivre         | pec.surface-impedance.
+    2 |       29 | RF:odb_32                       | Cuivre         | pec.surface-impedance.
+    2 |       30 | RF:odb_33                       | Cuivre         | pec.surface-impedance.
+    2 |       31 | RF:odb_34                       | Cuivre         | pec.surface-impedance.
+    2 |       32 | RF:odb_35                       | Cuivre         | pec.surface-impedance.
+    2 |       33 | RF:odb_36                       | Cuivre         | pec.surface-impedance.
+    2 |       34 | RF:odb_37                       | Cuivre         | pec.surface-impedance.
+    2 |       35 | RF:odb_38                       | Cuivre         | pec.surface-impedance.
+    2 |       36 | RF:odb_39                       | Cuivre         | pec.surface-impedance.
+    2 |       37 | RF:odb_40                       | Cuivre         | pec.surface-impedance.
+    2 |       38 | RF:odb_41                       | Cuivre         | pec.surface-impedance.
+============================================================================================
+ 
+--------------------------------------------------------------------------------------------
+ 
+============================================================================================
+
+************************************************************************************************
+------------------------------------------------------------------------------------------------
+Geometry processor: default
+	Geo accuracy: 50.000000
+	Watertightness check: true
+	Self intersection check: false
+	Inheritance (all): false
+	Normal dominance (all): false
+	Normal dominance (ports): false
+	Flanges hollow: true
+	One shape per flange: false
+	Multi threading: true
+		max # of threads used: 12
+		requested max # of threads: 12
+		representation: indexed
+		method: multi thread
+		retry: no
+------------------------------------------------------------------------------------------------
+CAD processing settings are set to default
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+CAD Processing Version Info
+	ACIS version installed:	35.0.0
+	ACIS version used:	35.0.0
+------------------------------------------------------------------------------------------------
+Success method:	multi-thread-22
+************************************************************************************************
+

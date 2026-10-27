@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SchematicTopology Version="2.3" Seed="1" Grid="25">
+    <BasePath>C:/Users/Etudiant_EEA_2026/Desktop/SmartPot_V3_S11/Model/DS</BasePath>
+    <Block ForeignId="673520840" Id="1" Class="MWSSCHEM">
+        <Size Height="150" Width="150"/>
+        <Image Scale="AutoFit" FileName="../3D/Model.dib"/>
+        <Pos X="75" Y="75"/>
+        <ToolTip>CST MICROWAVE STUDIO schematic block MWSSCHEM1</ToolTip>
+    </Block>
+</SchematicTopology>

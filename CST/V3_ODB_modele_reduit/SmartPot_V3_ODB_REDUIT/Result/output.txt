@@ -1,0 +1,291 @@
+_______________________________________________________________________________________________________________________
+    Message output from C:\Users\maxim\Desktop\test\SmartPot_RAK3172\CST\V3_ODB_modele_reduit\SmartPot_V3_ODB_REDUIT
+    Build: 2026.4 Release from 2026-04-14 (change 1669599)
+_______________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________
+ERROR:
+This software is licensed for up to 100000 mesh cells only. The current mesh size exceeds this limit. Please reduce the mesh size accordingly.
+_______________________________________________________________________________________________________________________
+ERROR:
+1 error occurred.
+_______________________________________________________________________________________________________________________
+Using 12 threads for parallelized CAD processing
+_______________________________________________________________________________________________________________________
+Matrix computation (PBA)
+	[Perfect Boundary Approximation (PBA), version: default]
+	[Matrixcalc GPU acceleration: off (by user)]
+
+_______________________________________________________________________________________________________________________
+Shape RF:A1_court_circuit overlaps with shape Masse_simplifiee:GND_F.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_29 overlaps with shape Ponts_ideaux:R4_0ohm.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_32 overlaps with shape Ponts_ideaux:R4_0ohm.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_39 overlaps with shape Ponts_ideaux:R4_0ohm.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_295 overlaps with shape Ponts_ideaux:R6_0ohm.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_38 overlaps with shape Ponts_ideaux:R6_0ohm.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_30 overlaps with shape RF:odb_29.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_31 overlaps with shape RF:odb_30.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_32 overlaps with shape RF:odb_29.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_295 overlaps with shape RF:odb_291.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_293 overlaps with shape RF:odb_292.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Current PBA/TST version: default, 2.20260309 (diag 2)
+This is the newest version
+_______________________________________________________________________________________________________________________
+Shape RF:odb_304 overlaps with shape RF:odb_292.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_304 overlaps with shape RF:odb_294.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_301 overlaps with shape RF:odb_296.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_298 overlaps with shape RF:odb_297.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_300 overlaps with shape RF:odb_299.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_302 overlaps with shape RF:odb_299.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_303 overlaps with shape RF:odb_301.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_303 overlaps with shape RF:odb_302.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_36 overlaps with shape RF:odb_33.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_41 overlaps with shape RF:odb_33.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_35 overlaps with shape RF:odb_34.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_36 overlaps with shape RF:odb_34.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_40 overlaps with shape RF:odb_34.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_39 overlaps with shape RF:odb_35.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_40 overlaps with shape RF:odb_36.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_38 overlaps with shape RF:odb_37.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_41 overlaps with shape RF:odb_37.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+WARNING:
+1 mesh edge is partially filled with PEC.
+ <a href="2117;2413.htm">More...</a>
+_______________________________________________________________________________________________________________________
+WARNING:
+The current settings will probably lead to a very long simulation time.
+
+You may improve the simulation speed by:
+
+1. checking the frequency range and units settings
+2. reducing the maximum solver duration
+3. checking the mesh to avoid very small mesh steps
+_______________________________________________________________________________________________________________________
+Solver Settings:
+Excited discrete port: 1 
+[Frequency domain results normalized to default signal]
+Excitation duration: 2.36969917e+001 ns 
+Steady state accuracy limit: -40 dB 
+Maximum number of time steps: 1563254 
+Time step width:
+     without subcycles: 3.031751422e-004 ns
+     used: 3.031751422e-004 ns
+Number of threads used: 6
+_______________________________________________________________________________________________________________________
+Steady state energy criterion met, solver finished successfully.
+_______________________________________________________________________________________________________________________
+Successfully finished Secondary Quantity Evaluation.
+_______________________________________________________________________________________________________________________
+Successfully finished Secondary Quantity Evaluation.
+_______________________________________________________________________________________________________________________
+WARNING:
+2 warnings occurred.
+_______________________________________________________________________________________________________________________
+Using 12 threads for parallelized CAD processing
+_______________________________________________________________________________________________________________________
+Matrix computation (PBA)
+	[Perfect Boundary Approximation (PBA), version: default]
+	[Matrixcalc GPU acceleration: off (by user)]
+
+_______________________________________________________________________________________________________________________
+Shape Masse_simplifiee:liaison_51_65 overlaps with shape Masse_simplifiee:GND_B.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_30 overlaps with shape RF:odb_29.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape Masse_simplifiee:liaison_79_65 overlaps with shape Masse_simplifiee:GND_B.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_31 overlaps with shape RF:odb_30.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Detected regions with short-circuited PEC/PTC material. (This may happen if the mesh is too coarse in regions where small gaps are embedded in PEC/PTC material)
+_______________________________________________________________________________________________________________________
+Shape Masse_simplifiee:liaison_51_65 overlaps with shape Masse_simplifiee:GND_F.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape Masse_simplifiee:liaison_79_65 overlaps with shape Masse_simplifiee:GND_F.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Current PBA/TST version: default, 2.20260309 (diag 2)
+This is the newest version
+_______________________________________________________________________________________________________________________
+Shape RF:A1_court_circuit overlaps with shape Masse_simplifiee:GND_F.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape Masse_simplifiee:liaison_51_65 overlaps with shape Masse_simplifiee:GND_In1.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape Masse_simplifiee:liaison_79_65 overlaps with shape Masse_simplifiee:GND_In1.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape Masse_simplifiee:liaison_51_65 overlaps with shape Masse_simplifiee:GND_In2.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape Masse_simplifiee:liaison_79_65 overlaps with shape Masse_simplifiee:GND_In2.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_29 overlaps with shape Ponts_ideaux:R4_0ohm.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_32 overlaps with shape Ponts_ideaux:R4_0ohm.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_39 overlaps with shape Ponts_ideaux:R4_0ohm.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_295 overlaps with shape Ponts_ideaux:R6_0ohm.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_38 overlaps with shape Ponts_ideaux:R6_0ohm.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_296 overlaps with shape RF:A1_court_circuit.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_32 overlaps with shape RF:odb_29.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_295 overlaps with shape RF:odb_291.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_304 overlaps with shape RF:odb_292.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_304 overlaps with shape RF:odb_294.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_301 overlaps with shape RF:odb_296.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_298 overlaps with shape RF:odb_297.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_300 overlaps with shape RF:odb_299.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_302 overlaps with shape RF:odb_299.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_303 overlaps with shape RF:odb_301.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_303 overlaps with shape RF:odb_302.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_36 overlaps with shape RF:odb_33.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_41 overlaps with shape RF:odb_33.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_35 overlaps with shape RF:odb_34.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_36 overlaps with shape RF:odb_34.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_40 overlaps with shape RF:odb_34.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_39 overlaps with shape RF:odb_35.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_40 overlaps with shape RF:odb_36.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_38 overlaps with shape RF:odb_37.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+Shape RF:odb_41 overlaps with shape RF:odb_37.
+The overlap was resolved correctly taking into account the selected scheme.
+_______________________________________________________________________________________________________________________
+WARNING:
+The current settings will probably lead to a very long simulation time.
+
+You may improve the simulation speed by:
+
+1. checking the frequency range and units settings
+2. reducing the maximum solver duration
+3. checking the mesh to avoid very small mesh steps
+_______________________________________________________________________________________________________________________
+Solver Settings:
+Excited discrete port: 1 
+[Frequency domain results normalized to default signal]
+Excitation duration: 2.36969917e+001 ns 
+Steady state accuracy limit: -40 dB 
+Maximum number of time steps: 1563272 
+Time step width:
+     without subcycles: 3.031715638e-004 ns
+     used: 3.031715638e-004 ns
+Number of threads used: 6
+_______________________________________________________________________________________________________________________
+Steady state energy criterion met, solver finished successfully.
+_______________________________________________________________________________________________________________________
+Successfully finished Secondary Quantity Evaluation.
+_______________________________________________________________________________________________________________________
+Successfully finished Secondary Quantity Evaluation.
+_______________________________________________________________________________________________________________________
+WARNING:
+1 warning occurred.
+_______________________________________________________________________________________________________________________
+Successfully written TOUCHSTONE file: 'C:\Users\maxim\Desktop\test\SmartPot_RAK3172\CST\V3_ODB_modele_reduit\S11_preliminaire.s1p.s1p'
+_______________________________________________________________________________________________________________________
+Waiting for frontend license...

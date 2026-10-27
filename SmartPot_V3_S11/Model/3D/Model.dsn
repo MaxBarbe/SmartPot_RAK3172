@@ -1,0 +1,59 @@
+*** File Version: 17.00
+
+Number of ports: 0
+Portnames:
+Modenumbers:
+Portlabels:
+StaticSources:
+ThermalSources:
+FloquetPortNames:
+FloquetPortModes:
+Terminals:
+TerminalToReferenceTable:
+StaticSourceGroups:
+ThermalSourceGroups:
+TerminalSourceGroups:
+PortSourceGroups:
+FloquetPortSourceGroups:
+Number of frequency-points: 0
+Fmin: 7.500000e+08
+Fmax: 1.000000e+09
+Fscale: 1.000000e+09
+
+
+
+
+
+*** newmonitor
+monname: "e-field (f=1)"
+nmonfrequencies: 1
+monfrequencies: "1" 
+montype: 0
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "e-field (f=0.868)"
+nmonfrequencies: 1
+monfrequencies: "0.86799999999999999" 
+montype: 0
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "e-field (f=0.75)"
+nmonfrequencies: 1
+monfrequencies: "0.75" 
+montype: 0
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+

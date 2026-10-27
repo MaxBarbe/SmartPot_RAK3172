@@ -5,3 +5,7 @@
 *.3mf binary
 *.stl binary
 *.cst binary
+# CST companion files include checksummed/native data: preserve exact bytes.
+/CST/V3_ODB_carte_complete/SmartPot_V3_PCB_COMPLET/** binary
+/CST/V3_ODB_modele_reduit/SmartPot_V3_ODB_REDUIT/** binary
+/SmartPot_V3_S11/** binary

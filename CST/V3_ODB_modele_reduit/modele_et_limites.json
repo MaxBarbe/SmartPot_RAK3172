@@ -1,0 +1,125 @@
+{
+  "assumptions": [
+    "RF nets extracted by FID from ODB++ EDA data",
+    "four solid rectangular ground planes; synthetic 0.25 mm top clearances",
+    "FR4 er4.3 tanD0.02 and 0.8 mm stackup provisional",
+    "rounded RF pads approximated by bounding rectangles; square-ended traces",
+    "R4 R6 ideal bridges; no populated C6/L1/J3",
+    "four ideal ground posts; other vias, holes, copper, components and soldermask omitted"
+  ],
+  "archive": "C:\\Users\\maxim\\Desktop\\test\\SmartPot_RAK3172\\pot_fleur_v3_provisoire_4couches\\CST_import\\SmartPot_V3_CST_ODB.zip",
+  "status": "solver_finished_successfully_preliminary_reduced_model",
+  "archive_sha256": "058DA21323C9252999793997061988388D12FA4CB44B9573EB1FE389FC41E352",
+  "model": "REDUCED - not full V3",
+  "selected_rf_features": [
+    {
+      "feature": 29,
+      "record": "L 56.840 -71.9650 54.6750 -69.80 5 P 0"
+    },
+    {
+      "feature": 30,
+      "record": "L 57.9250 -71.9650 56.840 -71.9650 5 P 0"
+    },
+    {
+      "feature": 31,
+      "record": "P 57.9250 -71.9650 6 P 0 8 270.0 ;0=0,1"
+    },
+    {
+      "feature": 32,
+      "record": "P 54.6750 -69.80 3 P 0 8 0.0 ;0=0,1"
+    },
+    {
+      "feature": 33,
+      "record": "L 57.9250 -64.974999 56.250 -63.30 5 P 0"
+    },
+    {
+      "feature": 34,
+      "record": "L 57.9250 -68.20 57.9250 -66.80 5 P 0"
+    },
+    {
+      "feature": 35,
+      "record": "L 56.3250 -69.80 57.9250 -68.20 5 P 0"
+    },
+    {
+      "feature": 36,
+      "record": "L 57.9250 -66.80 57.9250 -64.974999 5 P 0"
+    },
+    {
+      "feature": 37,
+      "record": "L 56.250 -63.30 54.8250 -63.30 5 P 0"
+    },
+    {
+      "feature": 38,
+      "record": "P 54.8250 -63.30 3 P 0 8 180.0 ;0=0,1"
+    },
+    {
+      "feature": 39,
+      "record": "P 56.3250 -69.80 3 P 0 8 0.0 ;0=0,1"
+    },
+    {
+      "feature": 40,
+      "record": "P 57.9250 -66.80 7 P 0 8 0.0 ;0=0,1"
+    },
+    {
+      "feature": 41,
+      "record": "P 56.250 -63.30 8 P 0 8 270.0 ;0=0,1"
+    },
+    {
+      "feature": 291,
+      "record": "L 53.1750 -63.30 52.050 -63.30 5 P 0"
+    },
+    {
+      "feature": 292,
+      "record": "L 51.450 -62.70 52.044673 -62.105327 5 P 0"
+    },
+    {
+      "feature": 293,
+      "record": "L 52.044673 -62.105327 52.044673 -61.050 5 P 0"
+    },
+    {
+      "feature": 294,
+      "record": "L 52.050 -63.30 51.450 -62.70 5 P 0"
+    },
+    {
+      "feature": 295,
+      "record": "P 53.1750 -63.30 3 P 0 8 180.0 ;0=0,1"
+    },
+    {
+      "feature": 296,
+      "record": "P 51.023195 -55.50 18 P 0 8 0.0 ;0=0,1"
+    },
+    {
+      "feature": 297,
+      "record": "P 52.044673 -56.350 19 P 0 8 0.0 ;0=0,1"
+    },
+    {
+      "feature": 298,
+      "record": "P 52.044673 -61.050 20 P 0 8 0.0 ;0=0,1"
+    },
+    {
+      "feature": 299,
+      "record": "P 56.030927 -55.7750 21 P 0 8 0.0 ;0=0,1"
+    },
+    {
+      "feature": 300,
+      "record": "P 62.508591 -54.0250 22 P 0 8 0.0 ;0=0,1"
+    },
+    {
+      "feature": 301,
+      "record": "P 64.999999 -51.0 23 P 0 8 0.0 ;0=0,1"
+    },
+    {
+      "feature": 302,
+      "record": "P 67.491408 -57.5250 24 P 0 8 0.0 ;0=0,1"
+    },
+    {
+      "feature": 303,
+      "record": "P 78.951889 -54.2750 25 P 0 8 0.0 ;0=0,1"
+    },
+    {
+      "feature": 304,
+      "record": "P 51.450 -62.70 17 P 0 8 270.0 ;0=0,1"
+    }
+  ],
+  "project": "C:\\Users\\maxim\\Desktop\\test\\SmartPot_RAK3172\\CST\\V3_ODB_modele_reduit\\SmartPot_V3_ODB_REDUIT.cst"
+}
