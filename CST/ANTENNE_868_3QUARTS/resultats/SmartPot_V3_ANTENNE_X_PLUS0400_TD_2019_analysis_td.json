@@ -1,0 +1,31 @@
+{
+  "source": "SmartPot_V3_ANTENNE_X_PLUS0400_TD_2019",
+  "solver": "HF Time Domain",
+  "samples": 1001,
+  "band_MHz": [
+    699.99999,
+    1000.0
+  ],
+  "at_868_MHz": {
+    "S11_dB": -3.749330691365327,
+    "S11_real": 0.6097868767638723,
+    "S11_imaginary": 0.22343111399666557,
+    "Z_real_ohm": 142.995438318207,
+    "Z_imaginary_ohm": 110.50675441691396,
+    "method": "linear interpolation of native complex samples"
+  },
+  "sampled_minimum": {
+    "frequency_MHz": 883.6,
+    "S11_dB": -10.696742870829656
+  },
+  "minus10_dB_band": {
+    "low_MHz": 880.9682365350828,
+    "high_MHz": 886.4199074469541,
+    "bandwidth_MHz": 5.451670911871265,
+    "method": "linear dB threshold crossings around sampled global minimum"
+  },
+  "minus14_dB_band": null,
+  "maximum_abs_gamma": 0.996098462459193,
+  "target_minus14_dB_at_868_met": false,
+  "validation_status": "Preliminary mesh; inspect native termination and perform finer-mesh validation"
+}

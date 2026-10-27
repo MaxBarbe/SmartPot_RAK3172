@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SchematicTopology Version="2.3" Seed="1" Grid="25">
+    <BasePath>C:/Users/Etudiant_EEA_2026/Downloads/SmartPot_V3_Pack_import_CST/SmartPot_V3_ANTENNE_X_PLUS0400_TD_2019/Model/DS</BasePath>
+    <Block ForeignId="6661792" Id="1" Class="MWSSCHEM">
+        <Size Height="150" Width="150"/>
+        <Pins>
+            <Pin X="-75" Y="0" Index="0" BlockPosition="Left">
+                <Label>1 (ANTENNE_piste_haut_3quarts_gap_bas_50ohm)</Label>
+            </Pin>
+        </Pins>
+        <Image Scale="AutoFit" FileName="../3D/Model.dib"/>
+        <Pos X="75" Y="75"/>
+        <ToolTip>CST MICROWAVE STUDIO schematic block MWSSCHEM1</ToolTip>
+    </Block>
+</SchematicTopology>

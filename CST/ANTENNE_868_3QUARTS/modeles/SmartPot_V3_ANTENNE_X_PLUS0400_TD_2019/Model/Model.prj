@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2019.0 - Sep 20 2018 - ACIS 28.0.2 -
+[Author]
+Etudiant_EEA_2026
+[Mesh Cells]
+168,840
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:smartpot_v3_antenne_x_plus0400_td_2019.cst?5382366cb3a52127b66494c6a16e1c04?2639557:numberofparameters=0:port=1>mode=1>zre=0>zim=0
+[Comment]
