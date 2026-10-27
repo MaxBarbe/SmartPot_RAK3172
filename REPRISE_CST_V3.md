@@ -2,6 +2,10 @@
 
 Dernière préparation : 27 octobre 2026. Les fichiers KiCad et les anciens CST sont conservés.
 
+## Mise à jour CST 2019 du 27 octobre
+
+La reconstruction native CST 2019 et un calcul du PCB complet avec port replacé à l'antenne sont désormais disponibles dans [CST2019](CST/V3_ODB_carte_complete/CST2019/README.md). Le calcul atteint le critère d'énergie de −40 dB, mais le S11 reste éloigné de la référence et la convergence spatiale n'est pas établie. Utiliser les nouveaux fichiers de ce dossier sur un poste CST 2019. Les sections suivantes décrivent la livraison Learning Edition et les essais antérieurs.
+
 ## Projet à utiliser : PCB complet
 
 Ouvrir `CST/V3_ODB_carte_complete/SmartPot_V3_PCB_COMPLET.cst`. Garder son dossier compagnon `SmartPot_V3_PCB_COMPLET/` à côté du fichier. Les données Model et les diagnostics sont versionnés ; les caches de maillage et fichiers temporaires peuvent être régénérés par CST.

@@ -9,3 +9,8 @@
 /CST/V3_ODB_carte_complete/SmartPot_V3_PCB_COMPLET/** binary
 /CST/V3_ODB_modele_reduit/SmartPot_V3_ODB_REDUIT/** binary
 /SmartPot_V3_S11/** binary
+# Native CST 2019 companion files must keep their original bytes.
+/CST/V3_ODB_carte_complete/CST2019/SmartPot_V3_PORT_ANTENNE_2019/** binary
+# Preserve solver exports verbatim, including their generated whitespace.
+/CST/V3_ODB_carte_complete/CST2019/resultats/*.log -text -whitespace
+/CST/V3_ODB_carte_complete/CST2019/resultats/S11_port_antenne_2019.txt -text -whitespace

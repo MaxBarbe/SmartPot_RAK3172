@@ -1,0 +1,46 @@
+With Brick
+.Reset
+.Name "ReferenceFeedCut"
+.Component "TemporaryCuts"
+.Material "Cuivre"
+.Xrange "51.939673539519", "52.149673539519"
+.Yrange "-60.81", "-51.49"
+.Zrange "0.755", "0.81"
+.Create
+End With
+Solid.Subtract "Cuivre_f_cu:region_023", "TemporaryCuts:ReferenceFeedCut"
+With Brick
+.Reset
+.Name "ReferenceTerminalCut"
+.Component "TemporaryCuts"
+.Material "Cuivre"
+.Xrange "51.839673539519", "52.249673539519"
+.Yrange "-61.305", "-60.79"
+.Zrange "0.755", "0.81"
+.Create
+End With
+Solid.Subtract "Cuivre_f_cu:region_023", "TemporaryCuts:ReferenceTerminalCut"
+With Brick
+.Reset
+.Name "ReferenceGroundTab"
+.Component "TemporaryCuts"
+.Material "Cuivre"
+.Xrange "51.4", "52.144673539519"
+.Yrange "-61.15", "-61.05"
+.Zrange "0.765", "0.8"
+.Create
+End With
+Port.Delete "1"
+With DiscretePort
+.Reset
+.PortNumber "1"
+.Label "Antenne_reference_50ohm"
+.Type "SParameter"
+.Impedance "50"
+.SetP1 "False", "52.044673539519", "-51.49", "0.8"
+.SetP2 "False", "52.044673539519", "-61.05", "0.765"
+.InvertDirection "True"
+.LocalCoordinates "False"
+.Monitor "True"
+.Create
+End With

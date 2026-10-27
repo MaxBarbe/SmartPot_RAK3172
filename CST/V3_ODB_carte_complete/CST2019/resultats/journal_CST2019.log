@@ -1,0 +1,252 @@
+27/Oct/2026 11:18:33  *** Warning ***
+                      
+                      This software is licensed for educational purposes only.
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:18:37  
+                      Solver started at: 11:18 AM Tuesday, 27. October 2026 (Paris, Madrid)
+                      
+                        Module:  Time Domain: S-Parameter (Win 64)
+                        Version: 2019.0 Release from 2018-09-20 (change 633648)
+                      
+
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:18:37  ======================================================================
+                       Solver cycle: 1
+                      ======================================================================
+                      
+                      Stimulation at discrete port 1 
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:18:37  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:19:37  Mesh statistics:
+                      
+                         Hexahedral mesh type: PBA [Version: default]
+                      
+                         Parallelization type: none
+                      
+27/Oct/2026 11:19:38  
+                      --------------------------------------------------------------------------------
+27/Oct/2026 11:19:38  *** Warning ***
+                      
+27/Oct/2026 11:19:38  Solver run aborted.
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:19:38  Frequency domain results unnormalized.
+                      
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:19:38  
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        Matrices calc.      0                             0            0            
+                        Solver run total    23784                         17048384     16455528     
+                        ----------------------------------------------------------------------------
+                      
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+                      
+                        Hardware:
+                           Computer name:                 	DESKTOP-L989QEL 
+                      
+                           Number of CPU threads:               4
+                           Hardware info:                  	Hardware Accelerator Device not activated
+                      
+                        Number of mesh cells:             	46410
+                        Excitation duration:              	0.00000000e+000 ns 
+                        Calculation time for excitation:  	0 	s
+                        Number of calculated pulse widths:	0 
+                        Simulated number of time steps:   	0 
+                        Maximum number of time steps:     	0 
+                        Time step width:
+                           without subcycles:             	0.00000000e+000 ns
+                           used:                          	0.00000000e+000 ns
+                      
+                        Matrix calculation time:          	0 	s
+                        Solver setup time:                	0 	s
+                        Solver loop time:                 	0 	s
+                        Solver post processing time:      	0 	s
+                                                          	------------
+                        Total solver time:                	0 	s
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:19:38  
+                        Adaptive port meshing time:          	0      	s
+                        Total solver time (all cycles):      	0      	s
+                        solver initialization and clean-up:  	60     	s
+                                                             	------------
+                        Total simulation time:               	60     	s
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:19:38  Solver finished at: 11:19 AM Tuesday, 27. October 2026
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:21:31  *** Warning ***
+                      
+                      This software is licensed for educational purposes only.
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:21:35  
+                      Solver started at: 11:21 AM Tuesday, 27. October 2026 (Paris, Madrid)
+                      
+                        Module:  Time Domain: S-Parameter (Win 64)
+                        Version: 2019.0 Release from 2018-09-20 (change 633648)
+                      
+
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:21:35  ======================================================================
+                       Solver cycle: 1
+                      ======================================================================
+                      
+                      Stimulation at discrete port 1 
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:21:35  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:22:50  The following discrete edge port is connected to metal material:
+                      	1
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:22:50  *** Warning ***
+                      
+27/Oct/2026 11:22:50  1006 mesh edges are represented in staircase mode and have been filled with PEC.
+                      955 mesh edges are partially filled with PEC.
+                       More...
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:22:51  Mesh statistics:
+                      
+                         Hexahedral mesh type: PBA [Version: default]
+                      
+                         Parallelization type: none
+                      
+27/Oct/2026 11:21:48     current system memory usage reached 50%
+                         Used point accuracy enhancement value: 0.00%.
+                         PBA fill limit: 85.00% (inverse)
+
+                         *** Warning ***  SI warning:
+
+
+27/Oct/2026 11:22:51  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: expanded open, 4 Layer, depth 74.7847 mm
+                        Xmax: expanded open, 4 Layer, depth 72.5907 mm
+                      
+                        Ymin: expanded open, 4 Layer, depth 74.6374 mm
+                        Ymax: expanded open, 4 Layer, depth 71.0565 mm
+                      
+                        Zmin: expanded open, 4 Layer, depth 71.8078 mm
+                        Zmax: expanded open, 4 Layer, depth 71.8078 mm
+                      
+                        PML-Type: Convolution PML
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:22:51  Frequency settings: 
+                      
+                        Fmin:         0.7
+                        Fmax:         1
+                        Nfsteps(lin): 1001
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:22:51  Port: 1
+                      
+27/Oct/2026 11:22:51    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:22:51  Field update statistics:
+                      
+                        Number of components in total: 	299400
+                        Number of TST elements:		11134
+                        Number of lossy metal components:	9179
+                      
+                      Subcycling state:      Automatically deactivated
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:27:33  
+                      --------------------------------------------------------------------------------
+27/Oct/2026 11:27:33  Steady state energy criterion met, solver finished successfully.
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:27:33  Frequency domain results normalized to default signal.
+                      
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:27:33  
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     769824                        17139336     16473632     
+                        Matrices calc.      875008                        16530184     16421408     
+                        Solver run total    57932                         17147540     16410948     
+                        ----------------------------------------------------------------------------
+                      
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+                      
+                        Hardware:
+                           Computer name:                 	DESKTOP-L989QEL 
+                      
+                           Number of CPU threads:               1
+                           Hardware info:                  	Hardware Accelerator Device not activated
+                      
+                        Number of mesh cells:             	46410
+                        Excitation duration:              	2.36969917e+001 ns 
+                        Calculation time for excitation:  	62 	s
+                        Number of calculated pulse widths:	4.67005 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	77688 
+                        Maximum number of time steps:     	332707 
+                        Time step width:
+                           without subcycles:             	1.42449460e-003 ns
+                           used:                          	1.42449460e-003 ns
+                      
+                        CAD preparation time:             	12     	s
+                        Matrix calculation time:          	63 	s
+                        Solver setup time:                	0 	s
+                        Solver loop time:                 	281 	s
+                        Solver post processing time:      	0 	s
+                                                          	------------
+                        Total solver time:                	356 	s  ( = 0 h, 5 m, 56 s )
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:27:33  
+                        Adaptive port meshing time:          	0      	s
+                        Total solver time (all cycles):      	356    	s  ( = 0 h, 5 m, 56 s )
+                        solver initialization and clean-up:  	2      	s
+                                                             	------------
+                        Total simulation time:               	358    	s  ( = 0 h, 5 m, 58 s )
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 11:27:33  Solver finished at: 11:27 AM Tuesday, 27. October 2026
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------

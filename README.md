@@ -8,6 +8,8 @@ Projet personnel de **Maxime — [MaxBarbe](https://github.com/MaxBarbe)**, dév
 
 **Routage V3 redressé le 26 octobre :** suppression des petits zigzags, préférence aux sections droites et aux coudes à 45°, 227 segments inutiles supprimés. Contrôle : 0 violation DRC, 0 connexion manquante. [Comparaison avant/après](pot_fleur_v3_provisoire_4couches/docs/Comparaison_pistes_droites.png).
 
+**CST 2019 — 27 octobre :** carte complète reconstruite pour résoudre l'incompatibilité avec le fichier Learning Edition 2026, puis port replacé à l'antenne dans une copie de comparaison. Un calcul termine avec 46 410 cellules : **S11 ≈ −0,56 dB à 868 MHz**, minimum **−3,04 dB à 882,1 MHz**. Le résultat ne reproduit pas le creux de la référence ; les avertissements de maillage et l'absence d'étude de convergence imposent une interprétation préliminaire. [Fichiers CST 2019, captures, courbe et compte rendu](CST/V3_ODB_carte_complete/CST2019/README.md).
+
 <table>
 <tr>
 <td align="center" width="50%"><a href="Mecanique/README.md"><img src="Mecanique/Assemblage/SmartPot_assemblage_corrige_dessous.png" alt="Pot SmartPot avec carte KiCad centrée dessous après correction dans Shapr3D" width="420"></a><br><strong>Pot + PCB — assemblage corrigé</strong></td>

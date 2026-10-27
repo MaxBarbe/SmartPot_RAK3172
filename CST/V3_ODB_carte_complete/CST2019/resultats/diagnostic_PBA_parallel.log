@@ -1,0 +1,46 @@
+ParaControl_AMD64 @ DESKTOP-L989QEL:  xxxxxxxxxxxxxxxxxxxxxxxxxxx
+                                      1xN parallelization error: 
+                                      xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+ParaControl_AMD64 @ DESKTOP-L989QEL:  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                                      B face could not be united (x) 
+                                      pin position matches, but allowance is 0: 
+                                      allow 0, allow-edge 0, pinpos-match 4
+                                      matchE 1.5, (1, 0, 0.5, 0) , match-total 0, zz-match 3
+                                      mismatch errors: Detected TST edge configuration mismatch: code0: ss, code1: zs
+                                      UC0: dir: x, pt: 21274, pos: (77.7 | -80.62 | -4.87532), world: (32 | 32 | 7), edge: uu, face: azzzssza, comp: f, spec: s, pinpos: (0.5 | 0.0156102) 
+                                      UC1: dir: x, pt: 21274, pos: (77.7 | -80.62 | -4.87532), world: (32 | 32 | 7), edge: uu, face: azazszzz, comp: f, spec: s, pinpos: (0.5 | 0.0156102) 
+                                      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+matrixcalc_AMD64 @ DESKTOP-L989QEL: 1xN000:  xxxxxxxxxxxx
+                                             SI warning:
+                                             xxxxxxxxxxxx
+
+
+
+matrixcalc_AMD64 @ DESKTOP-L989QEL: 1xN001:  xxxxxxxxxxxx
+                                             SI warning:
+                                             xxxxxxxxxxxx
+
+
+
+ParaControl_AMD64 @ DESKTOP-L989QEL:  xxxxxxxxxxxxxxxxxxxxxxxxx
+                                      1xN parallelization error
+                                      xxxxxxxxxxxxxxxxxxxxxxxxx
+
+ParaControl_AMD64 @ DESKTOP-L989QEL:  xxxxxxxxxxxxxxxx
+                                      Work item failed
+                                      xxxxxxxxxxxxxxxx
+
+ParaControl_AMD64 @ DESKTOP-L989QEL:  xxxxxxxxxxxxxxxxxxxxxxxxxxx
+                                      1xN parallelization error: 
+                                      xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+ParaControl_AMD64 @ DESKTOP-L989QEL:  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                                      Error in calculating solver matrix
+                                      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+matrixcalc_AMD64 @ DESKTOP-L989QEL:  xxxxxxxxxxxx
+                                     SI warning: 
+                                     xxxxxxxxxxxx
+

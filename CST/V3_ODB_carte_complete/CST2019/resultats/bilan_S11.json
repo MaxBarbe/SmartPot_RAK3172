@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-27",
+  "software": "CST Studio Suite 2019 Teaching License",
+  "model": "PCB complet, port de comparaison a l'antenne",
+  "solver": "HF Time Domain",
+  "solver_success": true,
+  "source_export": "S11_port_antenne_2019.txt",
+  "frequency_unit": "GHz",
+  "s11_unit": "dB",
+  "samples": 1001,
+  "frequency_range_MHz": [700, 1000],
+  "s11_868_MHz_dB_interpolated": -0.5574001427965366,
+  "minimum_sample_frequency_MHz": 882.09999,
+  "minimum_sample_s11_dB": -3.0432926,
+  "samples_below_minus10_dB": 0,
+  "mesh_cells": 46410,
+  "simulated_time_steps": 77688,
+  "time_step_ns": 0.00142449460,
+  "steady_state_energy_limit_dB": -40,
+  "steady_state_energy_criterion_met": true,
+  "total_simulation_time_seconds": 358,
+  "solver_threads": 1,
+  "parallel_hex_mesher": "none",
+  "spatial_convergence_established": false,
+  "warnings": {
+    "staircase_PEC_mesh_edges": 1006,
+    "partially_PEC_filled_edges": 955,
+    "SI_warning": true
+  },
+  "reference": {
+    "source": "CST/S11-868.PNG, capture initiale",
+    "minimum_frequency_MHz": 869,
+    "minimum_s11_dB": -17.892,
+    "numerical_curve_available": false,
+    "s11_868_MHz_dB": null
+  },
+  "comparison": "La courbe calculee ne reproduit pas le creux de la reference. Resultat preliminaire avec avertissements de maillage."
+}

@@ -1,5 +1,7 @@
 # Antenne SmartPot — CST, bande 868 MHz
 
+**27 octobre 2026 — essai du PCB complet sous CST 2019 :** [reconstruction compatible, port à l'antenne, captures et S11 calculé](V3_ODB_carte_complete/CST2019/README.md). Cette nouvelle courbe n'est pas celle des captures de l'antenne initiale présentées ci-dessous ; elle reste préliminaire et ne reproduit pas leur adaptation.
+
 **Version finale confirmée par Maxime : [TP1_M2_Smart_2-3.cst](TP1_M2_Smart_2-3.cst).** Les versions [-1](TP1_M2_Smart_2-1.cst) et [-2](TP1_M2_Smart_2-2.cst) restent disponibles comme variantes antérieures. Les projets source ont été conservés sans modification.
 
 ## Modèle et configuration lus dans le projet final
