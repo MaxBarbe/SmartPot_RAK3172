@@ -23,3 +23,8 @@ pot_fleur/.history/
 # CST session locks must not follow the project to another PC.
 *.lok
 
+# Regenerable CST caches and session backups for the top-fed antenna study.
+/CST/ANTENNE_868_3QUARTS/**/ModelCache/
+/CST/ANTENNE_868_3QUARTS/**/Temp/
+/CST/ANTENNE_868_3QUARTS/**/*.mo~
+

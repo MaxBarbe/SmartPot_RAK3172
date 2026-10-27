@@ -1,0 +1,14 @@
+{
+  "source": "SmartPot_V3_ANTENNE_PISTE_HAUT_3QUARTS_LUMP_2019",
+  "samples": 1,
+  "at_868_MHz": {
+    "frequency_GHz": 0.868,
+    "S11_dB": -11.02099307981555,
+    "S11_real": -0.18071532,
+    "S11_imaginary": -0.21538746,
+    "Z_real_ohm": 31.966773006124946,
+    "Z_imaginary_ohm": -14.952473930960611
+  },
+  "target_minus14_dB_at_868_met": false,
+  "resonance_minimum_established": false
+}

@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2019.0 - Sep 20 2018 - ACIS 28.0.2 -
+[Author]
+Etudiant_EEA_2026
+[Mesh Cells]
+856,520
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Frequency Domain
+[Last Solver Type Abb]
+f
+[Results]
+Frequency Domain: S-Parameter
+[Modeler Unique ID]
+5:smartpot_v3_antenne_piste_haut_3quarts_lump_2019.cst?f09af96e2fa768bf615c0634f8aac6fd?2638480:numberofparameters=0:port=1>mode=1>zre=0>zim=0
+[Comment]

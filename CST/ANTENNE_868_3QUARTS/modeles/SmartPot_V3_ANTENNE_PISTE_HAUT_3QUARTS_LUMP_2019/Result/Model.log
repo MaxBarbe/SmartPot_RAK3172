@@ -1,0 +1,129 @@
+27/Oct/2026 16:13:42  *** Warning ***
+                      
+                      The frequency domain solver with hexahedral mesh does not support lossy metal
+                      and other surface impedance materials. They will be treated as PEC. Please
+                      consider using the tetrahedral mesh.
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:13:42  *** Warning ***
+                      
+                      The frequency domain solver with hexahedral mesh does not support lossy metal
+                      and other surface impedance materials. They will be treated as PEC. Please
+                      consider using the tetrahedral mesh.
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:13:42  *** Warning ***
+                      
+                      This software is licensed for educational purposes only.
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:13:42  *** Warning ***
+                      
+                      This software is licensed for educational purposes only.
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:13:46  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:16:16  The following discrete edge port is connected to metal material:
+                      	1
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:16:16  *** Warning ***
+                      
+27/Oct/2026 16:16:16  17484 mesh edges are represented in staircase mode and have been filled with PEC.
+                      5419 mesh edges are partially filled with PEC.
+                       More...
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:16:17  Mesh statistics:
+                      
+                         Hexahedral mesh type: PBA [Version: default]
+                      
+                         Parallelization type: domain decomposition
+                            Number of parallel working threads: 4
+                            Number of calculation domains used: 8
+                      
+                         Used point accuracy enhancement value: 0.00%.
+                         PBA fill limit: 85.00% (inverse)
+
+27/Oct/2026 16:16:17  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: expanded open
+                        Xmax: expanded open
+                      
+                        Ymin: expanded open
+                        Ymax: expanded open
+                      
+                        Zmin: expanded open
+                        Zmax: expanded open
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:16:17  Port: 1
+                      
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:16:17    Mesh time                :	151 s	 (= 0 h, 02 m, 31 s)
+                      
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:16:17  
+                      ================================================================================
+                      Frequency Domain Solver calculation cycle started
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:16:17  Solver started at: 04:16 PM Tuesday, 27. October 2026 (Paris, Madrid)
+                      
+                        Module:  Frequency Domain: S-Parameter (Win 64)
+                        Version: 2019.0 Release from 2018-09-20 (change 633648)
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:16:17    Calculation 1 of 1 (Frequency: 0.868 GHz)
+                      
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:29:50    Matrix setup time        :	0 s
+                        Solver setup             :	395 s
+                        Degrees of freedom       :	3327585
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	8.8227e-07
+                        Iterations               :	104
+                        Solver time              :	417 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:29:51    Total time               :	812 s	 (= 0 h, 13 m, 32 s)
+                      
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:29:51    Total Solver Time        :	963 s	 (= 0 h, 16 m, 03 s)
+                      ================================================================================
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+27/Oct/2026 16:29:51    ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        Matrices calc.      882868                        20401328     20343884     
+                        Solver start        14568                         21058312     21058152     
+                        Eq. system setup    1117120                       20844688     20056376     
+                        Eq. system solve    8134484                       20059576     12863652     
+                        Solver run total    8134552                       21058316     12924948     
+                      
+                        Computer name       DESKTOP-L989QEL
+                        ----------------------------------------------------------------------------
+                      
+                      
+                      ------------------------------------------------------------------------------

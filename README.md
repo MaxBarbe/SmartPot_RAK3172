@@ -1,5 +1,7 @@
 # SmartPot — pot de fleur connecté LoRaWAN 868 MHz
 
+**CST — alimentation corrigée le 27 octobre 2026 :** fine piste centrale supprimée, piste de 1 mm × 7 mm raccordée en haut de l'antenne, port lumped vertical de 50 Ω dans le gap inférieur. Le point calculé donne **S11 = −11,02 dB à 868 MHz** ; l'objectif de −14 dB n'est pas encore atteint. [Projet CST natif, schéma et résultats vérifiés](CST/ANTENNE_868_3QUARTS/README.md). Les prochains essais en X sont prévus avec le solveur temporel.
+
 Projet personnel de **Maxime — [MaxBarbe](https://github.com/MaxBarbe)**, développé dans le cadre du Master M2. SmartPot réunit une carte électronique autour du RAK3172, une alimentation BQ25570, une antenne imprimée étudiée dans CST et un pot modélisé en 3D.
 
 **État au 26 octobre 2026 :** antenne finale fournie dans CST, conception mécanique disponible, PCB quatre couches et variante V2 à deux couches routés en version préliminaire. L’antenne CST remplace maintenant l’ancienne antenne TI dans KiCad, avec une légère adaptation au PCB 30 × 60 mm et un raccord RF physique ; cette nouvelle version doit être resimulée. Le projet n'est pas encore validé pour fabrication.
