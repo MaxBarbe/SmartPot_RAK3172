@@ -20,7 +20,11 @@ La nouvelle antenne reprend la branche de **1 × 7 mm raccordée en haut**, en p
 
 [Rapport DRC](pot_fleur_v4_nouvelle_antenne/docs/DRC_V4_routee.json) · [Audit des pistes](pot_fleur_v4_nouvelle_antenne/docs/Audit_pistes_V4.csv) · [Routage V4](pot_fleur_v4_nouvelle_antenne/docs/V4_routee.svg) · [ODB++ pour CST](pot_fleur_v4_nouvelle_antenne/CST_import/SmartPot_V4_RF_PROVISOIRE_ODB.zip)
 
-## Résultats CST : modèles à distinguer
+## Antenne retenue : X0, −11,02 dB à 868 MHz
+
+**Choix de Maxime : conserver la référence X0 à −11,02 dB.** La V4 reprend cette position de la branche, sans le décalage X +0,40 mm. Le résultat source reste celui du modèle CST à port lumped ; la V4 routée avec sa piste physique doit être resimulée.
+
+### Comparaison avec les essais historiques
 
 | Modèle | S11 à 868 MHz | Autre résultat | Limite principale |
 |---|---:|---|---|
@@ -34,7 +38,7 @@ L’objectif de −14 dB à 868 MHz n’est pas atteint dans les nouveaux essais
 
 [Modèles, captures et exports natifs de la nouvelle antenne](CST/ANTENNE_868_3QUARTS/README.md) · [Essai PCB complet V3](CST/V3_ODB_carte_complete/CST2019/README.md)
 
-![Essai CST temporel X +0,40 mm — distinct de la V4](CST/ANTENNE_868_3QUARTS/captures/S11_TD_X_PLUS0400_CST.png)
+![Géométrie CST X0 retenue — piste supérieure 1 × 7 mm](CST/ANTENNE_868_3QUARTS/captures/Schema_piste_haut_3quarts.png)
 
 ## Mécanique et vues du projet
 

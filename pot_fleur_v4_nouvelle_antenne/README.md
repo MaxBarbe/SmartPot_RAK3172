@@ -1,5 +1,7 @@
 # SmartPot V4 — routage quatre couches, RF provisoire
 
+**Référence retenue par Maxime : X0, S11 source −11,020993 dB à 868 MHz. Le décalage X +0,40 mm n’est pas appliqué.**
+
 ## État actuel : carte routée, 27 octobre 2026
 
 Le PCB courant est routé sur quatre couches : **415 segments, 204 vias, 0 connexion manquante, 0 violation DRC, 0 défaut de parité**. Rapport : [DRC V4 routée](docs/DRC_V4_routee.json). Le contrôle géométrique des extrémités des 415 segments ne trouve aucun bout libre hors pastille/via/piste du même net. Relevé : [audit](docs/Audit_pistes_V4.csv).
