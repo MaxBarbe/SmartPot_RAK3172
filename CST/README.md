@@ -53,6 +53,8 @@ Ces chiffres proviennent des captures fournies avec la version finale ; la simul
 
 ## Simulation du PCB V4 — 28 octobre 2026
 
+La [variante V5 avec adaptation sur R6/C6](V5_ADAPTATION_868/README.md) est également disponible : inductance série de 4,3 nH et condensateur de 3,9 pF vers GND, R4 conservée à 0 Ω. Calcul temporel lancé, objectif −16 dB à 868 MHz ; aucun résultat V5 n'est encore publié.
+
 Les [projets CST V4, résultats numériques et courbes](V4_U112_868/README.md) sont disponibles. Le maillage M2 donne **−8,97 dB à 868 MHz**, avec un minimum de **−9,03 dB à 868,9 MHz**. La convergence du maillage reste à démontrer et l'objectif de −14 dB n'est pas atteint. Le port est côté U1.12 vers GND, avec le nouveau raccord cuivre physique et R4/R6 montées nominalement à 0 Ω. Ces résultats ne remplacent pas la confirmation de l'empilage fabricant, le retour de M. Ferrero et les mesures au VNA.
 
 ## Avant intégration au PCB

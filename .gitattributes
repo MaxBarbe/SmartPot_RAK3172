@@ -22,3 +22,6 @@
 /CST/V4_U112_868/resultats/*.txt -text -whitespace
 /CST/V4_U112_868/resultats/*.log -text -whitespace
 /CST/V4_U112_868/captures/*.svg -text -whitespace
+/CST/V5_ADAPTATION_868/modeles/** binary
+/CST/V5_ADAPTATION_868/audits/*.txt -text -whitespace
+/CST/V5_ADAPTATION_868/audits/*.log -text -whitespace

@@ -1,0 +1,7 @@
+{
+  "archive": "SmartPot_V5_R6L4p3_C6C3p9_TD_M2_2019.zip",
+  "bytes": 5786951,
+  "sha256": "b2e10759ca3a4858ace0467b8307a07283f3c86b65709e8e9bb29c0a58125121",
+  "status": "V5 initial assembly proposal; simulation started, no V5 results included",
+  "contents": "Saved CST project and Model/DC/SP companion data; working caches and running solver Result directory excluded"
+}
