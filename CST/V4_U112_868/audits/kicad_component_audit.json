@@ -1,0 +1,339 @@
+[
+  {
+    "ref": "U1",
+    "value": "RAK3172-xx-8-SM-xI",
+    "at": [
+      "at",
+      63.175,
+      79.365,
+      -90
+    ],
+    "dnp": null,
+    "attr": [
+      "attr",
+      "smd"
+    ],
+    "pads": [
+      {
+        "pad": "12",
+        "net": [
+          "net",
+          "/Microcontroleur/RF_FEED"
+        ],
+        "local_xy": [
+          -7.4,
+          5.25
+        ],
+        "board_xy_mm": [
+          57.925,
+          71.96499999999999
+        ],
+        "CST_xy_mm": [
+          57.925,
+          -71.96499999999999
+        ]
+      }
+    ],
+    "is_dnp": false
+  },
+  {
+    "ref": "R6",
+    "value": "0",
+    "at": [
+      "at",
+      54,
+      63.3,
+      180
+    ],
+    "dnp": null,
+    "attr": [
+      "attr",
+      "smd"
+    ],
+    "pads": [
+      {
+        "pad": "1",
+        "net": [
+          "net",
+          "/Microcontroleur/RF_MATCH"
+        ],
+        "local_xy": [
+          -0.825,
+          0
+        ],
+        "board_xy_mm": [
+          54.825,
+          63.3
+        ],
+        "CST_xy_mm": [
+          54.825,
+          -63.3
+        ]
+      },
+      {
+        "pad": "2",
+        "net": [
+          "net",
+          "Net-(A1-VIN)"
+        ],
+        "local_xy": [
+          0.825,
+          0
+        ],
+        "board_xy_mm": [
+          53.175,
+          63.3
+        ],
+        "CST_xy_mm": [
+          53.175,
+          -63.3
+        ]
+      }
+    ],
+    "is_dnp": false
+  },
+  {
+    "ref": "R4",
+    "value": "0",
+    "at": [
+      "at",
+      55.5,
+      69.8
+    ],
+    "dnp": null,
+    "attr": [
+      "attr",
+      "smd"
+    ],
+    "pads": [
+      {
+        "pad": "1",
+        "net": [
+          "net",
+          "/Microcontroleur/RF_FEED"
+        ],
+        "local_xy": [
+          -0.825,
+          0
+        ],
+        "board_xy_mm": [
+          54.675,
+          69.8
+        ],
+        "CST_xy_mm": [
+          54.675,
+          -69.8
+        ]
+      },
+      {
+        "pad": "2",
+        "net": [
+          "net",
+          "/Microcontroleur/RF_MATCH"
+        ],
+        "local_xy": [
+          0.825,
+          0
+        ],
+        "board_xy_mm": [
+          56.325,
+          69.8
+        ],
+        "CST_xy_mm": [
+          56.325,
+          -69.8
+        ]
+      }
+    ],
+    "is_dnp": false
+  },
+  {
+    "ref": "J3",
+    "value": "Conn_Coaxial_Small",
+    "at": [
+      "at",
+      59.45,
+      66.8
+    ],
+    "dnp": null,
+    "attr": [
+      "attr",
+      "smd",
+      "dnp"
+    ],
+    "pads": [
+      {
+        "pad": "1",
+        "net": [
+          "net",
+          "/Microcontroleur/RF_MATCH"
+        ],
+        "local_xy": [
+          -1.525,
+          0
+        ],
+        "board_xy_mm": [
+          57.925000000000004,
+          66.8
+        ],
+        "CST_xy_mm": [
+          57.925000000000004,
+          -66.8
+        ]
+      },
+      {
+        "pad": "2",
+        "net": [
+          "net",
+          "GND"
+        ],
+        "local_xy": [
+          0,
+          -1.475
+        ],
+        "board_xy_mm": [
+          59.45,
+          65.325
+        ],
+        "CST_xy_mm": [
+          59.45,
+          -65.325
+        ]
+      },
+      {
+        "pad": "2",
+        "net": [
+          "net",
+          "GND"
+        ],
+        "local_xy": [
+          0,
+          1.475
+        ],
+        "board_xy_mm": [
+          59.45,
+          68.27499999999999
+        ],
+        "CST_xy_mm": [
+          59.45,
+          -68.27499999999999
+        ]
+      }
+    ],
+    "is_dnp": true
+  },
+  {
+    "ref": "C6",
+    "value": "DNP",
+    "at": [
+      "at",
+      56.25,
+      64.075,
+      90
+    ],
+    "dnp": null,
+    "attr": [
+      "attr",
+      "smd",
+      "dnp"
+    ],
+    "pads": [
+      {
+        "pad": "1",
+        "net": [
+          "net",
+          "GND"
+        ],
+        "local_xy": [
+          -0.775,
+          0
+        ],
+        "board_xy_mm": [
+          56.25,
+          64.85000000000001
+        ],
+        "CST_xy_mm": [
+          56.25,
+          -64.85000000000001
+        ]
+      },
+      {
+        "pad": "2",
+        "net": [
+          "net",
+          "/Microcontroleur/RF_MATCH"
+        ],
+        "local_xy": [
+          0.775,
+          0
+        ],
+        "board_xy_mm": [
+          56.25,
+          63.300000000000004
+        ],
+        "CST_xy_mm": [
+          56.25,
+          -63.300000000000004
+        ]
+      }
+    ],
+    "is_dnp": true
+  },
+  {
+    "ref": "L1",
+    "value": "DNP",
+    "at": [
+      "at",
+      51.45,
+      63.4875,
+      90
+    ],
+    "dnp": null,
+    "attr": [
+      "attr",
+      "smd",
+      "dnp"
+    ],
+    "pads": [
+      {
+        "pad": "1",
+        "net": [
+          "net",
+          "GND"
+        ],
+        "local_xy": [
+          -0.7875,
+          0
+        ],
+        "board_xy_mm": [
+          51.45,
+          64.27499999999999
+        ],
+        "CST_xy_mm": [
+          51.45,
+          -64.27499999999999
+        ]
+      },
+      {
+        "pad": "2",
+        "net": [
+          "net",
+          "Net-(A1-VIN)"
+        ],
+        "local_xy": [
+          0.7875,
+          0
+        ],
+        "board_xy_mm": [
+          51.45,
+          62.699999999999996
+        ],
+        "CST_xy_mm": [
+          51.45,
+          -62.699999999999996
+        ]
+      }
+    ],
+    "is_dnp": true
+  }
+]

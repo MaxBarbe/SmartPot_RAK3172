@@ -1,0 +1,72 @@
+{
+  "models": [
+    {
+      "model": "SmartPot_V4_U112_TD_M1_2019",
+      "cells": 205387,
+      "port_cells_Z": 2,
+      "native_total_simulation_time_s": 2185,
+      "S11_868_dB": -0.02676296930747456,
+      "minimum": {
+        "frequency_MHz": 930.6999999999999,
+        "S11_dB": -0.030999460803428632
+      },
+      "minus10_dB_band": null,
+      "radiation_efficiency_percent": 0.006335156573883625,
+      "operating_bands_at_868_MHz": {
+        "-10": null,
+        "-14": null
+      },
+      "total_efficiency_percent": 3.892013811902023e-05,
+      "native_efficiency_unit_verified_by_gain_identity": "dB",
+      "power_balance_error": 4.029510235445923e-12,
+      "realized_gain_max_dBi": -62.0000645297995,
+      "minimum_at_band_edge": false,
+      "passivity_within_tolerance": true
+    },
+    {
+      "model": "SmartPot_V4_U112_TD_M2_2019",
+      "cells": 770308,
+      "port_cells_Z": 3,
+      "native_total_simulation_time_s": 9084,
+      "S11_868_dB": -8.965721884846987,
+      "minimum": {
+        "frequency_MHz": 868.9,
+        "S11_dB": -9.025767515092166
+      },
+      "minus10_dB_band": null,
+      "radiation_efficiency_percent": 43.686243789173,
+      "operating_bands_at_868_MHz": {
+        "-10": null,
+        "-14": null
+      },
+      "total_efficiency_percent": 38.142886059869724,
+      "native_efficiency_unit_verified_by_gain_identity": "dB",
+      "power_balance_error": 4.968892808321357e-08,
+      "realized_gain_max_dBi": -2.39964450851385,
+      "minimum_at_band_edge": false,
+      "passivity_within_tolerance": true
+    }
+  ],
+  "converged": false,
+  "criteria": {
+    "S11_868_dB": 0.2,
+    "minimum_frequency_MHz": 1,
+    "efficiency_percentage_points": 2,
+    "efficiency_relative_change": 0.05,
+    "realized_gain_dB": 0.2,
+    "maximum_complex_gamma_difference_in_simulated_band": 0.02
+  },
+  "last_mesh_deltas": {
+    "S11_868_dB": 8.938958915539512,
+    "minimum_frequency_MHz": 61.799999999999955,
+    "radiation_efficiency_pp": 43.679908632599115,
+    "total_efficiency_pp": 38.14284713973161,
+    "realized_gain_dB": 59.60042002128565,
+    "radiation_efficiency_relative_change": 0.9998549850931461,
+    "total_efficiency_relative_change": 0.9999989796226207,
+    "maximum_complex_gamma_difference": 1.934353409945744,
+    "maximum_complex_gamma_difference_858_878_MHz": 1.2544115671864704
+  },
+  "target_margin_to_minus14_dB": -5.034278115153013,
+  "target_met_with_margin_over_observed_mesh_delta": false
+}

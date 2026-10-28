@@ -1,0 +1,58 @@
+{
+  "top_net_areas_mm2": {
+    "GND": 991.7236866191522,
+    "/Microcontroleur/RF_FEED": 2.7112541118858022,
+    "/Microcontroleur/RF_MATCH": 4.71211746346475,
+    "Net-(A1-VIN)": 96.76022090547792
+  },
+  "resistor_contacts": [
+    {
+      "ref": "R4",
+      "x": 54.675,
+      "y": -69.8,
+      "overlap_mm2": {
+        "GND": 0.0,
+        "/Microcontroleur/RF_FEED": 0.09000000000000256,
+        "/Microcontroleur/RF_MATCH": 0.0,
+        "Net-(A1-VIN)": 0.0
+      }
+    },
+    {
+      "ref": "R4",
+      "x": 56.325,
+      "y": -69.8,
+      "overlap_mm2": {
+        "GND": 0.0,
+        "/Microcontroleur/RF_FEED": 0.0,
+        "/Microcontroleur/RF_MATCH": 0.09000000000000256,
+        "Net-(A1-VIN)": 0.0
+      }
+    },
+    {
+      "ref": "R6",
+      "x": 53.175,
+      "y": -63.3,
+      "overlap_mm2": {
+        "GND": 0.0,
+        "/Microcontroleur/RF_FEED": 0.0,
+        "/Microcontroleur/RF_MATCH": 0.0,
+        "Net-(A1-VIN)": 0.08999999999999829
+      }
+    },
+    {
+      "ref": "R6",
+      "x": 54.825,
+      "y": -63.3,
+      "overlap_mm2": {
+        "GND": 0.0,
+        "/Microcontroleur/RF_FEED": 0.0,
+        "/Microcontroleur/RF_MATCH": 0.08999999999999829,
+        "Net-(A1-VIN)": 0.0
+      }
+    }
+  ],
+  "u112_top_RF_FEED": true,
+  "u112_underpad_In1_GND": true,
+  "u112_port_inside_plated_drill": false,
+  "new_feed_points_same_connected_polygon": true
+}

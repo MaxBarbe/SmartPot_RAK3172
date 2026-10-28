@@ -1,0 +1,35 @@
+{
+  "without_R4_R6": {
+    "U112_connected_to_GND": false,
+    "RF_MATCH_connected_to_GND": false,
+    "IFA_connected_to_GND_through_shorting_branch": true
+  },
+  "IFA_barrels": [
+    {
+      "via": 109,
+      "xy_mm": [
+        51.023195,
+        -61.35
+      ],
+      "nodes": [
+        [
+          "in1.cu",
+          36
+        ],
+        [
+          "b.cu",
+          42
+        ],
+        [
+          "in2.cu",
+          40
+        ],
+        [
+          "f.cu",
+          20
+        ]
+      ]
+    }
+  ],
+  "with_R4_R6_U112_DC_path_to_IFA_ground": true
+}

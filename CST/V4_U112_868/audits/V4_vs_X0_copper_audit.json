@@ -1,0 +1,41 @@
+{
+  "comparison": "V4 ODB copper versus reconstructed X0 PCB copper (old ODB with documented thin-feed removal and 1x7 top strip); mounted R4/R6 links identical and omitted from this planar comparison",
+  "not_an_EM_attribution": true,
+  "layer_difference_mm2": {
+    "f.cu": {
+      "V4_added": 0.679660399269613,
+      "V4_removed": 1.5665728228356415
+    },
+    "in1.cu": {
+      "V4_added": 0.07097391762884417,
+      "V4_removed": 0.07101592822073206
+    },
+    "in2.cu": {
+      "V4_added": 0.07083529936238683,
+      "V4_removed": 0.07083529936238683
+    },
+    "b.cu": {
+      "V4_added": 0.07083529936238683,
+      "V4_removed": 0.07083529936238683
+    }
+  },
+  "upper_radiator_window_symmetric_difference_mm2": 0.002099999999999591,
+  "plated_drills_removed": [
+    [
+      [
+        53.2,
+        -61.5
+      ],
+      "r300.0"
+    ]
+  ],
+  "plated_drills_added": [
+    [
+      [
+        54.2,
+        -61.5
+      ],
+      "r300.0"
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "V4_CST\\SmartPot_V4_U112_TD_M1_2019",
+  "solver": "HF Time Domain",
+  "samples": 1001,
+  "band_MHz": [
+    699.99999,
+    1000.0
+  ],
+  "at_868_MHz": {
+    "S11_dB": -0.02676296930747456,
+    "S11_real": -0.7846779053344443,
+    "S11_imaginary": 0.614928558545909,
+    "Z_real_ohm": 0.08620666055689125,
+    "Z_imaginary_ohm": 17.25770166860278,
+    "method": "linear interpolation of native complex samples"
+  },
+  "sampled_minimum": {
+    "frequency_MHz": 930.6999999999999,
+    "S11_dB": -0.030999460803428632
+  },
+  "minus10_dB_band": null,
+  "minus14_dB_band": null,
+  "threshold_intervals_MHz": {
+    "-10": [],
+    "-14": []
+  },
+  "operating_bands_at_868_MHz": {
+    "-10": null,
+    "-14": null
+  },
+  "frequency_step_max_MHz": 0.3000500000001072,
+  "minimum_at_band_edge": false,
+  "passivity_tolerance_abs_gamma": 0.001,
+  "passivity_within_tolerance": true,
+  "maximum_abs_gamma": 0.9974021740559668,
+  "target_minus14_dB_at_868_met": false,
+  "validation_status": "Preliminary mesh; inspect native termination and perform finer-mesh validation"
+}

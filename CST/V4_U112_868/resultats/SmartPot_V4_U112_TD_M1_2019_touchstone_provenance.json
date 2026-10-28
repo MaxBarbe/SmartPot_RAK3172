@@ -1,0 +1,12 @@
+{
+  "touchstone": "SmartPot_V4_U112_TD_M1_2019.s1p",
+  "source_native_exports": {
+    "SmartPot_V4_U112_TD_M1_2019_S11_real.txt": "c4741bb90dd7ebec4ae4b3a2a8231187d140674905724310384cfed88d7fc50f",
+    "SmartPot_V4_U112_TD_M1_2019_S11_imaginary.txt": "d1e36a5cf632e62a01218261a2c63c4b23052f0ff3a138fa1e22a8ea06620f3e"
+  },
+  "reference_impedance_ohm": 50,
+  "samples": 1001,
+  "maximum_complex_roundtrip_error": 0.0,
+  "mesh_stability_confirmed_for_this_model": false,
+  "measured": false
+}

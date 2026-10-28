@@ -1,0 +1,104 @@
+{
+  "archive": "C:\\Users\\Etudiant_EEA_2026\\Desktop\\SmartPot_RAK3172_2026-10-27_16d3d1a\\pot_fleur_v4_nouvelle_antenne\\CST_import\\SmartPot_V4_RF_PROVISOIRE_ODB.zip",
+  "sha256": "e922e806f04505c7517026d6fd5e8b761fbe7830753f8ee3d316c0e51208a337",
+  "layers": [
+    {
+      "layer": "f.cu",
+      "source_features": 570,
+      "connected_regions": 105,
+      "holes": 333,
+      "vertices": 23841,
+      "area_mm2": 1241.9194399484918
+    },
+    {
+      "layer": "in1.cu",
+      "source_features": 330,
+      "connected_regions": 67,
+      "holes": 250,
+      "vertices": 17219,
+      "area_mm2": 1123.1835025968182
+    },
+    {
+      "layer": "in2.cu",
+      "source_features": 303,
+      "connected_regions": 71,
+      "holes": 266,
+      "vertices": 17179,
+      "area_mm2": 1160.2597609373674
+    },
+    {
+      "layer": "b.cu",
+      "source_features": 270,
+      "connected_regions": 79,
+      "holes": 289,
+      "vertices": 17671,
+      "area_mm2": 1250.5861774768355
+    }
+  ],
+  "plated_holes": 228,
+  "nonplated_holes": 2,
+  "plating_wall_assumption_mm": 0.025,
+  "polygonisation_max_target_mm": 0.003,
+  "simplification_tolerance_mm": 0.001,
+  "discarded_numerical_sliver_area_threshold_mm2": 1e-08,
+  "jobs": 2285,
+  "limitations": [
+    "Bare PCB copper model; component bodies and electrical internal models omitted",
+    "R4 and R6 ideal bridges; C6 L1 J3 absent",
+    "FR4 er4.3 tanD0.02 provisional; soldermask omitted",
+    "Circular pad/track boundaries polygonised",
+    "CST licence and mesh limits remain applicable"
+  ],
+  "status": "geometry_prepared_not_simulated",
+  "version": "V4",
+  "native_port_mm": [
+    [
+      57.925,
+      -71.965,
+      0.765
+    ],
+    [
+      57.925,
+      -71.965,
+      0.638
+    ]
+  ],
+  "port_ohm": 50,
+  "R4_R6": "raised ideal zero-ohm conductor links; no planar shortcut across ground",
+  "contacts": [
+    {
+      "ref": "R4",
+      "x": 54.675,
+      "y": -69.8,
+      "pad_overlap_mm2": 0.09000000000000256
+    },
+    {
+      "ref": "R4",
+      "x": 56.325,
+      "y": -69.8,
+      "pad_overlap_mm2": 0.09000000000000256
+    },
+    {
+      "ref": "R6",
+      "x": 53.175,
+      "y": -63.3,
+      "pad_overlap_mm2": 0.08999999999999829
+    },
+    {
+      "ref": "R6",
+      "x": 54.825,
+      "y": -63.3,
+      "pad_overlap_mm2": 0.08999999999999829
+    }
+  ],
+  "expected_solids": 557,
+  "stackup_bottom_up_mm": [
+    0.035,
+    0.127,
+    0.035,
+    0.406,
+    0.035,
+    0.127,
+    0.035
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "figure": "S11_V4_maillages",
+  "CST_screenshot": false,
+  "mesh_stability_confirmed_for_plotted_last_pair": false,
+  "reference_X0": {
+    "frequency_MHz": 868,
+    "S11_dB": -11.02099307981555,
+    "scope": "Single native FD point; PEC copper"
+  },
+  "matplotlib_version": "3.11.2",
+  "sources": [
+    {
+      "file": "SmartPot_V4_U112_TD_M1_2019_S11_magnitudedb.txt",
+      "sha256": "8b3236b529df1147e9f608c6e2ca2fe8bc5a56636b7c061e305693468adbcd4d",
+      "cells": 205387
+    },
+    {
+      "file": "SmartPot_V4_U112_TD_M2_2019_S11_magnitudedb.txt",
+      "sha256": "a968dd6ca811f0bd6ecb23b2a35e5ff6e55f169fd7a193cd224313cf273221f0",
+      "cells": 770308
+    }
+  ]
+}

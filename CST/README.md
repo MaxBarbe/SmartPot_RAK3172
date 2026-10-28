@@ -51,6 +51,10 @@ La capture est en **directivité**, pas en gain réalisé. À 0,868 GHz elle aff
 
 Ces chiffres proviennent des captures fournies avec la version finale ; la simulation n'a pas été relancée ici. Les fichiers de résultats numériques et le journal de convergence ne sont pas fournis. Le modèle ne reproduit pas encore le PCB KiCad à quatre couches, le boîtier du pot et les composants RF 0603. Les performances annoncées sont donc celles du modèle simulé, pas des mesures sur une carte fabriquée.
 
+## Simulation du PCB V4 — 28 octobre 2026
+
+Les [projets CST V4, résultats numériques et courbes](V4_U112_868/README.md) sont disponibles. Le maillage M2 donne **−8,97 dB à 868 MHz**, avec un minimum de **−9,03 dB à 868,9 MHz**. La convergence du maillage reste à démontrer et l'objectif de −14 dB n'est pas atteint. Le port est côté U1.12 vers GND, avec le nouveau raccord cuivre physique et R4/R6 montées nominalement à 0 Ω. Ces résultats ne remplacent pas la confirmation de l'empilage fabricant, le retour de M. Ferrero et les mesures au VNA.
+
 ## Avant intégration au PCB
 
 1. Reproduire la branche de court-circuit, le radiateur et un raccordement RF physique compatible avec le port étudié.

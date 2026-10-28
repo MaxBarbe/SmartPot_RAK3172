@@ -1,0 +1,51 @@
+{
+  "source": "SmartPot_V4_U112_TD_M1_2019_RF_surface_current.txt",
+  "sha256": "f7206cdb9efa3d71f96daad87f56cfa611a4fab891000ab0cef008c764763167",
+  "frequency_MHz": 868,
+  "note": "Spatial windows include all metal in the window; these are surface-density statistics, NOT integrated series circuit currents. Qualitative diagnostics only.",
+  "unit": "A/m",
+  "global_max": 186.9444796211006,
+  "global_max_position_mm": [
+    57.3458,
+    -71.9268,
+    0.765
+  ],
+  "regions": {
+    "RF_U1": {
+      "samples": 11,
+      "area_mm2": 1.6937250999999995,
+      "max_A_per_m": 132.29741811620664,
+      "area_weighted_rms_A_per_m": 63.610502515525354
+    },
+    "R4": {
+      "samples": 44,
+      "area_mm2": 3.11964339,
+      "max_A_per_m": 101.19054676420957,
+      "area_weighted_rms_A_per_m": 21.595631335145924
+    },
+    "RF_MATCH_window": {
+      "samples": 465,
+      "area_mm2": 28.568740123199998,
+      "max_A_per_m": 92.29074836133306,
+      "area_weighted_rms_A_per_m": 9.149410761249408
+    },
+    "R6": {
+      "samples": 42,
+      "area_mm2": 3.1491183,
+      "max_A_per_m": 2.598344637860998,
+      "area_weighted_rms_A_per_m": 0.7695423572879864
+    },
+    "new_feed_window": {
+      "samples": 208,
+      "area_mm2": 7.0228945038,
+      "max_A_per_m": 1.4094719490170105,
+      "area_weighted_rms_A_per_m": 0.15361074173944717
+    },
+    "IFA_window": {
+      "samples": 310,
+      "area_mm2": 196.30209888000002,
+      "max_A_per_m": 0.41686068999665826,
+      "area_weighted_rms_A_per_m": 0.0634364665868787
+    }
+  }
+}

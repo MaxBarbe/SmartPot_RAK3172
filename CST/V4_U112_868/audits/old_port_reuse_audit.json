@@ -1,0 +1,17 @@
+{
+  "old_X0_port_xy_mm": [
+    [
+      52.95,
+      -58.3
+    ],
+    [
+      52.95,
+      -60.75
+    ]
+  ],
+  "V4_old_P1_on_RF_copper": true,
+  "V4_old_P2_on_RF_copper": true,
+  "V4_old_P2_on_GND_copper": false,
+  "old_port_line_length_mm": 2.450000000000003,
+  "length_inside_RF_copper_mm": 2.450000000000003
+}

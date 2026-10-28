@@ -18,3 +18,7 @@
 /CST/ANTENNE_868_3QUARTS/modeles/** binary
 /CST/ANTENNE_868_3QUARTS/resultats/*.txt -text -whitespace
 /CST/ANTENNE_868_3QUARTS/resultats/*.log -text -whitespace
+/CST/V4_U112_868/modeles/** binary
+/CST/V4_U112_868/resultats/*.txt -text -whitespace
+/CST/V4_U112_868/resultats/*.log -text -whitespace
+/CST/V4_U112_868/captures/*.svg -text -whitespace

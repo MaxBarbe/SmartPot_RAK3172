@@ -1,0 +1,11 @@
+{
+  "original_body": "Cuivre_f_cu:region_020",
+  "new_bodies": [
+    "RF_V4_upper_0",
+    "RF_V4_lower_0",
+    "RF_V4_lower_1"
+  ],
+  "symmetric_difference_area_mm2": 0.0,
+  "added_copper_volume_mm3": 0,
+  "expected_solids_after_partition": 559
+}
