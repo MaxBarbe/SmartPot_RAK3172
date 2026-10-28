@@ -1,14 +1,16 @@
+> Copie documentaire de la référence X0 du 27 octobre ; les liens ci-dessous renvoient aux fichiers CST du dépôt.
+
 # Antenne : piste raccordée en haut et lumped dans le gap inférieur
 
 La fine piste verticale centrale a été retirée. Le rectangle auparavant placé en bas est remplacé par une piste de cuivre raccordée au haut de l'antenne, sur environ trois quarts de la hauteur. Un unique port discret/lumped de **50 Ω** relie son extrémité basse à la masse dans le gap restant. La branche de court-circuit de l'IFA à gauche est conservée.
 
-![Schéma de la géométrie modifiée, d'après les coordonnées des cuivres ; ce n'est pas une capture CST](captures/Schema_piste_haut_3quarts.png)
+![Schéma de la géométrie modifiée, d'après les coordonnées des cuivres ; ce n'est pas une capture CST](../../CST/ANTENNE_868_3QUARTS/captures/Schema_piste_haut_3quarts.png)
 
 ## Fichiers à ouvrir
 
-[Projet CST 2019](modeles/SmartPot_V3_ANTENNE_PISTE_HAUT_3QUARTS_LUMP_2019.cst). Conserver **le dossier compagnon du même nom à côté du fichier `.cst`**. Le dossier contient les données de modèle natives et les résultats 1D sauvegardés. Les caches `ModelCache` et `Temp` se régénèrent ; ils ne sont pas publiés.
+[Projet CST 2019](../../CST/ANTENNE_868_3QUARTS/modeles/SmartPot_V3_ANTENNE_PISTE_HAUT_3QUARTS_LUMP_2019.cst). Conserver **le dossier compagnon du même nom à côté du fichier `.cst`**. Le dossier contient les données de modèle natives et les résultats 1D sauvegardés. Les caches `ModelCache` et `Temp` se régénèrent ; ils ne sont pas publiés.
 
-La capture globale native est disponible [ici](captures/CST_vue_globale.png). La grosse flèche rouge de visualisation CST peut masquer la zone d'alimentation ; le schéma ci-dessus montre sa géométrie sans modifier une capture.
+La capture globale native est disponible [ici](../../CST/ANTENNE_868_3QUARTS/captures/CST_vue_globale.png). La grosse flèche rouge de visualisation CST peut masquer la zone d'alimentation ; le schéma ci-dessus montre sa géométrie sans modifier une capture.
 
 ## Géométrie de référence X0
 
@@ -42,7 +44,7 @@ Les quatre couches de cuivre, les vias et la carte sont conservés. La suppressi
 | Itérations | 104 |
 | Durée native | 16 min 03 s |
 
-Ce calcul de référence, déjà engagé avant la demande de passage au temporel, est un **point fréquentiel unique**. Les trois exports natifs, le calcul d'impédance et les journaux sont dans [`resultats/`](resultats/). Le fichier magnitude dB et la recomposition depuis les parties réelle et imaginaire donnent le même S11. Aucun minimum de résonance ni largeur de bande ne peut être annoncé à partir de ce point seul.
+Ce calcul de référence, déjà engagé avant la demande de passage au temporel, est un **point fréquentiel unique**. Les trois exports natifs, le calcul d'impédance et les journaux sont dans [`resultats/`](../../CST/ANTENNE_868_3QUARTS/resultats/). Le fichier magnitude dB et la recomposition depuis les parties réelle et imaginaire donnent le même S11. Aucun minimum de résonance ni largeur de bande ne peut être annoncé à partir de ce point seul.
 
 ## Réglage suivant et limites
 

@@ -8,17 +8,17 @@ pot_fleur/.history/
 
 # CST: keep saved projects, model data and final results; regenerate temporary caches.
 /SmartPot_V3_S11.bak*/
-/SmartPot_V3_S11/ModelCache/
-/SmartPot_V3_S11/Temp/
-/CST/V3_ODB_carte_complete/SmartPot_V3_PCB_COMPLET/ModelCache/
-/CST/V3_ODB_carte_complete/SmartPot_V3_PCB_COMPLET/Temp/
-/CST/V3_ODB_carte_complete/SmartPot_V3_PCB_COMPLET/Result/Cache/
-/CST/V3_ODB_modele_reduit/SmartPot_V3_ODB_REDUIT/ModelCache/
-/CST/V3_ODB_modele_reduit/SmartPot_V3_ODB_REDUIT/Temp/
-/CST/V3_ODB_modele_reduit/SmartPot_V3_ODB_REDUIT/Result/Cache/
-/CST/V3_ODB_carte_complete/reconstruction_cst/
-/CST/V3_ODB_modele_reduit/reconstruction_cst/
-/CST/V3_ODB_carte_complete/s11_python_deps/
+/old/SmartPot_V3_S11/ModelCache/
+/old/SmartPot_V3_S11/Temp/
+/old/CST/V3_ODB_carte_complete/SmartPot_V3_PCB_COMPLET/ModelCache/
+/old/CST/V3_ODB_carte_complete/SmartPot_V3_PCB_COMPLET/Temp/
+/old/CST/V3_ODB_carte_complete/SmartPot_V3_PCB_COMPLET/Result/Cache/
+/old/CST/V3_ODB_modele_reduit/SmartPot_V3_ODB_REDUIT/ModelCache/
+/old/CST/V3_ODB_modele_reduit/SmartPot_V3_ODB_REDUIT/Temp/
+/old/CST/V3_ODB_modele_reduit/SmartPot_V3_ODB_REDUIT/Result/Cache/
+/old/CST/V3_ODB_carte_complete/reconstruction_cst/
+/old/CST/V3_ODB_modele_reduit/reconstruction_cst/
+/old/CST/V3_ODB_carte_complete/s11_python_deps/
 
 # CST session locks must not follow the project to another PC.
 *.lok

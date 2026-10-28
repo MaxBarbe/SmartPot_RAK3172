@@ -1,10 +1,16 @@
-# Antenne SmartPot — CST, bande 868 MHz
+# Simulations CST SmartPot — 868 MHz
 
-**Dernière alimentation corrigée — 27 octobre 2026 :** [piste raccordée en haut sur environ trois quarts de la hauteur, lumped dans le gap du bas, projet CST et données natives](ANTENNE_868_3QUARTS/README.md). Résultat vérifié : **−11,02 dB à 868 MHz**. Ce point ne valide pas encore l'objectif de −14 dB ; le réglage en X et la validation temporelle restent à faire.
+## Modèles actuels — 28 octobre 2026
 
-**27 octobre 2026 — essai du PCB complet sous CST 2019 :** [reconstruction compatible, port à l'antenne, captures et S11 calculé](V3_ODB_carte_complete/CST2019/README.md). Cette nouvelle courbe n'est pas celle des captures de l'antenne initiale présentées ci-dessous ; elle reste préliminaire et ne reproduit pas leur adaptation.
+- **[V4, excitation U1.12 vers GND](V4_U112_868/README.md)** : résultat temporel M2 −8,96572 dB à 868 MHz ; minimum −9,02577 dB à 868,9 MHz. Convergence du maillage non démontrée. Projets complets, exports S11/rayonnement et audits disponibles.
+- **[V5, proposition d’adaptation](V5_ADAPTATION_868/README.md)** : inductance série idéale 4,3 nH à l’emplacement R6, condensateur idéal 3,9 pF à C6. Aucun résultat de cette variante publié dans le commit 8875b36.
+- **[Référence de géométrie X0](ANTENNE_868_3QUARTS/README.md)** : −11,02 dB à 868 MHz sur un point fréquentiel à port lumped et cuivre PEC ; modèle distinct de la V4 alimentée côté radio.
 
-**Version finale confirmée par Maxime : [TP1_M2_Smart_2-3.cst](TP1_M2_Smart_2-3.cst).** Les versions [-1](TP1_M2_Smart_2-1.cst) et [-2](TP1_M2_Smart_2-2.cst) restent disponibles comme variantes antérieures. Les projets source ont été conservés sans modification.
+Les projets antérieurs à la V4 sont regroupés dans [old/](../old/README.md). Les valeurs de chaque modèle s’interprètent avec ses matériaux, son port et son maillage. Aucun résultat n’est une mesure sur prototype.
+
+## Antenne initiale — historique archivé
+
+Fichier [TP1_M2_Smart_2-3.cst](../old/CST/TP1_M2_Smart_2-3.cst), capture de référence −17,9 dB à 869 MHz. Les sections suivantes décrivent cet ancien modèle, pas la V4/V5 actuelle.
 
 ## Modèle et configuration lus dans le projet final
 
@@ -23,15 +29,15 @@
 
 Le dernier port actif de l'historique est défini par P1=(-13 ; 28,55 ; 0,035) mm et P2=(-13 ; 19 ; 0) mm, dans le repère global, direction inversée. Ce port de simulation s'étend sur plusieurs millimètres : il ne représente pas à lui seul une piste d'alimentation fabriquée. Son équivalent physique doit être défini et vérifié lors du transfert vers KiCad.
 
-La géométrie est une antenne imprimée repliée avec une branche de court-circuit reliée au plan de masse et un point d'alimentation distinct, de type F inversé (IFA). Dans cette topologie, la liaison de la branche de court-circuit à GND est intentionnelle ; l'analyse précédente fondée sur un monopole isolé ne s'applique pas directement. Les six rectangles ANT1..ANT6 sont décrits dans [la fiche de géométrie](geometrie_finale.json). L'historique comporte aussi un import SAT intermédiaire ; les rectangles exportés ne remplacent pas une inspection du modèle final dans CST.
+La géométrie est une antenne imprimée repliée avec une branche de court-circuit reliée au plan de masse et un point d'alimentation distinct, de type F inversé (IFA). Dans cette topologie, la liaison de la branche de court-circuit à GND est intentionnelle ; l'analyse précédente fondée sur un monopole isolé ne s'applique pas directement. Les six rectangles ANT1..ANT6 sont décrits dans [la fiche de géométrie](../old/CST/geometrie_finale.json). L'historique comporte aussi un import SAT intermédiaire ; les rectangles exportés ne remplacent pas une inspection du modèle final dans CST.
 
 ## Captures fournies
 
-![Géométrie de l'antenne](ant-868.PNG)
+![Géométrie de l'antenne](../old/CST/ant-868.PNG)
 
-![Carte simulée](carte-868.PNG)
+![Carte simulée](../old/CST/carte-868.PNG)
 
-![S11](S11-868.PNG)
+![S11](../old/CST/S11-868.PNG)
 
 | Lecture de la capture S11 | Valeur |
 |---|---:|
@@ -41,7 +47,7 @@ La géométrie est une antenne imprimée repliée avec une branche de court-circ
 
 Les marqueurs voisins sont proches de −10 dB, mais ne sont pas les intersections exactes de ce seuil. La largeur de bande à −10 dB et S11 exactement à 868 MHz doivent être extraits de la courbe numérique ; ils ne sont pas inventés à partir de cette image.
 
-![Champ lointain à 868 MHz](farfield-868.PNG)
+![Champ lointain à 868 MHz](../old/CST/farfield-868.PNG)
 
 La capture est en **directivité**, pas en gain réalisé. À 0,868 GHz elle affiche :
 
@@ -68,8 +74,8 @@ Les [projets CST V4, résultats numériques et courbes](V4_U112_868/README.md) s
 
 ## Transfert dans KiCad effectué
 
-La géométrie finale est maintenant transposée sur A1, avec une largeur réduite de 29,1 à 29,0 mm, le PCB 30 × 60 mm conservé et un raccord RF physique ajouté à la place de la longue source lumped. Le court-circuit IFA vers GND est conservé. Les [exports de la carte adaptée](integration_kicad/README.md) et la [fiche d’intégration](../pot_fleur/docs/INTEGRATION_ANTENNE_CST.md) décrivent les différences à resimuler. Les captures de cette page restent celles du modèle original.
+La géométrie finale est maintenant transposée sur A1, avec une largeur réduite de 29,1 à 29,0 mm, le PCB 30 × 60 mm conservé et un raccord RF physique ajouté à la place de la longue source lumped. Le court-circuit IFA vers GND est conservé. Les [exports de la carte adaptée](../old/CST/integration_kicad/README.md) et la [fiche d’intégration](../old/pot_fleur/docs/INTEGRATION_ANTENNE_CST.md) décrivent les différences à resimuler. Les captures de cette page restent celles du modèle original.
 
 ## Reprise des travaux V3 du 26–27 octobre 2026
 
-Voir [REPRISE_CST_V3.md](../REPRISE_CST_V3.md) pour le PCB complet reconstruit, le refus du solveur Learning Edition, les essais réduits et les instructions de reprise sur un autre ordinateur.
+Voir [REPRISE_CST_V3.md](../old/REPRISE_CST_V3.md) pour le PCB complet reconstruit, le refus du solveur Learning Edition, les essais réduits et les instructions de reprise sur un autre ordinateur.

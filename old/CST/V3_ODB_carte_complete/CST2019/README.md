@@ -90,7 +90,7 @@ Avant toute conclusion sur la carte réelle : raffiner le maillage autour du rad
 - [Statistiques numériques extraites](resultats/bilan_S11.json).
 - [Commandes de modification du port](port_antenne_reference2019.txt).
 
-Les captures du dossier `captures/` sont des exports natifs de CST, non des images générées. Les vues de géométrie sont recadrées sans rééchantillonnage ; la vue du port montre sa sélection par la flèche rouge. La capture initiale de S11 reste accessible dans [la documentation d'antenne](../../README.md).
+Les captures du dossier `captures/` sont des exports natifs de CST, non des images générées. Les vues de géométrie sont recadrées sans rééchantillonnage ; la vue du port montre sa sélection par la flèche rouge. La capture initiale de S11 reste accessible dans [la documentation d'antenne](../../../../CST/README.md).
 
 ## Relancer dans CST 2019
 

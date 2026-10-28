@@ -1,66 +1,31 @@
-# Galerie SmartPot
+# Galerie SmartPot — 28 octobre 2026
 
-**27 octobre 2026 — version actuelle : V4 routée, RF provisoire.** [Projet et contrôles](../pot_fleur_v4_nouvelle_antenne/README.md) : 0 violation DRC, 0 connexion manquante, 0 défaut de parité. Le S11 de la V4 avec son raccord physique n’a pas été calculé. Les essais CST X0 (−11,02 dB à 868 MHz) et X +0,40 mm (−3,75 dB à 868 MHz) concernent des modèles à port lumped distincts.
+## Carte KiCad actuelle : V4 quatre couches
 
-![V4 — vue 3D](../pot_fleur_v4_nouvelle_antenne/docs/V4_3D.png)
+![V4 — rendu natif KiCad](../pot_fleur_v4_nouvelle_antenne/docs/V4_3D.png)
 
-Les sections ci-dessous conservent l’historique des versions précédentes.
+[Projet et contrôles](../pot_fleur_v4_nouvelle_antenne/README.md) · [STEP](../pot_fleur_v4_nouvelle_antenne/3D/SmartPot_V4_RF_provisoire.step) · [GLB](../pot_fleur_v4_nouvelle_antenne/3D/SmartPot_V4_RF_provisoire.glb)
 
+## Routage V4
 
-## Pot — vue intérieure
+![Routage et plans V4](../pot_fleur_v4_nouvelle_antenne/docs/V4_routee.svg)
 
-![Vue intérieure](../Mecanique/Pot_fleur/pot-fleur-vue.png)
+## Résultats CST V4 : maillages M1 et M2
 
-## Pot — vue latérale
+![Comparaison S11 V4, résultats non convergés](../CST/V4_U112_868/captures/S11_V4_maillages.png)
 
-![Vue latérale](../Mecanique/Pot_fleur/pot-fleur-vue2.png)
+M2 donne −8,97 dB à 868 MHz ; la convergence n’est pas démontrée. [Résultats et limites](../CST/V4_U112_868/README.md).
 
-## Antenne finale dans CST
+## Alimentation et port de simulation V4
 
-![Antenne](../CST/ant-868.PNG)
+![Schéma explicatif, pas une capture CST](../CST/V4_U112_868/captures/V4_raccord_et_port_schema.png)
 
-![Carte](../CST/carte-868.PNG)
+## Pot : conception et assemblage historique
 
-## Simulation S11
+![Vue du pot](../Mecanique/Pot_fleur/pot-fleur-vue.png)
 
-![S11](../CST/S11-868.PNG)
+![Assemblage corrigé sous le pot, antérieur à la V4](../Mecanique/Assemblage/SmartPot_assemblage_corrige_dessous.png)
 
-## Champ lointain à 868 MHz
+La capture d’assemblage précède la V4. Utiliser son nouveau STEP pour actualiser le montage mécanique.
 
-![Farfield](../CST/farfield-868.PNG)
-
-Les vues mécaniques et les simulations ont été fournies par Maxime. Voir [la fiche CST](../CST/README.md) pour l'interprétation des résultats et leurs limites.
-
-## Antenne CST intégrée dans le PCB KiCad
-
-![PCB après remplacement de l’antenne TI](../pot_fleur/docs/APERCU_antenne_CST.png)
-
-Géométrie adaptée et raccord physique ajouté : [détails et resimulation](../pot_fleur/docs/INTEGRATION_ANTENNE_CST.md).
-
-## PCB — rendu KiCad en perspective
-
-![PCB assemblé en 3D](../Mecanique/PCB/SmartPot_3D_perspective.png)
-
-## PCB — rendu KiCad de dessus
-
-![PCB de dessus en 3D](../Mecanique/PCB/SmartPot_3D_dessus.png)
-
-[Fichier STEP à importer dans le pot](../Mecanique/PCB/SmartPot_assemble.step). Le placement a été corrigé par Maxime dans Shapr3D ; voir la capture ci-dessous.
-
-## Pot + PCB — assemblage corrigé dans Shapr3D
-
-![Carte centrée sous le pot après correction par Maxime](../Mecanique/Assemblage/SmartPot_assemblage_corrige_dessous.png)
-
-Capture native Shapr3D du 12 octobre 2026. Vue de dessous, composants vers l’extérieur. Cette capture atteste du placement visible ; les dégagements et les fixations ne sont pas validés par cette vue seule.
-
-## Variante V2 — deux couches
-
-![Carte V2 assemblée](../pot_fleur_v2_2couches/docs/PCB_V2_3D.png)
-
-[Routage F.Cu/B.Cu](../pot_fleur_v2_2couches/docs/Routage_V2.svg) · [Projet, contrôles et contraintes](../pot_fleur_v2_2couches/README.md)
-
-## V3 provisoire — corrections du retour de Dorian
-
-![V3 et antenne sans vernis](../pot_fleur_v3_provisoire_4couches/docs/PCB_V3_3D.png)
-
-[Projet et hypothèses RF](../pot_fleur_v3_provisoire_4couches/README.md) · [Plan GND In2](../pot_fleur_v3_provisoire_4couches/docs/Plan_GND_In2.svg)
+[Proposition V5 CST sans résultat publié](../CST/V5_ADAPTATION_868/README.md) · [Archives des versions antérieures](../old/README.md)

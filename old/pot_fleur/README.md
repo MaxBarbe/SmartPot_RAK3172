@@ -15,10 +15,10 @@ Carte préliminaire de 30 × 60 mm sur quatre couches, 48 empreintes présentes 
 
 Les valeurs ROK1=4,12 MΩ, ROK2=7,87 MΩ et ROK3=1,02 MΩ donnent les seuils nominaux étudiés d'environ 3,52 / 3,82 V ; le réseau de surtension reste ROV1=7,15 MΩ et ROV2=8,66 MΩ. Ces valeurs ne remplacent pas une vérification des tolérances et du fonctionnement réel.
 
-Les bibliothèques d'empreintes et de symboles locales sont déclarées dans `fp-lib-table` et `sym-lib-table`. Les chemins utilisent `${KIPRJMOD}` ; conserver les dossiers `footprints`, `symbols` et `3dmodels` avec le projet. Les ressources pédagogiques ont été déplacées dans [references/EDU_RAK_2026](../references/EDU_RAK_2026/README.md).
+Les bibliothèques d'empreintes et de symboles locales sont déclarées dans `fp-lib-table` et `sym-lib-table`. Les chemins utilisent `${KIPRJMOD}` ; conserver les dossiers `footprints`, `symbols` et `3dmodels` avec le projet. Les ressources pédagogiques ont été déplacées dans [references/EDU_RAK_2026](../../references/EDU_RAK_2026/README.md).
 
 Les rapports sans erreur ne valident pas la performance RF ou l'alimentation. Le placement de CREF1, CBYP1, CIN2 et LBUCK1 doit être revu autour de U3. L'empilage quatre couches reste à confirmer avec le fabricant.
 
 ## Export mécanique et visualisation 3D
 
-[Carte assemblée STEP](../Mecanique/PCB/SmartPot_assemble.step), [carte nue STEP](../Mecanique/PCB/SmartPot_carte_nue.step), [vues 3D et références des modèles](../Mecanique/PCB/README.md). Les modèles manquants de RAK3172, BQ25570, SHT40 et LBOOST1 ont été complétés sans modification du routage. Les modèles DNP sont exclus du STEP assemblé.
+[Carte assemblée STEP](../../Mecanique/PCB/SmartPot_assemble.step), [carte nue STEP](../../Mecanique/PCB/SmartPot_carte_nue.step), [vues 3D et références des modèles](../../Mecanique/PCB/README.md). Les modèles manquants de RAK3172, BQ25570, SHT40 et LBOOST1 ont été complétés sans modification du routage. Les modèles DNP sont exclus du STEP assemblé.

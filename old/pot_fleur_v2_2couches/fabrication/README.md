@@ -3,7 +3,7 @@
 [J10 est prévu pour fils soudés directement](../README.md), sans bornier.
 
 - [Archive ZIP des Gerbers et perçages](SmartPot_V2_Gerbers.zip).
-- [Fichiers séparés](Gerbers/).
+- [Fichiers séparés](Gerbers).
 - [Ouvertures de vernis dessus](../docs/Masque_V2_dessus.svg) / [dessous](../docs/Masque_V2_dessous.svg).
 - [Vue 3D](../docs/PCB_V2_3D.png) / [STEP assemblé](../3D/SmartPot_V2_assemble.step).
 
